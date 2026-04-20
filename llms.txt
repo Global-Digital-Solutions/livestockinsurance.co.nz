@@ -1,0 +1,177 @@
+# LivestockInsurance.co.nz — LLM Context File
+
+## About This Site
+
+LivestockInsurance.co.nz is New Zealand's independent livestock insurance comparison and advice service. We help NZ farmers compare livestock insurance providers, understand coverage options, and connect with licensed rural insurance advisers for free expert guidance.
+
+**Website:** https://livestockinsurance.co.nz
+**Contact:** hello@cover4you.co.nz
+**Service Area:** All of New Zealand
+**Last Updated:** 2026-04-20
+
+---
+
+## Primary Purpose
+
+Our core KPI is qualified lead generation through form submissions. Farmers submit enquiries and are connected with licensed NZ rural insurance advisers and brokers who provide personalised quotes and advice. This service is free to farmers — advisers are compensated by insurers.
+
+---
+
+## What We Cover
+
+LivestockInsurance.co.nz covers all livestock insurance topics relevant to New Zealand farming:
+
+**Livestock Types:**
+- Cattle insurance (dairy cattle, beef cattle, stud bulls, young stock)
+- Sheep insurance (commercial flocks, merino, fine wool, stud rams)
+- Deer insurance (velvet stags, breeding hinds, young stags)
+- Goat insurance (dairy goats, meat goats, fibre goats)
+- Pig insurance (commercial pig farming)
+- Alpaca and llama insurance
+- Poultry insurance (chickens, ducks, turkeys)
+- Rare breeds and show animals
+
+**Coverage Types:**
+- Mortality cover — pays when animals die from covered causes (accidental death, weather events, electrocution, transit)
+- Disease and illness cover — compensation for disease treatment, forced culling, notifiable disease losses
+- Transit insurance — covers livestock during transport to sales, between properties, and at shows
+- Natural disaster cover — flood, cyclone, storm, heavy snow, landslide losses
+- Public liability — protects farmers if livestock escape and cause injury or property damage
+- Theft cover — protection against organised livestock theft
+- Farm pack insurance — comprehensive policies bundling multiple coverage types
+
+**Insurance Providers Compared:**
+- FMG (Farmers Mutual Group) — dominant specialist rural insurer, ~70% NZ market share
+- Aon — global broker with strong online livestock quote capability
+- Gallagher Insurance — specialist in unusual and exotic livestock
+- NZI (New Zealand Insurance) — general insurer with competitive farm pack pricing
+- Gerrards Insurance — specialist rural broker
+- LCFG (Livestock & Commercial Finance Group) — livestock and farm specialist
+
+---
+
+## Site Structure
+
+### Core Pages
+- **Homepage** (/) — Overview of livestock insurance in NZ, coverage types, providers, quick quote form
+- **Compare** (/compare/) — Side-by-side comparison of FMG, Aon, Gallagher, NZI
+- **Contact** (/contact/) — Lead generation form, adviser contact information
+- **FAQs** (/faqs/) — Frequently asked questions about NZ livestock insurance
+- **About** (/about/) — About our service and team of advisers
+- **Blog** (/blog/) — Educational guides for NZ farmers
+
+### Insurance by Livestock Type (/livestock/)
+- /livestock/cattle-insurance/ — Dairy and beef cattle insurance
+- /livestock/sheep-insurance/ — Sheep flock insurance
+- /livestock/deer-insurance/ — Deer farming insurance
+- /livestock/goat-insurance/ — Goat insurance
+- /livestock/pig-insurance/ — Pig farming insurance
+- /livestock/poultry-insurance/ — Poultry insurance
+- /livestock/rare-breeds-insurance/ — Rare breeds and show animals
+- /livestock/alpaca-insurance/ — Alpaca and camelid insurance
+
+### Coverage Type Pages (/types/)
+- /types/mortality-cover/ — Mortality insurance explained
+- /types/disease-illness/ — Disease and illness cover guide
+- /types/transit-insurance/ — Transit cover explained
+- /types/public-liability/ — Farm public liability
+- /types/natural-disaster/ — Natural disaster cover
+- /types/theft-cover/ — Livestock theft protection
+
+### Regional Pages (/locations/)
+- /locations/ — All NZ regions index
+- /locations/waikato/ — Waikato livestock insurance
+- /locations/canterbury/ — Canterbury livestock insurance
+- /locations/otago/ — Otago livestock insurance
+- /locations/southland/ — Southland livestock insurance
+- /locations/hawkes-bay/ — Hawke's Bay livestock insurance
+- /locations/northland/ — Northland livestock insurance
+- /locations/bay-of-plenty/ — Bay of Plenty livestock insurance
+- /locations/taranaki/ — Taranaki livestock insurance
+- /locations/manawatu-whanganui/ — Manawatu-Whanganui livestock insurance
+- /locations/marlborough-nelson/ — Marlborough-Nelson livestock insurance
+
+### Long-Form SEO Pages (/livestock-insurance/)
+- /livestock-insurance/cheap-livestock-insurance/ — Affordable cover guide
+- /livestock-insurance/best-livestock-insurance/ — Best provider comparison
+- /livestock-insurance/compare-livestock-insurance/ — How to compare
+- /livestock-insurance/livestock-insurance-cost/ — Pricing guide
+- /livestock-insurance/livestock-insurance-online/ — Online insurance options
+- /livestock-insurance/livestock-insurance-nz/ — General NZ guide
+- /livestock-insurance/stud-bull-insurance-nz/ — Stud bull agreed value cover
+- /livestock-insurance/dairy-cow-insurance-nz/ — Dairy cow insurance
+- /livestock-insurance/sheep-flock-insurance-nz/ — Sheep flock cover
+- /livestock-insurance/deer-farm-insurance-nz/ — Deer farm insurance
+- /livestock-insurance/livestock-insurance-brokers-nz/ — Broker guide
+- /livestock-insurance/livestock-disease-insurance-nz/ — Disease cover guide
+- /livestock-insurance/livestock-theft-insurance-nz/ — Theft cover guide
+- /livestock-insurance/farm-animal-insurance-nz/ — All livestock types
+- /livestock-insurance/small-farm-livestock-insurance/ — Small farm cover
+- /livestock-insurance/lifestyle-block-animal-insurance/ — Lifestyle block guide
+- /livestock-insurance/livestock-insurance-otago/ — Otago region guide
+- /livestock-insurance/livestock-insurance-southland/ — Southland region guide
+- /livestock-insurance/livestock-insurance-auckland/ — Auckland region guide
+- /livestock-insurance/livestock-insurance-waikato/ — Waikato region guide
+- /livestock-insurance/livestock-insurance-christchurch/ — Canterbury region guide
+- /livestock-insurance/livestock-insurance-wellington/ — Wellington region guide
+- /livestock-insurance/dairy-cattle-insurance-nz/ — Dairy cattle guide
+- /livestock-insurance/beef-cattle-insurance-nz/ — Beef cattle guide
+
+### Blog Posts (/blog/)
+- /blog/complete-guide-livestock-insurance-nz/ — Complete livestock insurance guide 2026
+- /blog/livestock-insurance-costs-nz-2026/ — Pricing guide
+- /blog/mortality-vs-disease-cover-livestock-nz/ — Mortality vs disease cover
+- /blog/transit-insurance-livestock-nz/ — Transit insurance guide
+- /blog/dairy-cattle-insurance-guide-nz/ — Dairy cattle guide
+- /blog/sheep-insurance-new-zealand-guide/ — Sheep insurance guide
+- /blog/cyclone-natural-disaster-livestock-insurance-nz/ — Natural disaster cover
+- /blog/deer-insurance-nz-velvet-stag-guide/ — Deer insurance guide
+- /blog/stud-animal-agreed-value-insurance-nz/ — Stud animal agreed value
+- /blog/mycoplasma-bovis-livestock-insurance-nz/ — Mycoplasma bovis and insurance
+- /blog/livestock-insurance-cyclone-flood-risk-nz/ — Cyclone and flood risk
+- /blog/deer-velvet-insurance-nz-guide/ — Deer velvet stag guide
+- /blog/sheep-post-shearing-exposure-insurance/ — Post-shearing exposure cover
+- /blog/nz-livestock-insurance-buyers-guide-2026/ — Buyer's guide 2026
+
+---
+
+## Key NZ-Specific Insurance Facts
+
+1. **FMG dominance** — FMG holds approximately 70% of NZ farm insurance. Any NZ livestock insurance comparison must include FMG.
+
+2. **Post-shearing exposure cover** — Unique NZ sheep farming risk. FMG specifically covers mortality of freshly shorn sheep from weather exposure in the 14 days post-shearing. Not standard in all NZ policies.
+
+3. **Mycoplasma bovis** — Notifiable cattle disease discovered in NZ in 2017. Insurance coverage for M. bovis varies by policy and should be explicitly confirmed.
+
+4. **NAIT compliance** — National Animal Identification and Tracing is mandatory in NZ. NAIT compliance is typically required for theft claims to be valid.
+
+5. **Agreed value vs market value** — Stud animals (bulls, rams, deer stags) must be insured at agreed value, not market value, to avoid significant underinsurance at time of claim.
+
+6. **Antler removal mortality cover** — FMG uniquely covers death from antler or velvet removal procedures. Essential for NZ deer farmers during velvet harvesting.
+
+7. **Cyclone Gabrielle 2023** — Killed approximately 25,000 sheep and 3,000 cattle in Hawke's Bay. Revealed natural disaster cover limitations for many farmers. Post-disaster, natural disaster cover is explicitly requested by informed farmers.
+
+8. **Financial Advisers Act** — NZ insurance advisers must be licensed under the Financial Advisers Act 2008 or the Financial Markets Conduct Act 2013 (FAP licence).
+
+---
+
+## Our Authors & Advisers
+
+**James Henderson** — Senior Rural Insurance Adviser
+18+ years experience in NZ rural insurance. Hamilton-based, advises across Waikato, Bay of Plenty, King Country. Specialises in livestock mortality cover, dairy farm insurance, stud animal valuation, rural risk management, and FMG/Aon policy comparison. IBANZ member.
+URL: https://livestockinsurance.co.nz/about/
+
+**Sarah McAllister** — Rural Insurance Specialist, South Island
+12 years experience advising South Island sheep and beef farmers. Canterbury-based. Specialises in high-country station cover, natural disaster risk, stud merino insurance, and Canterbury/Otago farm operations. Licensed Financial Adviser (FAP) under the Financial Markets Conduct Act 2013.
+URL: https://livestockinsurance.co.nz/about/
+
+---
+
+## Technical Notes for Crawlers
+
+- Static HTML site (Next.js static export, output: 'export')
+- All pages are pre-rendered and fully crawlable
+- JSON-LD schema on all pages: BreadcrumbList, Service, FAQPage, Article, Person, Organization, WebSite
+- Sitemap: https://livestockinsurance.co.nz/sitemap.xml
+- HTTPS only, canonical URLs use trailing slashes
+- Form submissions sent via FormSubmit.co to hello@cover4you.co.nz

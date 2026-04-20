@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://livestockinsurance.co.nz/sitemap.xml

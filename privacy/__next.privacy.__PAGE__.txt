@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[97367,["/_next/static/chunks/0jghyk6mk5gm8.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+3:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[[["$","section",null,{"className":"bg-gray-900 py-14 px-6","children":["$","div",null,{"className":"max-w-3xl mx-auto","children":["$","h1",null,{"className":"text-3xl font-black text-white","children":"Privacy"}]}]}],["$","div",null,{"className":"max-w-3xl mx-auto px-6 py-12","children":["$","div",null,{"className":"bg-gray-800 rounded-xl p-8 border border-gray-700 text-gray-300 leading-relaxed","children":["$","p",null,{"children":"This privacy applies to LivestockInsurance.co.nz operated by cover4you Limited. By using this website you agree to these terms. For specific advice about livestock insurance policies, always consult a licensed NZ rural insurance adviser. Content on this site is general information only and does not constitute financial or insurance advice."}]}]}]],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"YKsM0KdymbHYW9i1yfXMI"}
+4:null
