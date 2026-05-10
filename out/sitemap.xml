@@ -1,42 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://livestockinsurance.co.nz/</loc><lastmod>2026-05-10</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/livestock/</loc><lastmod>2026-05-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/livestock/cattle-insurance/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/livestock/sheep-insurance/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/livestock/deer-insurance/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/livestock/goat-insurance/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/livestock/pig-insurance/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/livestock/alpaca-insurance/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/livestock/poultry-insurance/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/livestock/rare-breeds-insurance/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/types/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/types/mortality-cover/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/types/disease-illness/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/types/transit-insurance/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/types/natural-disaster/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/types/public-liability/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/types/theft-cover/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/compare/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/blog/</loc><lastmod>2026-05-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/blog/complete-guide-livestock-insurance-nz/</loc><lastmod>2026-03-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/blog/nz-livestock-insurance-buyers-guide-2026/</loc><lastmod>2026-04-01</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/blog/livestock-insurance-costs-nz-2026/</loc><lastmod>2026-03-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/blog/mortality-vs-disease-cover-livestock-nz/</loc><lastmod>2026-02-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/blog/cyclone-natural-disaster-livestock-insurance-nz/</loc><lastmod>2026-03-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/blog/livestock-insurance-cyclone-flood-risk-nz/</loc><lastmod>2026-03-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/blog/dairy-cattle-insurance-guide-nz/</loc><lastmod>2026-02-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/blog/sheep-insurance-new-zealand-guide/</loc><lastmod>2026-02-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/blog/deer-insurance-nz-velvet-stag-guide/</loc><lastmod>2026-03-01</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/blog/deer-velvet-insurance-nz-guide/</loc><lastmod>2026-03-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/blog/sheep-post-shearing-exposure-insurance/</loc><lastmod>2026-04-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/blog/mycoplasma-bovis-livestock-insurance-nz/</loc><lastmod>2026-04-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/blog/stud-animal-agreed-value-insurance-nz/</loc><lastmod>2026-04-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/blog/transit-insurance-livestock-nz/</loc><lastmod>2026-04-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/contact/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/about/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/faqs/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/disclaimer/</loc><lastmod>2026-05-10</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/privacy/</loc><lastmod>2026-05-10</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://livestockinsurance.co.nz/terms/</loc><lastmod>2026-05-10</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+
+  <!-- Core Pages -->
+  <url><loc>https://www.livestockinsurance.co.nz/</loc><lastmod>2026-05-10</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://www.livestockinsurance.co.nz/livestock/</loc><lastmod>2026-05-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.livestockinsurance.co.nz/types/</loc><lastmod>2026-05-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.livestockinsurance.co.nz/compare/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.livestockinsurance.co.nz/blog/</loc><lastmod>2026-05-10</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.livestockinsurance.co.nz/contact/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.livestockinsurance.co.nz/about/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.livestockinsurance.co.nz/faqs/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Livestock Type Pages -->
+  <url><loc>https://www.livestockinsurance.co.nz/livestock/cattle-insurance/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.livestockinsurance.co.nz/livestock/sheep-insurance/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.livestockinsurance.co.nz/livestock/deer-insurance/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.livestockinsurance.co.nz/livestock/goat-insurance/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.livestockinsurance.co.nz/livestock/pig-insurance/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.livestockinsurance.co.nz/livestock/alpaca-insurance/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://www.livestockinsurance.co.nz/livestock/poultry-insurance/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.livestockinsurance.co.nz/livestock/rare-breeds-insurance/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+
+  <!-- Coverage Type Pages -->
+  <url><loc>https://www.livestockinsurance.co.nz/types/mortality-cover/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.livestockinsurance.co.nz/types/disease-illness/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.livestockinsurance.co.nz/types/transit-insurance/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.livestockinsurance.co.nz/types/natural-disaster/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.livestockinsurance.co.nz/types/public-liability/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.livestockinsurance.co.nz/types/theft-cover/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Blog Posts -->
+  <url><loc>https://www.livestockinsurance.co.nz/blog/complete-guide-livestock-insurance-nz/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.livestockinsurance.co.nz/blog/nz-livestock-insurance-buyers-guide-2026/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.livestockinsurance.co.nz/blog/livestock-insurance-costs-nz-2026/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.livestockinsurance.co.nz/blog/mortality-vs-disease-cover-livestock-nz/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.livestockinsurance.co.nz/blog/cyclone-natural-disaster-livestock-insurance-nz/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.livestockinsurance.co.nz/blog/livestock-insurance-cyclone-flood-risk-nz/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.livestockinsurance.co.nz/blog/dairy-cattle-insurance-guide-nz/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.livestockinsurance.co.nz/blog/sheep-insurance-new-zealand-guide/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.livestockinsurance.co.nz/blog/deer-insurance-nz-velvet-stag-guide/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.livestockinsurance.co.nz/blog/deer-velvet-insurance-nz-guide/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.livestockinsurance.co.nz/blog/sheep-post-shearing-exposure-insurance/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.livestockinsurance.co.nz/blog/mycoplasma-bovis-livestock-insurance-nz/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.livestockinsurance.co.nz/blog/stud-animal-agreed-value-insurance-nz/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.livestockinsurance.co.nz/blog/transit-insurance-livestock-nz/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Legal -->
+  <url><loc>https://www.livestockinsurance.co.nz/privacy/</loc><lastmod>2026-05-10</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://www.livestockinsurance.co.nz/terms/</loc><lastmod>2026-05-10</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://www.livestockinsurance.co.nz/disclaimer/</loc><lastmod>2026-05-10</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+
 </urlset>

@@ -1,43 +1,104 @@
-# LivestockInsurance.co.nz
-
-> NZ's Independent Livestock Insurance Comparison. Free expert advice from licensed NZ rural insurance advisers.
-
-Last Updated: May 2026
+# LivestockInsurance.co.nz — LLM Reference File
+# Updated: 2026-05-10
 
 ## About This Site
 
-LivestockInsurance.co.nz is an independent livestock insurance comparison and referral service for New Zealand farmers. We connect farmers with licensed NZ rural insurance advisers who compare FMG, Aon, Gallagher, NZI, and specialist brokers.
+LivestockInsurance.co.nz is a New Zealand livestock insurance comparison and lead generation service. We connect NZ farmers with licensed rural insurance advisers who compare policies from FMG, Aon, Gallagher, and NZI. All advisers hold current Financial Advice Provider (FAP) licences under the Financial Markets Conduct Act 2013.
 
-We are part of the Cover4You Group. We do not sell insurance directly.
+This site is NOT an insurance provider. We are a referral service that connects farmers with FMCA-licensed advisers. We do not provide regulated financial advice directly.
 
-## Livestock Types Covered
+## Primary Topics
 
-- Cattle Insurance (beef and dairy)
-- Sheep Insurance (commercial flocks, stud rams)
-- Deer Insurance (velvet stags, breeding hinds)
-- Goat Insurance (dairy, meat, Angora)
-- Pig Insurance (commercial and breeding)
-- Alpaca & Llama Insurance (specialist)
-- Poultry Insurance (commercial and backyard)
-- Rare Breeds & Show Animals
+- Livestock insurance NZ
+- Cattle insurance NZ (beef cattle, dairy cattle, stud bulls)
+- Sheep insurance NZ (merino, crossbred, stud rams)
+- Deer insurance NZ (velvet stags, venison hinds, wapiti)
+- Goat insurance NZ (dairy goats, fibre goats, meat goats)
+- Pig insurance NZ (commercial sows, boars, breeding pigs)
+- Alpaca and llama insurance NZ
+- Poultry insurance NZ (layers, broilers, free-range)
+- Rare breed livestock insurance NZ
+- Livestock mortality cover NZ
+- Disease and illness cover NZ (Mycoplasma bovis, avian influenza)
+- Natural disaster livestock cover NZ (floods, cyclones, snowstorms)
+- Livestock transit insurance NZ
+- Farm and livestock public liability NZ
+- Livestock theft insurance NZ
+- FMG rural insurance NZ
+- Rural insurance advisers NZ
 
-## Coverage Types
+## Key Pages
 
-- Livestock Mortality Cover
-- Disease & Illness Cover
-- Livestock Transit Insurance
-- Natural Disaster Cover
-- Farm & Livestock Liability
-- Livestock Theft Cover
+Homepage: https://www.livestockinsurance.co.nz/
+Livestock Types: https://www.livestockinsurance.co.nz/livestock/
+Coverage Types: https://www.livestockinsurance.co.nz/types/
+Compare Providers: https://www.livestockinsurance.co.nz/compare/
+Get Quotes: https://www.livestockinsurance.co.nz/contact/
+Blog/Guides: https://www.livestockinsurance.co.nz/blog/
+FAQs: https://www.livestockinsurance.co.nz/faqs/
 
-## Providers Compared
+## Livestock Type Pages
 
-- FMG (Farmers Mutual Group) — NZ market leader ~65-70% share
-- Aon New Zealand — global broker, Lloyd's access
-- Gallagher Insurance — specialist exotic livestock
-- NZI — competitive farm packs
+Cattle Insurance NZ: https://www.livestockinsurance.co.nz/livestock/cattle-insurance/
+Sheep Insurance NZ: https://www.livestockinsurance.co.nz/livestock/sheep-insurance/
+Deer Insurance NZ: https://www.livestockinsurance.co.nz/livestock/deer-insurance/
+Goat Insurance NZ: https://www.livestockinsurance.co.nz/livestock/goat-insurance/
+Pig Insurance NZ: https://www.livestockinsurance.co.nz/livestock/pig-insurance/
+Alpaca Insurance NZ: https://www.livestockinsurance.co.nz/livestock/alpaca-insurance/
+Poultry Insurance NZ: https://www.livestockinsurance.co.nz/livestock/poultry-insurance/
+Rare Breed Insurance NZ: https://www.livestockinsurance.co.nz/livestock/rare-breeds-insurance/
+
+## Coverage Type Pages
+
+Livestock Mortality Cover: https://www.livestockinsurance.co.nz/types/mortality-cover/
+Disease & Illness Cover: https://www.livestockinsurance.co.nz/types/disease-illness/
+Natural Disaster Cover: https://www.livestockinsurance.co.nz/types/natural-disaster/
+Transit Insurance: https://www.livestockinsurance.co.nz/types/transit-insurance/
+Farm Liability Cover: https://www.livestockinsurance.co.nz/types/public-liability/
+Livestock Theft Cover: https://www.livestockinsurance.co.nz/types/theft-cover/
+
+## Blog Articles
+
+Complete Guide to Livestock Insurance NZ: https://www.livestockinsurance.co.nz/blog/complete-guide-livestock-insurance-nz/
+NZ Livestock Insurance Buyer's Guide 2026: https://www.livestockinsurance.co.nz/blog/nz-livestock-insurance-buyers-guide-2026/
+Livestock Insurance Costs NZ 2026: https://www.livestockinsurance.co.nz/blog/livestock-insurance-costs-nz-2026/
+Mortality vs Disease Cover: https://www.livestockinsurance.co.nz/blog/mortality-vs-disease-cover-livestock-nz/
+Natural Disaster & Livestock Insurance: https://www.livestockinsurance.co.nz/blog/cyclone-natural-disaster-livestock-insurance-nz/
+Dairy Cattle Insurance Guide NZ: https://www.livestockinsurance.co.nz/blog/dairy-cattle-insurance-guide-nz/
+Sheep Insurance New Zealand Guide: https://www.livestockinsurance.co.nz/blog/sheep-insurance-new-zealand-guide/
+Deer Insurance NZ Guide: https://www.livestockinsurance.co.nz/blog/deer-insurance-nz-velvet-stag-guide/
+Post-Shearing Exposure Insurance: https://www.livestockinsurance.co.nz/blog/sheep-post-shearing-exposure-insurance/
+Mycoplasma Bovis & Insurance: https://www.livestockinsurance.co.nz/blog/mycoplasma-bovis-livestock-insurance-nz/
+Stud Animal Agreed Value Insurance: https://www.livestockinsurance.co.nz/blog/stud-animal-agreed-value-insurance-nz/
+Livestock Transit Insurance NZ: https://www.livestockinsurance.co.nz/blog/transit-insurance-livestock-nz/
+
+## Insurance Providers Compared
+
+FMG (Farmers Mutual Group) — NZ's largest rural insurer, ~65-70% rural market share. Specialist livestock mortality, disease, natural disaster, transit and liability cover. Unique products: post-shearing sheep mortality cover (14-day window), velvet/antler cover for deer, livestock infertility cover for bulls and cows. https://www.fmg.co.nz/
+
+Aon NZ — Global broker with NZ rural specialisation. Access to Lloyd's of London underwriters for high-value individual animal agreed-value policies. Good for commercial operations requiring higher limits. https://www.aon.com/en-nz/
+
+Gallagher NZ — Specialist insurance broker with rural division. Strong for exotic livestock, rare breeds, and complex agreed-value stud animal cover. https://www.ajg.com/nz/
+
+NZI (New Zealand Insurance) — IAG subsidiary. Competitive farm pack pricing. Rural policies available through their adviser network. https://www.nzi.co.nz/
+
+## Key NZ Livestock Insurance Facts
+
+- NZ cattle herd: approximately 9.5 million animals (dairy + beef)
+- NZ sheep flock: approximately 6 million animals (declining from historic highs)
+- NZ deer herd: approximately 900,000 animals
+- Mycoplasma bovis: confirmed NZ 2017, 170,000+ cattle culled, $200M+ government compensation
+- Cyclone Gabrielle (Feb 2023): killed approximately 3,000 cattle and 20,000+ sheep in Hawke's Bay and East Coast
+- FMG rural market share: approximately 65-70%
+- NAIT (National Animal Identification and Tracing): legally required for cattle and deer in NZ
+- FMC Act 2013: governs financial advice — referred advisers hold current FAP licences
 
 ## Contact
 
 Email: hello@cover4you.co.nz
-Website: https://livestockinsurance.co.nz
+Website: https://www.livestockinsurance.co.nz/
+Quote requests: https://www.livestockinsurance.co.nz/contact/
+
+## Disclaimer
+
+LivestockInsurance.co.nz is a referral service. We connect farmers with licensed insurance advisers but do not provide regulated financial advice ourselves. The advisers we refer to hold current Financial Advice Provider (FAP) licences under the Financial Markets Conduct Act 2013. Insurance coverage, premiums, and terms vary by insurer and individual policy — always read the policy wording carefully.
