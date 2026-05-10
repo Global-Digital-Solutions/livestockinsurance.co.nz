@@ -10,7 +10,8 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-1">
             <Link href="/" className="flex items-center space-x-1 mb-3">
-              <span className="text-lg font-bold" style={{ color: '#0d7377' }}>LivestockInsurance</span>
+              <span className="text-lg font-bold" style={{ color: '#0d7377' }}>Livestock</span>
+              <span className="text-lg font-bold text-white">Insurance</span>
               <span className="text-gray-400 text-sm">.co.nz</span>
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed">

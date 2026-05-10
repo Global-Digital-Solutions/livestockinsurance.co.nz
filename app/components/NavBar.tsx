@@ -13,10 +13,9 @@ export default function NavBar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
-            <span className="text-xl font-bold" style={{ color: '#0d7377' }}>
-              LivestockInsurance
-            </span>
+          <Link href="/" className="flex items-center">
+            <span className="text-xl font-bold" style={{ color: '#0d7377' }}>Livestock</span>
+            <span className="text-xl font-bold text-white">Insurance</span>
             <span className="text-gray-400 text-sm font-medium">.co.nz</span>
           </Link>
 
