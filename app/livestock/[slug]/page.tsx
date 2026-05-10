@@ -81,7 +81,7 @@ export default function LivestockTypePage({ params }: { params: { slug: string }
               <p className="text-gray-300 text-lg leading-relaxed mb-4">{lt.shortDesc}</p>
               <p className="text-2xl font-bold" style={{ color: '#0d7377' }}>{lt.fromPrice}</p>
             </div>
-            <div>
+            <div className="flex justify-end">
               <QuoteForm />
             </div>
           </div>

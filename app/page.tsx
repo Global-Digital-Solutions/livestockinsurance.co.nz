@@ -48,7 +48,7 @@ export default function HomePage() {
                 ))}
               </div>
             </div>
-            <div>
+            <div className="flex justify-end">
               <QuoteForm />
             </div>
           </div>
