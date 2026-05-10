@@ -12,7 +12,7 @@ export interface BlogPost {
 export const BLOG_POSTS: BlogPost[] = [
   {
     slug: 'complete-guide-livestock-insurance-nz',
-    title: 'The Complete Guide to Livestock Insurance in New Zealand (2026)',
+    title: 'The Complete Guide to Livestock Insurance (2026)',
     excerpt: 'Everything farmers need to know about livestock insurance — coverage types, costs, providers, and how to get the right cover for your operation.',
     date: '2026-03-15',
     readTime: '12 min',
@@ -55,7 +55,7 @@ The advisers we connect you with are licensed NZ professionals who specialise in
   },
   {
     slug: 'nz-livestock-insurance-buyers-guide-2026',
-    title: "NZ Livestock Insurance Buyer's Guide 2026: Everything Farmers Need to Know",
+    title: "Livestock Insurance Buyer's Guide 2026: Everything Farmers Need to Know",
     excerpt: "The complete NZ livestock insurance buyer's guide for 2026. Compare providers, understand coverage types, get quotes, and make informed insurance decisions.",
     date: '2026-04-01',
     readTime: '10 min',
@@ -91,7 +91,7 @@ Premium rates have increased across the board following two years of significant
   },
   {
     slug: 'livestock-insurance-costs-nz-2026',
-    title: 'How Much Does Livestock Insurance Cost in NZ? (2026 Guide)',
+    title: 'How Much Does Livestock Insurance Cost? (2026 Guide)',
     excerpt: 'NZ livestock insurance cost guide for 2026. Average premiums for cattle, sheep, deer, and other livestock by coverage type and herd size.',
     date: '2026-03-20',
     readTime: '8 min',
@@ -141,7 +141,7 @@ Livestock insurance premiums in New Zealand vary significantly based on species,
   },
   {
     slug: 'mortality-vs-disease-cover-livestock-nz',
-    title: 'Mortality Cover vs Disease Cover: What NZ Farmers Need to Know',
+    title: 'Mortality Cover vs Disease Cover: What Farmers Need to Know',
     excerpt: 'Understanding the difference between livestock mortality cover and disease & illness cover in NZ. Which do you need and how do they work together?',
     date: '2026-02-28',
     readTime: '7 min',
@@ -236,7 +236,7 @@ The key lesson: review your cover annually and confirm natural disaster cover is
   },
   {
     slug: 'livestock-insurance-cyclone-flood-risk-nz',
-    title: 'Livestock Insurance and Natural Disaster Risk in NZ: Ensuring Cyclone & Flood Protection',
+    title: 'Livestock Insurance and Natural Disaster Risk: Ensuring Cyclone & Flood Protection',
     excerpt: 'NZ livestock insurance and natural disaster risk. How to ensure your cover handles flood, cyclone, and extreme weather losses. Post-Cyclone Gabrielle lessons.',
     date: '2026-03-10',
     readTime: '8 min',
@@ -282,7 +282,7 @@ Other brokers (Aon, Gallagher) can also access natural disaster cover through Ll
   },
   {
     slug: 'dairy-cattle-insurance-guide-nz',
-    title: 'Dairy Cattle Insurance NZ: A Guide for Dairy Farmers',
+    title: 'Dairy Cattle Insurance: A Guide for Dairy Farmers',
     excerpt: 'Complete guide to insuring dairy cattle in New Zealand. Herd mortality cover, disease protection, and how to value your dairy herd for insurance.',
     date: '2026-02-15',
     readTime: '10 min',
@@ -331,7 +331,7 @@ Independent rural insurance advisers can access FMG, Aon, Gallagher, and NZI —
   },
   {
     slug: 'sheep-insurance-new-zealand-guide',
-    title: 'Sheep Insurance New Zealand: Guide for Sheep and Beef Farmers',
+    title: 'Sheep Insurance: Guide for Sheep and Beef Farmers',
     excerpt: 'Comprehensive guide to sheep insurance in NZ — commercial mob cover, stud ram policies, post-shearing exposure, and natural disaster protection.',
     date: '2026-02-20',
     readTime: '9 min',
@@ -390,7 +390,7 @@ FMG dominates the NZ sheep insurance market. Their farm pack policies are specif
   },
   {
     slug: 'deer-insurance-nz-velvet-stag-guide',
-    title: 'Deer Insurance NZ: Protecting Your Velvet and Venison Operation',
+    title: 'Deer Insurance: Protecting Your Velvet and Venison Operation',
     excerpt: 'Specialist guide to deer insurance in New Zealand. Insuring velvet stags, breeding hinds, and your deer herd against mortality, disease, and theft.',
     date: '2026-03-01',
     readTime: '9 min',
@@ -437,7 +437,7 @@ Deer can clear most standard fences and are fast movers. A deer on a road poses 
   },
   {
     slug: 'deer-velvet-insurance-nz-guide',
-    title: 'Deer Farming Insurance NZ: Complete Guide to Velvet Stag Cover',
+    title: 'Deer Farming Insurance: Complete Guide to Velvet Stag Cover',
     excerpt: 'Complete guide to deer farming insurance in New Zealand. Insuring velvet stags, breeding hinds, and the unique risks of deer farm operations. Specialist cover guide.',
     date: '2026-03-08',
     readTime: '8 min',
@@ -483,7 +483,7 @@ A red deer stag on the road is a serious accident risk. Claims following vehicle
   },
   {
     slug: 'sheep-post-shearing-exposure-insurance',
-    title: 'Post-Shearing Exposure Insurance for NZ Sheep: Why This Cover Matters',
+    title: 'Post-Shearing Exposure Insurance for Sheep: Why This Cover Matters',
     excerpt: 'Post-shearing exposure insurance for sheep in NZ. Why freshly shorn sheep are vulnerable and what coverage protects against weather-related losses.',
     date: '2026-04-05',
     readTime: '7 min',
@@ -529,7 +529,7 @@ A licensed NZ rural insurance adviser can help you structure your sheep cover to
   },
   {
     slug: 'mycoplasma-bovis-livestock-insurance-nz',
-    title: 'Mycoplasma Bovis and NZ Livestock Insurance: What Farmers Need to Know',
+    title: 'Mycoplasma Bovis and Livestock Insurance: What Farmers Need to Know',
     excerpt: 'Mycoplasma bovis and livestock insurance in NZ. How the disease impacts dairy cattle and what insurance coverage is available. Guide for NZ dairy farmers.',
     date: '2026-04-10',
     readTime: '8 min',
@@ -573,7 +573,7 @@ The rural insurance advisers we work with are familiar with the NZ M. bovis insu
   },
   {
     slug: 'stud-animal-agreed-value-insurance-nz',
-    title: 'Stud Animal Agreed Value Insurance in New Zealand: Complete Guide',
+    title: 'Stud Animal Agreed Value Insurance: Complete Guide',
     excerpt: 'Complete guide to agreed value insurance for stud bulls, rams, and deer stags in NZ. Why stud animals need specialist cover and how to establish appropriate values.',
     date: '2026-04-15',
     readTime: '8 min',
@@ -623,7 +623,7 @@ A specialist rural insurance adviser can identify the best market for your speci
   },
   {
     slug: 'transit-insurance-livestock-nz',
-    title: 'Livestock Transit Insurance NZ: Protecting Animals on the Move',
+    title: 'Livestock Transit Insurance: Protecting Animals on the Move',
     excerpt: 'Guide to livestock transit insurance in NZ — what is covered during transport, at saleyards, and at agricultural events. How to get the right transit cover.',
     date: '2026-04-20',
     readTime: '7 min',
