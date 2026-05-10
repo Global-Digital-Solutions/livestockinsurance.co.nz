@@ -76,7 +76,6 @@ export default function LivestockTypePage({ params }: { params: { slug: string }
           </nav>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
             <div>
-              <div className="text-5xl mb-3">{lt.icon}</div>
               <h1 className="text-4xl font-extrabold text-white mb-4">{lt.name}</h1>
               <p className="text-gray-300 text-lg leading-relaxed mb-4">{lt.shortDesc}</p>
               <p className="text-2xl font-bold" style={{ color: '#0d7377' }}>{lt.fromPrice}</p>
