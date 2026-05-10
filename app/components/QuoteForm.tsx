@@ -4,10 +4,10 @@ import { SITE } from '@/data/site';
 
 export default function QuoteForm() {
   return (
-    <div className="bg-white rounded-xl shadow-lg p-6 w-full max-w-sm">
-      <h3 className="text-xl font-bold text-gray-900 mb-1">Get Free Quotes</h3>
+    <div className="bg-white rounded-xl shadow-lg border border-gray-200 p-6 w-full max-w-sm">
+      <h3 className="text-xl font-bold text-gray-900 mb-1">Get Your Quotes</h3>
       <p className="text-sm text-gray-500 mb-4">
-        Licensed rural insurance advisers — no cost to you.
+        Licensed rural insurance advisers — no obligation.
       </p>
       <form
         method="POST"
@@ -110,12 +110,12 @@ export default function QuoteForm() {
             onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = '#0a5f63')}
             onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = '#0d7377')}
           >
-            Get Free Quotes
+            Get My Quotes →
           </button>
         </div>
 
         <p className="text-xs text-gray-400 mt-3 text-center">
-          Free to use. Licensed rural insurance advisers only.
+          Licensed NZ rural advisers · No obligation
         </p>
       </form>
     </div>
