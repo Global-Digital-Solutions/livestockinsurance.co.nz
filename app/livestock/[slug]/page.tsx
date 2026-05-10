@@ -53,6 +53,8 @@ export default function LivestockTypePage({ params }: { params: { slug: string }
     },
   };
 
+  const animalLabel = lt.name.replace(/ Insurance$/, '');
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
@@ -159,8 +161,8 @@ export default function LivestockTypePage({ params }: { params: { slug: string }
       {/* CTA */}
       <section className="py-12" style={{ backgroundColor: '#0d7377' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-2xl font-bold text-white mb-3">Get {lt.name} Quotes Today</h2>
-          <p className="text-teal-100 mb-6">Free quotes from licensed NZ rural insurance advisers.</p>
+          <h2 className="text-2xl font-bold text-white mb-3">Insure Your {animalLabel} — Get Quotes Today</h2>
+          <p className="text-teal-100 mb-6">Compare cover from FMG, Aon, Gallagher and NZI — free quotes from licensed NZ rural advisers.</p>
           <Link href="/contact/" className="inline-block bg-white font-bold px-6 py-3 rounded-xl" style={{ color: '#0d7377' }}>
             Get Free Quotes
           </Link>
