@@ -1,21 +1,58 @@
 'use client';
 
-import { SITE } from '@/data/site';
+import { useState, FormEvent } from 'react';
+import { useRouter } from 'next/navigation';
+import Script from 'next/script';
+
+const TURNSTILE_SITE_KEY = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY ?? '0x4AAAAAADMnsakZUoyx534R';
 
 export default function QuoteForm() {
+  const router = useRouter();
+  const [submitting, setSubmitting] = useState(false);
+  const [error, setError] = useState('');
+
+  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    setError('');
+    const form = e.currentTarget;
+    const fd = new FormData(form);
+    const cfToken = fd.get('cf-turnstile-response');
+    if (!cfToken) {
+      setError('Please complete the security check and try again.');
+      return;
+    }
+    const data: Record<string, string> = {};
+    fd.forEach((value, key) => {
+      if (typeof value === 'string') data[key] = value;
+    });
+
+    setSubmitting(true);
+    try {
+      const res = await fetch('/api/submit-form', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          ...data,
+          _subject: 'New Livestock Insurance Quote Request — LivestockInsurance.co.nz',
+          cfTurnstileToken: cfToken,
+        }),
+      });
+      if (!res.ok) throw new Error('Submission failed');
+      router.push('/thank-you/');
+    } catch {
+      setError('Something went wrong. Please try again.');
+      setSubmitting(false);
+    }
+  }
+
   return (
     <div className="bg-white rounded-xl shadow-lg border border-gray-200 p-6 w-full max-w-sm">
       <h3 className="text-xl font-bold text-gray-900 mb-1">Get Your Quotes</h3>
       <p className="text-sm text-gray-500 mb-4">
         Licensed rural insurance advisers — no obligation.
       </p>
-      <form
-        method="POST"
-        action={SITE.workerUrl}
-      >
-        <input type="hidden" name="_cc" value={SITE.formCC} />
-        <input type="hidden" name="_subject" value={SITE.formSubject} />
-        <input type="hidden" name="_next" value={SITE.formNext} />
+      <form onSubmit={handleSubmit}>
+        <input type="text" name="_honey" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" />
 
         <div className="space-y-3">
           <div>
@@ -103,14 +140,22 @@ export default function QuoteForm() {
             </select>
           </div>
 
+          {error && (
+            <p className="text-red-600 text-sm bg-red-50 border border-red-200 rounded-lg px-3 py-2">{error}</p>
+          )}
+
+          <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer strategy="afterInteractive" />
+          <div className="flex justify-center">
+            <div className="cf-turnstile" data-sitekey={TURNSTILE_SITE_KEY} data-size="invisible" />
+          </div>
+
           <button
             type="submit"
-            className="w-full text-white font-semibold py-3 px-4 rounded-lg transition-colors text-sm mt-2"
+            disabled={submitting}
+            className="w-full text-white font-semibold py-3 px-4 rounded-lg transition-colors text-sm mt-2 disabled:opacity-60"
             style={{ backgroundColor: '#0d7377' }}
-            onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = '#0a5f63')}
-            onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = '#0d7377')}
           >
-            Get My Quotes →
+            {submitting ? 'Sending…' : 'Get My Quotes →'}
           </button>
         </div>
 

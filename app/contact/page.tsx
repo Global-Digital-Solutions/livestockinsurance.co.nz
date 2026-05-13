@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SITE } from '@/data/site';
+import ContactForm from '../components/ContactForm';
 
 export const metadata: Metadata = {
   title: 'Get Livestock Insurance Quotes NZ | Expert Comparison | LivestockInsurance.co.nz',
@@ -124,99 +125,7 @@ export default function ContactPage() {
                   <h2 className="text-2xl font-bold text-gray-900 mb-1">Request Quotes</h2>
                   <p className="text-gray-500 text-sm">Licensed advisers will get back to you within 24 hours.</p>
                 </div>
-
-                <form method="POST" action={SITE.workerUrl}>
-                  <input type="hidden" name="_cc" value={SITE.formCC} />
-                  <input type="hidden" name="_subject" value={SITE.formSubject} />
-                  <input type="hidden" name="_next" value={SITE.formNext} />
-
-                  <div className="space-y-4">
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                      <div>
-                        <label htmlFor="c-name" className="block text-sm font-medium text-gray-700 mb-1">Full Name *</label>
-                        <input
-                          type="text" id="c-name" name="name" required
-                          className="w-full border border-gray-300 rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-teal-600"
-                          placeholder="Your name"
-                        />
-                      </div>
-                      <div>
-                        <label htmlFor="c-phone" className="block text-sm font-medium text-gray-700 mb-1">Phone Number</label>
-                        <input
-                          type="tel" id="c-phone" name="phone"
-                          className="w-full border border-gray-300 rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-teal-600"
-                          placeholder="021 xxx xxxx"
-                        />
-                      </div>
-                    </div>
-
-                    <div>
-                      <label htmlFor="c-email" className="block text-sm font-medium text-gray-700 mb-1">Email Address *</label>
-                      <input
-                        type="email" id="c-email" name="email" required
-                        className="w-full border border-gray-300 rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-teal-600"
-                        placeholder="your@email.com"
-                      />
-                    </div>
-
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                      <div>
-                        <label htmlFor="c-livestock" className="block text-sm font-medium text-gray-700 mb-1">Livestock Type *</label>
-                        <select
-                          id="c-livestock" name="livestock_type" required
-                          className="w-full border border-gray-300 rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-teal-600 bg-white"
-                        >
-                          <option value="">Select livestock type</option>
-                          <option value="Dairy Cattle">Dairy Cattle</option>
-                          <option value="Beef Cattle">Beef Cattle</option>
-                          <option value="Sheep">Sheep</option>
-                          <option value="Deer">Deer</option>
-                          <option value="Goats">Goats</option>
-                          <option value="Pigs">Pigs</option>
-                          <option value="Alpacas/Llamas">Alpacas/Llamas</option>
-                          <option value="Poultry">Poultry</option>
-                          <option value="Rare Breeds">Rare Breeds</option>
-                          <option value="Mixed Livestock">Mixed Livestock</option>
-                        </select>
-                      </div>
-                      <div>
-                        <label htmlFor="c-cover" className="block text-sm font-medium text-gray-700 mb-1">Cover Type *</label>
-                        <select
-                          id="c-cover" name="cover_type" required
-                          className="w-full border border-gray-300 rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-teal-600 bg-white"
-                        >
-                          <option value="">Select cover type</option>
-                          <option value="Mortality Cover">Mortality Cover</option>
-                          <option value="Disease & Illness">Disease &amp; Illness</option>
-                          <option value="Natural Disaster">Natural Disaster</option>
-                          <option value="Transit Insurance">Transit Insurance</option>
-                          <option value="Full Farm Pack">Full Farm Pack</option>
-                          <option value="Not sure">Not sure — advise me</option>
-                        </select>
-                      </div>
-                    </div>
-
-                    <div>
-                      <label htmlFor="c-message" className="block text-sm font-medium text-gray-700 mb-1">Additional Details</label>
-                      <textarea
-                        id="c-message" name="message" rows={3}
-                        className="w-full border border-gray-300 rounded-lg px-3 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-teal-600 resize-none"
-                        placeholder="Number of animals, current insurer, anything else relevant…"
-                      />
-                    </div>
-
-                    <button
-                      type="submit"
-                      className="w-full text-white font-bold py-3.5 px-4 rounded-xl text-base bg-teal-700 hover:bg-teal-800 transition-colors"
-                    >
-                      Request My Quotes →
-                    </button>
-                  </div>
-
-                  <p className="text-xs text-gray-400 mt-4 text-center">
-                    Licensed NZ rural advisers · No obligation · Details kept private
-                  </p>
-                </form>
+                <ContactForm />
               </div>
             </div>
 
