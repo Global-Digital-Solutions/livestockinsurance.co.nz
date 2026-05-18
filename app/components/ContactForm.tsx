@@ -1,13 +1,14 @@
 'use client';
 
-import { useState, FormEvent } from 'react';
+import { useRef, useState, FormEvent } from 'react';
 import { useRouter } from 'next/navigation';
-import Script from 'next/script';
+import TurnstileWidget, { type TurnstileHandle } from './TurnstileWidget';
 
 const TURNSTILE_SITE_KEY = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY ?? '0x4AAAAAADMnsakZUoyx534R';
 
 export default function ContactForm() {
   const router = useRouter();
+  const turnstileRef = useRef<TurnstileHandle>(null);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState('');
 
@@ -16,11 +17,6 @@ export default function ContactForm() {
     setError('');
     const form = e.currentTarget;
     const fd = new FormData(form);
-    const cfToken = fd.get('cf-turnstile-response');
-    if (!cfToken) {
-      setError('Please complete the security check and try again.');
-      return;
-    }
     const data: Record<string, string> = {};
     fd.forEach((value, key) => {
       if (typeof value === 'string') data[key] = value;
@@ -28,6 +24,13 @@ export default function ContactForm() {
 
     setSubmitting(true);
     try {
+      const cfToken = await turnstileRef.current?.execute();
+      if (!cfToken) {
+        setSubmitting(false);
+        setError('Security check could not complete. Please try again.');
+        return;
+      }
+
       const res = await fetch('/api/submit-form', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -112,10 +115,7 @@ export default function ContactForm() {
           <p className="text-red-600 text-sm bg-red-50 border border-red-200 rounded-lg px-3 py-2">{error}</p>
         )}
 
-        <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer strategy="afterInteractive" />
-        <div className="flex justify-center">
-          <div className="cf-turnstile" data-sitekey={TURNSTILE_SITE_KEY} data-size="invisible" />
-        </div>
+        <TurnstileWidget ref={turnstileRef} />
 
         <button type="submit" disabled={submitting}
           className="w-full text-white font-bold py-3.5 px-4 rounded-xl text-base bg-teal-700 hover:bg-teal-800 transition-colors disabled:opacity-60">
