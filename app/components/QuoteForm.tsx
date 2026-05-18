@@ -4,8 +4,6 @@ import { useRef, useState, FormEvent } from 'react';
 import { useRouter } from 'next/navigation';
 import TurnstileWidget, { type TurnstileHandle } from './TurnstileWidget';
 
-const TURNSTILE_SITE_KEY = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY ?? '0x4AAAAAADMnsakZUoyx534R';
-
 export default function QuoteForm() {
   const router = useRouter();
   const turnstileRef = useRef<TurnstileHandle>(null);

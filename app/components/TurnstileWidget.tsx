@@ -3,7 +3,7 @@
 import { forwardRef, useEffect, useImperativeHandle, useRef } from 'react';
 import Script from 'next/script';
 
-const SITE_KEY = '0x4AAAAAADMnq1OKyxf3JvVv';
+const SITE_KEY = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY ?? '0x4AAAAAADMnq1OKyxf3JvVv';
 
 type TurnstileApi = {
   ready: (cb: () => void) => void;
