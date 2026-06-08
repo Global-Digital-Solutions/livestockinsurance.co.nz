@@ -173,7 +173,6 @@ export default function CoverageTypePage({ params }: { params: { slug: string } 
                 </svg>
                 <span>Licensed NZ Rural Insurance Advisers</span>
               </div>
-              <div className="text-5xl mb-3">{ct.icon}</div>
               <h1 className="text-4xl font-extrabold text-white mb-4">{ct.name}</h1>
               <p className="text-gray-300 text-lg leading-relaxed mb-4">{ct.shortDesc}</p>
               <div className="flex flex-wrap gap-3">
