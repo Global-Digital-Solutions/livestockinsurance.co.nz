@@ -151,8 +151,13 @@ export default function CoverageTypePage({ params }: { params: { slug: string } 
       )}
 
       {/* Hero */}
-      <section className="bg-gray-900 py-14">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative bg-gray-900 overflow-hidden">
+        <div
+          className="absolute inset-0 bg-cover bg-center opacity-65"
+          style={{ backgroundImage: `url(${ct.heroImage})` }}
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-gray-900/80 via-gray-900/50 to-gray-900/20" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
           <nav className="text-sm text-gray-400 mb-5" aria-label="Breadcrumb">
             <Link href="/" className="hover:text-gray-200">Home</Link>
             <span className="mx-2">/</span>
@@ -169,7 +174,7 @@ export default function CoverageTypePage({ params }: { params: { slug: string } 
                 <span>Licensed NZ Rural Insurance Advisers</span>
               </div>
               <div className="text-5xl mb-3">{ct.icon}</div>
-              <h1 className="text-4xl font-extrabold text-white mb-4">{ct.name} NZ</h1>
+              <h1 className="text-4xl font-extrabold text-white mb-4">{ct.name}</h1>
               <p className="text-gray-300 text-lg leading-relaxed mb-4">{ct.shortDesc}</p>
               <div className="flex flex-wrap gap-3">
                 <span className="bg-white/10 text-white text-sm px-3 py-1.5 rounded-full border border-white/20">
