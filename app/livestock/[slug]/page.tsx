@@ -123,32 +123,33 @@ export default function LivestockTypePage({ params }: { params: { slug: string }
           className="absolute inset-0 bg-cover bg-center opacity-85"
           style={{ backgroundImage: `url(${lt.heroImage})` }}
         />
+        <div className="absolute inset-0 bg-gradient-to-r from-gray-900/80 via-gray-900/50 to-gray-900/10" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
-          <nav className="text-sm text-gray-400 mb-5" aria-label="Breadcrumb">
-            <Link href="/" className="hover:text-gray-200">Home</Link>
+          <nav className="text-sm text-gray-300 mb-5" aria-label="Breadcrumb">
+            <Link href="/" className="hover:text-white">Home</Link>
             <span className="mx-2">/</span>
-            <Link href="/livestock/" className="hover:text-gray-200">Livestock Insurance</Link>
+            <Link href="/livestock/" className="hover:text-white">Livestock Insurance</Link>
             <span className="mx-2">/</span>
-            <span className="text-gray-200">{lt.name}</span>
+            <span className="text-white">{lt.name}</span>
           </nav>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
             <div>
-              <div className="inline-flex items-center space-x-1.5 bg-teal-900/50 border border-teal-600/40 text-teal-300 text-xs font-medium px-3 py-1.5 rounded-full mb-4">
+              <div className="inline-flex items-center space-x-1.5 bg-teal-800/80 border border-teal-400/60 text-teal-200 text-xs font-medium px-3 py-1.5 rounded-full mb-4">
                 <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                 </svg>
-                <span>Licensed NZ Rural Insurance Advisers</span>
+                <span>Licensed Rural Insurance Advisers</span>
               </div>
               <h1 className="text-4xl font-extrabold text-white mb-4">{lt.name}</h1>
-              <p className="text-gray-300 text-lg leading-relaxed mb-5">{lt.shortDesc}</p>
+              <p className="text-gray-100 text-lg leading-relaxed mb-5">{lt.shortDesc}</p>
               <div className="flex flex-wrap gap-3">
-                <span className="bg-white/10 text-white text-sm px-3 py-1.5 rounded-full border border-white/20">
+                <span className="bg-black/40 text-white text-sm px-3 py-1.5 rounded-full border border-white/40">
                   {lt.icon} {lt.fromPrice}
                 </span>
-                <span className="bg-white/10 text-white text-sm px-3 py-1.5 rounded-full border border-white/20">
+                <span className="bg-black/40 text-white text-sm px-3 py-1.5 rounded-full border border-white/40">
                   ⚖️ FMCA Licensed Advisers
                 </span>
-                <span className="bg-white/10 text-white text-sm px-3 py-1.5 rounded-full border border-white/20">
+                <span className="bg-black/40 text-white text-sm px-3 py-1.5 rounded-full border border-white/40">
                   ⏰ 24hr Response
                 </span>
               </div>
