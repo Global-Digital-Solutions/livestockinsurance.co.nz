@@ -4,7 +4,7 @@ import { FAQS } from '@/data/faqs';
 import { SITE } from '@/data/site';
 
 export const metadata: Metadata = {
-  title: 'Livestock Insurance FAQs NZ | Common Questions Answered',
+  title: 'Livestock Insurance FAQs | Common Questions Answered',
   description: 'Frequently asked questions about livestock insurance — coverage types, costs, claims, and providers. Expert answers for farmers.',
   alternates: { canonical: `${SITE.domain}/faqs/` },
 };
