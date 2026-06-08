@@ -77,14 +77,24 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Disclaimer */}
-        <div className="border-t border-gray-800 pt-6">
-          <p className="text-gray-500 text-xs leading-relaxed mb-3">
-            LivestockInsurance.co.nz is operated by Cover4You Group. We connect farmers with licensed rural insurance advisers. We do not sell insurance directly. The advisers we refer you to are licensed under the Financial Markets Conduct Act 2013.
-          </p>
+        {/* Disclaimer + Copyright */}
+        <div className="mt-10 pt-8 border-t border-gray-800">
+          <div className="bg-gray-800 rounded-xl p-5 mb-6 text-xs text-gray-500 leading-relaxed">
+            <p className="font-semibold text-gray-300 mb-2">Important Information</p>
+            <p className="mb-2">
+              LivestockInsurance.co.nz is operated by Cover4You. We connect farmers with licensed rural insurance advisers and brokers who arrange cover on your behalf. We are not an insurance underwriter.
+            </p>
+            <p className="mb-2">
+              Insurance advice is provided by licensed financial advisers regulated under the Financial Markets Conduct Act 2013. Our referred advisers are licensed and regulated — Cover4You itself is not the licensed provider of financial advice.
+            </p>
+            <p>
+              All information on this site is general in nature. Always read the policy wording (PDS) before purchasing and consider whether the cover is appropriate for your specific situation.
+            </p>
+          </div>
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
             <p className="text-gray-600 text-xs">
-              &copy; {new Date().getFullYear()} LivestockInsurance.co.nz. All rights reserved.
+              &copy; {new Date().getFullYear()} LivestockInsurance.co.nz — a trading style of{' '}
+              <a href="https://www.cover4you.co.nz" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition-colors">Cover4You</a>. All rights reserved.
             </p>
             <div className="flex space-x-4 text-xs">
               <Link href="/disclaimer/" className="text-gray-600 hover:text-gray-400 transition-colors">Disclaimer</Link>

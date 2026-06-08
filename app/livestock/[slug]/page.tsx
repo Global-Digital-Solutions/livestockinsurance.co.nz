@@ -187,7 +187,7 @@ export default function LivestockTypePage({ params }: { params: { slug: string }
               {/* Long-form Intro */}
               {lt.longForm?.intro ? (
                 <div className="prose prose-lg max-w-none">
-                  <h2 className="text-2xl font-bold text-gray-900 mb-5">About {lt.name} in New Zealand</h2>
+                  <h2 className="text-2xl font-bold text-gray-900 mb-5">About {lt.name}</h2>
                   <div className="space-y-4">
                     {lt.longForm.intro.map((para, i) => (
                       <p key={i} className="text-gray-700 leading-relaxed text-base">{para}</p>
@@ -285,7 +285,7 @@ export default function LivestockTypePage({ params }: { params: { slug: string }
               {/* How to Get Covered */}
               {lt.longForm?.howToGetCovered && (
                 <div>
-                  <h2 className="text-2xl font-bold text-gray-900 mb-5">How to Get {lt.name} in New Zealand</h2>
+                  <h2 className="text-2xl font-bold text-gray-900 mb-5">How to Get {lt.name}</h2>
                   <div className="space-y-4">
                     {lt.longForm.howToGetCovered.map((step, i) => (
                       <div key={i} className="flex items-start space-x-4">
