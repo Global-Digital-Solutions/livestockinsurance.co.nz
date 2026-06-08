@@ -56,11 +56,11 @@ export default function HomePage() {
       </section>
 
       {/* Livestock Types Grid */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
-            <h2 className="text-3xl font-bold text-gray-900 mb-3">Livestock We Cover</h2>
-            <p className="text-gray-500 max-w-2xl mx-auto">
+            <h2 className="text-3xl font-bold text-white mb-3">Livestock We Cover</h2>
+            <p className="text-gray-400 max-w-2xl mx-auto">
               Specialist insurance for every type of livestock — from commercial dairy herds to elite velvet stags and rare breeds.
             </p>
           </div>
@@ -69,22 +69,25 @@ export default function HomePage() {
               <Link
                 key={lt.slug}
                 href={`/livestock/${lt.slug}/`}
-                className="bg-white rounded-xl overflow-hidden border-2 border-gray-100 hover:border-teal-400 hover:shadow-xl transition-all duration-300 group"
+                className="relative rounded-2xl overflow-hidden group ring-2 ring-transparent hover:ring-teal-400 transition-all duration-300"
               >
-                {/* Photo */}
-                <div className="relative h-40 overflow-hidden">
+                <div className="relative h-52 overflow-hidden bg-gray-800">
                   <img
-                    src={lt.heroImage.replace('w=1400&h=600', 'w=400&h=240')}
+                    src={lt.heroImage.replace('w=1400&h=600', 'w=500&h=350')}
                     alt={lt.name}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
-                </div>
-                {/* Text */}
-                <div className="p-4 text-center">
-                  <h3 className="font-semibold text-gray-900 text-sm group-hover:text-teal-700 mb-1">{lt.name}</h3>
-                  <p className="text-gray-400 text-xs leading-relaxed line-clamp-2">{lt.shortDesc.split('—')[0]}</p>
-                  <p className="text-xs font-semibold mt-2" style={{ color: '#0d7377' }}>{lt.fromPrice}</p>
+                  {/* Bottom-to-top gradient overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent" />
+                  {/* Icon badge top-left */}
+                  <div className="absolute top-3 left-3 w-8 h-8 rounded-full bg-black/50 backdrop-blur-sm flex items-center justify-center text-sm">
+                    {lt.icon}
+                  </div>
+                  {/* Text overlay */}
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-bold text-white text-sm leading-snug mb-0.5">{lt.name}</h3>
+                    <p className="text-teal-300 text-xs font-semibold">{lt.fromPrice}</p>
+                  </div>
                 </div>
               </Link>
             ))}
@@ -93,7 +96,7 @@ export default function HomePage() {
       </section>
 
       {/* Coverage Types */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-teal-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-gray-900 mb-3">Coverage Types</h2>
@@ -106,9 +109,10 @@ export default function HomePage() {
               <Link
                 key={ct.slug}
                 href={`/types/${ct.slug}/`}
-                className="border-2 border-gray-200 rounded-xl p-6 bg-white hover:border-teal-400 hover:shadow-xl hover:-translate-y-2 transition-all duration-300 group"
+                className="bg-white rounded-xl p-6 border-l-4 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group"
+                style={{ borderLeftColor: '#0d7377' }}
               >
-                <div className="w-14 h-14 rounded-xl flex items-center justify-center text-3xl mb-4" style={{ backgroundColor: '#f0fafa' }}>
+                <div className="w-12 h-12 rounded-xl flex items-center justify-center text-2xl mb-4" style={{ backgroundColor: '#cceeee', border: '1px solid #0d737730' }}>
                   {ct.icon}
                 </div>
                 <h3 className="font-bold text-gray-900 mb-2 group-hover:text-teal-700">{ct.name}</h3>
