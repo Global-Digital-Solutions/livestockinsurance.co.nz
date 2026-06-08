@@ -39,7 +39,7 @@ export const LIVESTOCK_TYPES: LivestockType[] = [
     ],
     coverageTypes: ['mortality-cover', 'disease-illness', 'transit-insurance', 'theft-cover'],
     fromPrice: 'From $80/year',
-    metaTitle: 'Cattle Insurance NZ | Beef & Dairy Herd Cover | LivestockInsurance.co.nz',
+    metaTitle: 'Cattle Insurance | Beef & Dairy Herd Cover | LivestockInsurance.co.nz',
     metaDesc: 'Cattle insurance NZ — compare cover for beef cattle, dairy herds, and stud bulls. Mortality, disease, transit and theft cover from FMG, Aon, Gallagher and NZI. Licensed advisers.',
     longForm: {
       intro: [
@@ -107,7 +107,7 @@ export const LIVESTOCK_TYPES: LivestockType[] = [
     ],
     coverageTypes: ['mortality-cover', 'natural-disaster', 'transit-insurance', 'theft-cover'],
     fromPrice: 'From $60/year',
-    metaTitle: 'Sheep Insurance NZ | Flock & Stud Ram Cover | LivestockInsurance.co.nz',
+    metaTitle: 'Sheep Insurance | Flock & Stud Ram Cover | LivestockInsurance.co.nz',
     metaDesc: 'Sheep insurance NZ — compare cover for commercial flocks, stud rams, and breeding ewes. Mortality, natural disaster, post-shearing exposure and theft cover. Licensed advisers.',
     longForm: {
       intro: [
@@ -173,7 +173,7 @@ export const LIVESTOCK_TYPES: LivestockType[] = [
     ],
     coverageTypes: ['mortality-cover', 'disease-illness', 'transit-insurance', 'theft-cover'],
     fromPrice: 'From $120/year',
-    metaTitle: 'Deer Insurance NZ | Velvet Stag & Herd Cover | LivestockInsurance.co.nz',
+    metaTitle: 'Deer Insurance | Velvet Stag & Herd Cover | LivestockInsurance.co.nz',
     metaDesc: 'Deer insurance NZ — specialist cover for velvet stags, hinds, and farmed deer. Antler removal cover, mortality, disease and transit protection. Licensed rural advisers.',
     longForm: {
       intro: [
@@ -239,7 +239,7 @@ export const LIVESTOCK_TYPES: LivestockType[] = [
     ],
     coverageTypes: ['mortality-cover', 'disease-illness', 'transit-insurance', 'theft-cover'],
     fromPrice: 'From $70/year',
-    metaTitle: 'Goat Insurance NZ | Dairy, Meat & Fibre Goat Cover | LivestockInsurance.co.nz',
+    metaTitle: 'Goat Insurance | Dairy, Meat & Fibre Goat Cover | LivestockInsurance.co.nz',
     metaDesc: 'Goat insurance NZ — compare cover for dairy goats, Boer meat goats, and Angora fibre producers. Mortality, disease and theft cover from licensed rural advisers.',
     longForm: {
       intro: [
@@ -302,7 +302,7 @@ export const LIVESTOCK_TYPES: LivestockType[] = [
     ],
     coverageTypes: ['mortality-cover', 'disease-illness', 'public-liability', 'transit-insurance'],
     fromPrice: 'From $80/year',
-    metaTitle: 'Pig Insurance NZ | Commercial & Breeding Pig Cover | LivestockInsurance.co.nz',
+    metaTitle: 'Pig Insurance | Commercial & Breeding Pig Cover | LivestockInsurance.co.nz',
     metaDesc: 'Pig insurance NZ — cover for commercial pig farms and specialist breeding operations. Disease, mortality, public liability and transit cover. Licensed rural advisers.',
     longForm: {
       intro: [
@@ -366,7 +366,7 @@ export const LIVESTOCK_TYPES: LivestockType[] = [
     ],
     coverageTypes: ['mortality-cover', 'transit-insurance', 'theft-cover', 'disease-illness'],
     fromPrice: 'From $100/year',
-    metaTitle: 'Alpaca & Llama Insurance NZ | Specialist Cover | LivestockInsurance.co.nz',
+    metaTitle: 'Alpaca & Llama Insurance | Specialist Cover | LivestockInsurance.co.nz',
     metaDesc: 'Alpaca and llama insurance NZ — specialist agreed value cover for Huacaya, Suri and show alpacas. Mortality, transit and theft cover from specialist brokers.',
     longForm: {
       intro: [
@@ -429,7 +429,7 @@ export const LIVESTOCK_TYPES: LivestockType[] = [
     ],
     coverageTypes: ['disease-illness', 'mortality-cover', 'public-liability', 'natural-disaster'],
     fromPrice: 'From $200/year',
-    metaTitle: 'Poultry Insurance NZ | Broiler, Layer & Free-Range Cover | LivestockInsurance.co.nz',
+    metaTitle: 'Poultry Insurance | Broiler, Layer & Free-Range Cover | LivestockInsurance.co.nz',
     metaDesc: 'Poultry insurance NZ — cover for broiler, layer, and free-range operations. Avian influenza, disease, mortality and liability cover from licensed rural advisers.',
     longForm: {
       intro: [
@@ -493,7 +493,7 @@ export const LIVESTOCK_TYPES: LivestockType[] = [
     ],
     coverageTypes: ['mortality-cover', 'transit-insurance', 'theft-cover', 'disease-illness'],
     fromPrice: 'From $150/year',
-    metaTitle: 'Rare Breeds & Show Animal Insurance NZ | LivestockInsurance.co.nz',
+    metaTitle: 'Rare Breeds & Show Animal Insurance | LivestockInsurance.co.nz',
     metaDesc: 'Specialist agreed value insurance for rare breed livestock, show animals, and heritage breeds in New Zealand. Gallagher, Aon and specialist brokers. Licensed advisers.',
     longForm: {
       intro: [

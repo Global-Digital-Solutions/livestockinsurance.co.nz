@@ -139,7 +139,7 @@ export default function LivestockTypePage({ params }: { params: { slug: string }
                 </svg>
                 <span>Licensed NZ Rural Insurance Advisers</span>
               </div>
-              <h1 className="text-4xl font-extrabold text-white mb-4">{lt.name} NZ</h1>
+              <h1 className="text-4xl font-extrabold text-white mb-4">{lt.name}</h1>
               <p className="text-gray-300 text-lg leading-relaxed mb-5">{lt.shortDesc}</p>
               <div className="flex flex-wrap gap-3">
                 <span className="bg-white/10 text-white text-sm px-3 py-1.5 rounded-full border border-white/20">
