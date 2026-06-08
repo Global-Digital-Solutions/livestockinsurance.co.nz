@@ -14,7 +14,7 @@ export default function LivestockPage() {
   return (
     <>
       <section className="relative bg-gray-900 overflow-hidden py-14">
-        <div className="absolute inset-0 bg-cover bg-center opacity-35" style={{ backgroundImage: `url(https://images.pexels.com/photos/671931/pexels-photo-671931.jpeg?auto=compress&cs=tinysrgb&w=1400&h=500&fit=crop)` }} />
+        <div className="absolute inset-0 bg-cover bg-center opacity-65" style={{ backgroundImage: `url(https://images.pexels.com/photos/671931/pexels-photo-671931.jpeg?auto=compress&cs=tinysrgb&w=1400&h=500&fit=crop)` }} />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl">
             <nav className="text-sm text-gray-400 mb-4">

@@ -120,7 +120,7 @@ export default function LivestockTypePage({ params }: { params: { slug: string }
       {/* Hero */}
       <section className="relative bg-gray-900 overflow-hidden">
         <div
-          className="absolute inset-0 bg-cover bg-center opacity-25"
+          className="absolute inset-0 bg-cover bg-center opacity-65"
           style={{ backgroundImage: `url(${lt.heroImage})` }}
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">

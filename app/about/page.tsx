@@ -30,7 +30,7 @@ export default function AboutPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutSchema) }} />
 
       <section className="relative bg-gray-900 overflow-hidden py-14">
-        <div className="absolute inset-0 bg-cover bg-center opacity-35" style={{ backgroundImage: `url(https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=1400&h=500&fit=crop&auto=format&q=80)` }} />
+        <div className="absolute inset-0 bg-cover bg-center opacity-65" style={{ backgroundImage: `url(https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?w=1400&h=500&fit=crop&auto=format&q=80)` }} />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <nav className="text-sm text-gray-400 mb-4">
             <Link href="/" className="hover:text-gray-200">Home</Link>
