@@ -85,7 +85,7 @@ export const LIVESTOCK_TYPES: LivestockType[] = [
       externalLinks: [
         { title: 'FMG Livestock Policy Wording', url: 'https://www.fmg.co.nz/what-we-cover/fmg-policy-wordings/animals/livestock' },
         { title: 'NAIT — National Animal Identification & Tracing', url: 'https://www.nait.co.nz' },
-        { title: 'MPI — Mycoplasma Bovis Programme', url: 'https://www.mpi.govt.nz/biosecurity/long-term-biosecurity-management/mycoplasma-bovis/' },
+        { title: 'MPI — Mycoplasma Bovis Programme', url: 'https://www.mpi.govt.nz/biosecurity/exotic-pests-and-diseases-in-new-zealand/long-term-biosecurity-management-programmes/mycoplasma-bovis-national-pest-management-plan' },
         { title: 'DairyNZ — Industry Body & Resources', url: 'https://www.dairynz.co.nz' },
         { title: 'Beef + Lamb New Zealand', url: 'https://beeflambnz.com' },
       ],
@@ -217,7 +217,7 @@ export const LIVESTOCK_TYPES: LivestockType[] = [
       relatedBlogs: ['deer-insurance-nz-velvet-stag-guide', 'deer-velvet-insurance-nz-guide', 'stud-animal-agreed-value-insurance-nz', 'transit-insurance-livestock-nz', 'mortality-vs-disease-cover-livestock-nz'],
       externalLinks: [
         { title: 'Deer Industry New Zealand (DINZ)', url: 'https://www.deernz.org' },
-        { title: 'FMG — Stag & Livestock Insurance', url: 'https://www.fmg.co.nz/what-we-cover/fmg-policy-wordings/animals/stags' },
+        { title: 'FMG — Livestock Insurance Policy Wording', url: 'https://www.fmg.co.nz/what-we-cover/fmg-policy-wordings/animals/livestock' },
         { title: 'NAIT — National Animal Identification & Tracing', url: 'https://www.nait.co.nz' },
         { title: 'MPI — Deer Farming Information', url: 'https://www.mpi.govt.nz' },
       ],
@@ -408,7 +408,7 @@ export const LIVESTOCK_TYPES: LivestockType[] = [
       relatedBlogs: ['stud-animal-agreed-value-insurance-nz', 'transit-insurance-livestock-nz', 'complete-guide-livestock-insurance-nz', 'livestock-insurance-costs-nz-2026'],
       externalLinks: [
         { title: 'New Zealand Alpaca Association (NZAA)', url: 'https://www.alpaca.org.nz' },
-        { title: 'Gallagher Insurance — Specialist Livestock', url: 'https://www.ajg.com/nz' },
+        { title: 'Gallagher Insurance — Specialist Livestock', url: 'https://www.ajg.co.nz/' },
         { title: 'FMG Livestock Policy', url: 'https://www.fmg.co.nz/what-we-cover/fmg-policy-wordings/animals/livestock' },
       ],
     },
@@ -537,7 +537,7 @@ export const LIVESTOCK_TYPES: LivestockType[] = [
       externalLinks: [
         { title: 'Rare Breeds Conservation Society of NZ', url: 'https://www.rarebreeds.co.nz' },
         { title: 'New Zealand Kunekune Pig Society', url: 'https://www.nzkks.co.nz' },
-        { title: 'Gallagher Insurance NZ', url: 'https://www.ajg.com/nz' },
+        { title: 'Gallagher Insurance NZ', url: 'https://www.ajg.co.nz/' },
         { title: 'NZ Alpaca Association', url: 'https://www.alpaca.org.nz' },
       ],
     },

@@ -77,7 +77,7 @@ export const COVERAGE_TYPES: CoverageType[] = [
       ],
       relatedBlogs: ['complete-guide-livestock-insurance-nz', 'nz-livestock-insurance-buyers-guide-2026', 'livestock-insurance-costs-nz-2026', 'mortality-vs-disease-cover-livestock-nz', 'stud-animal-agreed-value-insurance-nz'],
       externalLinks: [
-        { title: 'FMG Rural Insurance — Livestock Cover Options', url: 'https://www.fmg.co.nz/insurance/livestock/' },
+        { title: 'FMG Rural Insurance — Livestock Cover Options', url: 'https://www.fmg.co.nz/what-we-cover/fmg-policy-wordings/animals/livestock' },
         { title: 'ICNZ — Understanding Farm Insurance (NZ Insurance Council)', url: 'https://www.icnz.org.nz/consumers/insurance-types/farm-insurance/' },
         { title: 'MPI — Notifiable Disease Obligations for NZ Farmers', url: 'https://www.mpi.govt.nz/biosecurity/pests-and-diseases/reporting-a-biosecurity-risk/' },
         { title: 'DairyNZ — Managing Financial Risk on Dairy Farms', url: 'https://www.dairynz.co.nz/farm-management/business-and-finance/' },
@@ -137,7 +137,7 @@ export const COVERAGE_TYPES: CoverageType[] = [
       ],
       relatedBlogs: ['mycoplasma-bovis-livestock-insurance-nz', 'mortality-vs-disease-cover-livestock-nz', 'complete-guide-livestock-insurance-nz', 'dairy-cattle-insurance-guide-nz'],
       externalLinks: [
-        { title: 'MPI — Mycoplasma Bovis Programme Information', url: 'https://www.mpi.govt.nz/animals/mycoplasma-bovis/' },
+        { title: 'MPI — Mycoplasma Bovis Programme Information', url: 'https://www.mpi.govt.nz/biosecurity/exotic-pests-and-diseases-in-new-zealand/long-term-biosecurity-management-programmes/mycoplasma-bovis-national-pest-management-plan' },
         { title: 'MPI — Notifiable Diseases in NZ Livestock', url: 'https://www.mpi.govt.nz/biosecurity/pests-and-diseases/reporting-a-biosecurity-risk/' },
         { title: 'DairyNZ — Mycoplasma Bovis Resources for Dairy Farmers', url: 'https://www.dairynz.co.nz/animal/animal-health/mycoplasma-bovis/' },
         { title: 'Poultry Industry Association NZ — Biosecurity', url: 'https://www.pianz.org.nz/' },
@@ -197,7 +197,7 @@ export const COVERAGE_TYPES: CoverageType[] = [
       relatedBlogs: ['transit-insurance-livestock-nz', 'stud-animal-agreed-value-insurance-nz', 'complete-guide-livestock-insurance-nz', 'nz-livestock-insurance-buyers-guide-2026'],
       externalLinks: [
         { title: 'MPI — Animal Welfare During Transport Requirements', url: 'https://www.mpi.govt.nz/animals/animal-welfare/farm-animals/in-transport/' },
-        { title: 'FMG — Livestock Transit Insurance', url: 'https://www.fmg.co.nz/insurance/livestock/' },
+        { title: 'FMG — Livestock Transit Insurance', url: 'https://www.fmg.co.nz/what-we-cover/fmg-policy-wordings/animals/livestock' },
         { title: 'Beef + Lamb NZ — Stock Transport Guide', url: 'https://beeflambnz.com/knowledge-hub/guide/stock-transport' },
         { title: 'NZTA — Heavy Vehicle Transport Rules', url: 'https://www.nzta.govt.nz/vehicles/vehicle-types/heavy-vehicles/' },
       ],
@@ -258,8 +258,8 @@ export const COVERAGE_TYPES: CoverageType[] = [
         { title: 'MPI — Rural Support Following Natural Disasters', url: 'https://www.mpi.govt.nz/funding-and-programmes/rural-support-trusts/' },
         { title: 'NIWA — NZ Natural Hazards & Climate Risk', url: 'https://www.niwa.co.nz/natural-hazards' },
         { title: 'EQC — What EQC Covers (and What It Doesn\'t)', url: 'https://www.eqc.govt.nz/what-eqc-covers/' },
-        { title: 'Beef + Lamb NZ — Cyclone Gabrielle Recovery Resources', url: 'https://beeflambnz.com/knowledge-hub/guide/cyclone-gabrielle-recovery' },
-        { title: 'FMG — Natural Disaster Insurance for Rural NZ', url: 'https://www.fmg.co.nz/insurance/natural-disaster/' },
+        { title: 'Beef + Lamb NZ — Cyclone Gabrielle Recovery Resources', url: 'https://beeflambnz.com/knowledge-hub/adverse-events/cyclone-gabrielle-information-farmers' },
+        { title: 'FMG — Natural Hazards Cover for Rural NZ', url: 'https://www.fmg.co.nz/about-fmg/news/get-to-know-your-natural-hazards-cover' },
       ],
     },
   },
@@ -317,7 +317,7 @@ export const COVERAGE_TYPES: CoverageType[] = [
       externalLinks: [
         { title: 'ACC — Cover for Visitors and Contractors on NZ Farms', url: 'https://www.acc.co.nz/im-injured/accident-types/farm-accidents/' },
         { title: 'FMG — Farm Liability Insurance', url: 'https://www.fmg.co.nz/insurance/liability/' },
-        { title: 'DINZ — Deer Farming Biosecurity & Risk Management', url: 'https://www.deernz.org/biosecurity/' },
+        { title: 'DINZ — Deer Farming Biosecurity & Risk Management', url: 'https://www.deernz.org/deer-hub/farm-and-environment/biosecurity/' },
         { title: 'NZTA — Livestock on Roads — Farmer Obligations', url: 'https://www.nzta.govt.nz/roads-and-rail/road-users/farmers-and-rural-road-users/' },
       ],
     },
@@ -376,7 +376,7 @@ export const COVERAGE_TYPES: CoverageType[] = [
       externalLinks: [
         { title: 'NAIT — National Animal Identification and Tracing', url: 'https://www.nait.co.nz/' },
         { title: 'NZ Police — Rural Crime Reporting', url: 'https://www.police.govt.nz/advice-services/personal-community-safety/rural-crime/' },
-        { title: 'Federated Farmers — Livestock Theft Resources', url: 'https://www.fedfarm.org.nz/information-hub/industry-issues/theft/' },
+        { title: 'Federated Farmers — Rural Crime Resources', url: 'https://www.fedfarm.org.nz/' },
         { title: 'MPI — NAIT Compliance for Farmers', url: 'https://www.mpi.govt.nz/animals/national-animal-identification-and-tracing-nait/' },
       ],
     },
