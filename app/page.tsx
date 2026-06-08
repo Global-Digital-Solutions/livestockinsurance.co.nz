@@ -16,9 +16,50 @@ export const metadata: Metadata = {
 const recentPosts = BLOG_POSTS.slice(0, 4);
 const previewFaqs = FAQS.slice(0, 4);
 
+const homeFaqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: previewFaqs.map((faq) => ({
+    '@type': 'Question',
+    name: faq.question,
+    acceptedAnswer: { '@type': 'Answer', text: faq.answer },
+  })),
+};
+
+const livestockItemListSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'Livestock Insurance Types',
+  url: `${SITE.domain}/livestock/`,
+  itemListElement: LIVESTOCK_TYPES.map((lt, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: lt.name,
+    url: `${SITE.domain}/livestock/${lt.slug}/`,
+    description: lt.shortDesc,
+  })),
+};
+
+const coverageItemListSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'Livestock Insurance Coverage Types',
+  url: `${SITE.domain}/types/`,
+  itemListElement: COVERAGE_TYPES.map((ct, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: ct.name,
+    url: `${SITE.domain}/types/${ct.slug}/`,
+    description: ct.shortDesc,
+  })),
+};
+
 export default function HomePage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(homeFaqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(livestockItemListSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(coverageItemListSchema) }} />
       {/* Hero */}
       <section className="relative bg-gray-900 overflow-hidden">
         <div

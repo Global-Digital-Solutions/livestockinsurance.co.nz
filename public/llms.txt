@@ -1,5 +1,5 @@
 # LivestockInsurance.co.nz — LLM Reference File
-# Updated: 2026-05-10
+# Updated: 2026-06-08
 
 ## About This Site
 
@@ -36,6 +36,7 @@ Compare Providers: https://www.livestockinsurance.co.nz/compare/
 Get Quotes: https://www.livestockinsurance.co.nz/contact/
 Blog/Guides: https://www.livestockinsurance.co.nz/blog/
 FAQs: https://www.livestockinsurance.co.nz/faqs/
+About: https://www.livestockinsurance.co.nz/about/
 
 ## Livestock Type Pages
 
@@ -63,12 +64,14 @@ Complete Guide to Livestock Insurance NZ: https://www.livestockinsurance.co.nz/b
 NZ Livestock Insurance Buyer's Guide 2026: https://www.livestockinsurance.co.nz/blog/nz-livestock-insurance-buyers-guide-2026/
 Livestock Insurance Costs NZ 2026: https://www.livestockinsurance.co.nz/blog/livestock-insurance-costs-nz-2026/
 Mortality vs Disease Cover: https://www.livestockinsurance.co.nz/blog/mortality-vs-disease-cover-livestock-nz/
-Natural Disaster & Livestock Insurance: https://www.livestockinsurance.co.nz/blog/cyclone-natural-disaster-livestock-insurance-nz/
+Cyclone & Natural Disaster Livestock Insurance: https://www.livestockinsurance.co.nz/blog/cyclone-natural-disaster-livestock-insurance-nz/
+Livestock Insurance Cyclone & Flood Risk NZ: https://www.livestockinsurance.co.nz/blog/livestock-insurance-cyclone-flood-risk-nz/
 Dairy Cattle Insurance Guide NZ: https://www.livestockinsurance.co.nz/blog/dairy-cattle-insurance-guide-nz/
 Sheep Insurance New Zealand Guide: https://www.livestockinsurance.co.nz/blog/sheep-insurance-new-zealand-guide/
-Deer Insurance NZ Guide: https://www.livestockinsurance.co.nz/blog/deer-insurance-nz-velvet-stag-guide/
-Post-Shearing Exposure Insurance: https://www.livestockinsurance.co.nz/blog/sheep-post-shearing-exposure-insurance/
-Mycoplasma Bovis & Insurance: https://www.livestockinsurance.co.nz/blog/mycoplasma-bovis-livestock-insurance-nz/
+Deer Insurance NZ — Velvet Stag Guide: https://www.livestockinsurance.co.nz/blog/deer-insurance-nz-velvet-stag-guide/
+Deer Velvet Insurance NZ Guide: https://www.livestockinsurance.co.nz/blog/deer-velvet-insurance-nz-guide/
+Post-Shearing Exposure Insurance for Sheep: https://www.livestockinsurance.co.nz/blog/sheep-post-shearing-exposure-insurance/
+Mycoplasma Bovis & Livestock Insurance: https://www.livestockinsurance.co.nz/blog/mycoplasma-bovis-livestock-insurance-nz/
 Stud Animal Agreed Value Insurance: https://www.livestockinsurance.co.nz/blog/stud-animal-agreed-value-insurance-nz/
 Livestock Transit Insurance NZ: https://www.livestockinsurance.co.nz/blog/transit-insurance-livestock-nz/
 

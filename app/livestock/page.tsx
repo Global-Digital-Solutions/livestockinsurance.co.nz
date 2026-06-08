@@ -10,9 +10,34 @@ export const metadata: Metadata = {
   alternates: { canonical: `${SITE.domain}/livestock/` },
 };
 
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: SITE.domain },
+    { '@type': 'ListItem', position: 2, name: 'Livestock Insurance', item: `${SITE.domain}/livestock/` },
+  ],
+};
+
+const collectionSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Livestock Insurance NZ — All Types',
+  description: 'Compare livestock insurance for cattle, sheep, deer, goats, pigs, alpacas, poultry and rare breeds in New Zealand.',
+  url: `${SITE.domain}/livestock/`,
+  hasPart: LIVESTOCK_TYPES.map((lt) => ({
+    '@type': 'WebPage',
+    name: lt.name,
+    url: `${SITE.domain}/livestock/${lt.slug}/`,
+    description: lt.shortDesc,
+  })),
+};
+
 export default function LivestockPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }} />
       <section className="relative bg-gray-900 overflow-hidden py-14">
         <div className="absolute inset-0 bg-cover bg-center opacity-100" style={{ backgroundImage: `url(https://images.pexels.com/photos/671931/pexels-photo-671931.jpeg?auto=compress&cs=tinysrgb&w=1400&h=500&fit=crop)` }} />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -11,9 +11,34 @@ export const metadata: Metadata = {
 
 const categories = Array.from(new Set(BLOG_POSTS.map((p) => p.category)));
 
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.livestockinsurance.co.nz' },
+    { '@type': 'ListItem', position: 2, name: 'Blog', item: 'https://www.livestockinsurance.co.nz/blog/' },
+  ],
+};
+
+const itemListSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'Livestock Insurance Blog & Guides',
+  url: 'https://www.livestockinsurance.co.nz/blog/',
+  itemListElement: BLOG_POSTS.map((post, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: post.title,
+    url: `https://www.livestockinsurance.co.nz/blog/${post.slug}/`,
+    description: post.excerpt,
+  })),
+};
+
 export default function BlogPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
       <section className="relative bg-gray-900 overflow-hidden py-14">
         <div className="absolute inset-0 bg-cover bg-center opacity-100" style={{ backgroundImage: `url(https://images.pexels.com/photos/1574547/pexels-photo-1574547.jpeg?auto=compress&cs=tinysrgb&w=1400&h=500&fit=crop)` }} />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
