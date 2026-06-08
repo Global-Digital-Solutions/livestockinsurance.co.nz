@@ -22,7 +22,7 @@ export default function HomePage() {
       {/* Hero */}
       <section className="relative bg-gray-900 overflow-hidden">
         <div
-          className="absolute inset-0 bg-cover bg-center opacity-70"
+          className="absolute inset-0 bg-cover bg-center opacity-100"
           style={{ backgroundImage: `url(https://images.unsplash.com/photo-1484557985045-edf25e08da73?w=1400&h=700&fit=crop&auto=format&q=80)` }}
         />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20">

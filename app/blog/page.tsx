@@ -15,7 +15,7 @@ export default function BlogPage() {
   return (
     <>
       <section className="relative bg-gray-900 overflow-hidden py-14">
-        <div className="absolute inset-0 bg-cover bg-center opacity-65" style={{ backgroundImage: `url(https://images.pexels.com/photos/1574547/pexels-photo-1574547.jpeg?auto=compress&cs=tinysrgb&w=1400&h=500&fit=crop)` }} />
+        <div className="absolute inset-0 bg-cover bg-center opacity-100" style={{ backgroundImage: `url(https://images.pexels.com/photos/1574547/pexels-photo-1574547.jpeg?auto=compress&cs=tinysrgb&w=1400&h=500&fit=crop)` }} />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <nav className="text-sm text-gray-400 mb-4">
             <Link href="/" className="hover:text-gray-200">Home</Link>

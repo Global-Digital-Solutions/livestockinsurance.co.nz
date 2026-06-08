@@ -120,10 +120,10 @@ export default function LivestockTypePage({ params }: { params: { slug: string }
       {/* Hero */}
       <section className="relative bg-gray-900 overflow-hidden">
         <div
-          className="absolute inset-0 bg-cover bg-center opacity-85"
+          className="absolute inset-0 bg-cover bg-center opacity-100"
           style={{ backgroundImage: `url(${lt.heroImage})` }}
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-gray-900/80 via-gray-900/50 to-gray-900/10" />
+        <div className="absolute inset-0 bg-gradient-to-r from-gray-900/70 via-gray-900/35 to-transparent" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
           <nav className="text-sm text-gray-300 mb-5" aria-label="Breadcrumb">
             <Link href="/" className="hover:text-white">Home</Link>

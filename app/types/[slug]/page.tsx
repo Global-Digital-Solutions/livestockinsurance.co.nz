@@ -153,10 +153,10 @@ export default function CoverageTypePage({ params }: { params: { slug: string } 
       {/* Hero */}
       <section className="relative bg-gray-900 overflow-hidden">
         <div
-          className="absolute inset-0 bg-cover bg-center opacity-85"
+          className="absolute inset-0 bg-cover bg-center opacity-100"
           style={{ backgroundImage: `url(${ct.heroImage})` }}
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-gray-900/60 via-gray-900/30 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-gray-900/50 via-gray-900/20 to-transparent" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
           <nav className="text-sm text-gray-400 mb-5" aria-label="Breadcrumb">
             <Link href="/" className="hover:text-gray-200">Home</Link>
