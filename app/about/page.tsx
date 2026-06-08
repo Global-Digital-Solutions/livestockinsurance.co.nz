@@ -68,9 +68,9 @@ export default function AboutPage() {
               Our goal is simple: make it easier for farmers to get the right livestock insurance, from the right provider, at the right price.
             </p>
 
-            <h2 className="text-2xl font-bold text-gray-900">Our Service Is Free</h2>
+            <h2 className="text-2xl font-bold text-gray-900">No Cost to You</h2>
             <p className="leading-relaxed">
-              Our referral service is completely free to farmers. Licensed advisers earn a referral fee from the insurer when you take out a policy — you pay nothing extra for using our service.
+              Our referral service costs you nothing. Licensed advisers earn a referral fee from the insurer when you take out a policy — you pay nothing extra for using our service.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900">Part of the Cover4You Group</h2>

@@ -132,7 +132,7 @@ export default function ComparePage() {
           <h2 className="text-2xl font-bold text-white mb-3">Let Us Compare For You</h2>
           <p className="text-teal-100 mb-6">Our licensed advisers will compare all providers and recommend the right cover for your livestock and farm.</p>
           <Link href="/contact/" className="inline-block bg-white font-bold px-6 py-3 rounded-xl" style={{ color: '#0d7377' }}>
-            Get Free Comparison Quotes
+            Get Comparison Quotes
           </Link>
         </div>
       </section>

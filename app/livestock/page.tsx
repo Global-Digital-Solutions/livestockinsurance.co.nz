@@ -6,7 +6,7 @@ import { SITE } from '@/data/site';
 
 export const metadata: Metadata = {
   title: 'Livestock Insurance NZ | All Livestock Types | LivestockInsurance.co.nz',
-  description: 'Compare livestock insurance for cattle, sheep, deer, goats, pigs, alpacas, poultry and rare breeds in NZ. Free quotes from licensed rural advisers.',
+  description: 'Compare livestock insurance for cattle, sheep, deer, goats, pigs, alpacas, poultry and rare breeds in NZ. Expert quotes from licensed rural advisers.',
   alternates: { canonical: `${SITE.domain}/livestock/` },
 };
 
@@ -24,7 +24,7 @@ export default function LivestockPage() {
             </nav>
             <h1 className="text-4xl font-extrabold text-white mb-4">Livestock Insurance</h1>
             <p className="text-gray-300 text-lg">
-              Specialist cover for every type of livestock. Compare providers and get free expert quotes from licensed rural advisers.
+              Specialist cover for every type of livestock. Compare providers and get expert quotes from licensed rural advisers.
             </p>
           </div>
         </div>

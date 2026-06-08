@@ -38,7 +38,7 @@ export default function HomePage() {
                 Independent comparison of FMG, Aon, Gallagher, NZI and specialist brokers. Expert advice for farmers — cattle, sheep, deer, goat, pig, alpaca and poultry insurance.
               </p>
               <div className="flex flex-wrap gap-3 mb-6">
-                {['Free to use', 'Licensed advisers', '24hr response', 'All livestock types'].map((t) => (
+                {['No obligation', 'Licensed advisers', '24hr response', 'All livestock types'].map((t) => (
                   <span key={t} className="flex items-center space-x-1 text-sm text-gray-300">
                     <svg className="w-4 h-4 text-green-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
@@ -253,14 +253,14 @@ export default function HomePage() {
             Ready to Protect Your Livestock?
           </h2>
           <p className="text-teal-100 text-lg mb-8">
-            Free quotes from licensed rural insurance advisers. No cost, no obligation.
+            Get quotes from licensed rural insurance advisers. No obligation.
           </p>
           <Link
             href="/contact/"
             className="inline-block bg-white font-bold text-lg px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-shadow"
             style={{ color: '#0d7377' }}
           >
-            Get Free Quotes Now
+            Get Quotes Now
           </Link>
         </div>
       </section>

@@ -118,7 +118,7 @@ export default function NavBar() {
             style={{ backgroundColor: '#0d7377' }}
             onClick={() => setMobileOpen(false)}
           >
-            Get Free Quotes
+            Get Quotes
           </Link>
         </div>
       )}
