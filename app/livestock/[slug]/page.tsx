@@ -125,7 +125,7 @@ export default function LivestockTypePage({ params }: { params: { slug: string }
         />
         <div className="absolute inset-0 bg-gradient-to-r from-gray-900/70 via-gray-900/35 to-transparent" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
-          <nav className="text-sm text-gray-300 mb-5" aria-label="Breadcrumb">
+          <nav className="text-sm text-white/75 mb-5" aria-label="Breadcrumb">
             <Link href="/" className="hover:text-white">Home</Link>
             <span className="mx-2">/</span>
             <Link href="/livestock/" className="hover:text-white">Livestock Insurance</Link>
@@ -141,7 +141,7 @@ export default function LivestockTypePage({ params }: { params: { slug: string }
                 <span>Licensed Rural Insurance Advisers</span>
               </div>
               <h1 className="text-4xl font-extrabold text-white mb-4">{lt.name}</h1>
-              <p className="text-gray-100 text-lg leading-relaxed mb-5">{lt.shortDesc}</p>
+              <p className="text-white text-lg leading-relaxed mb-5">{lt.shortDesc}</p>
               <div className="flex flex-wrap gap-3">
                 <span className="bg-black/40 text-white text-sm px-3 py-1.5 rounded-full border border-white/40">
                   {lt.icon} {lt.fromPrice}

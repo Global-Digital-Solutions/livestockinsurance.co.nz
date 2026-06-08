@@ -29,13 +29,13 @@ export default function FAQsPage() {
       <section className="relative bg-gray-900 overflow-hidden py-14">
         <div className="absolute inset-0 bg-cover bg-center opacity-100" style={{ backgroundImage: `url(https://images.pexels.com/photos/17299063/pexels-photo-17299063.jpeg?auto=compress&cs=tinysrgb&w=1400&h=500&fit=crop)` }} />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <nav className="text-sm text-gray-400 mb-4">
-            <Link href="/" className="hover:text-gray-200">Home</Link>
+          <nav className="text-sm text-white/75 mb-4">
+            <Link href="/" className="hover:text-white">Home</Link>
             <span className="mx-2">/</span>
-            <span className="text-gray-200">FAQs</span>
+            <span className="text-white">FAQs</span>
           </nav>
           <h1 className="text-4xl font-extrabold text-white mb-3">Livestock Insurance FAQs</h1>
-          <p className="text-gray-300 text-lg max-w-2xl">
+          <p className="text-white text-lg max-w-2xl">
             Common questions about livestock insurance — answered by our specialist rural insurance team.
           </p>
         </div>

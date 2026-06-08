@@ -158,12 +158,12 @@ export default function CoverageTypePage({ params }: { params: { slug: string } 
         />
         <div className="absolute inset-0 bg-gradient-to-r from-gray-900/50 via-gray-900/20 to-transparent" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
-          <nav className="text-sm text-gray-400 mb-5" aria-label="Breadcrumb">
-            <Link href="/" className="hover:text-gray-200">Home</Link>
+          <nav className="text-sm text-white/75 mb-5" aria-label="Breadcrumb">
+            <Link href="/" className="hover:text-white">Home</Link>
             <span className="mx-2">/</span>
-            <Link href="/types/" className="hover:text-gray-200">Coverage Types</Link>
+            <Link href="/types/" className="hover:text-white">Coverage Types</Link>
             <span className="mx-2">/</span>
-            <span className="text-gray-200">{ct.name}</span>
+            <span className="text-white">{ct.name}</span>
           </nav>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
             <div>
@@ -174,7 +174,7 @@ export default function CoverageTypePage({ params }: { params: { slug: string } 
                 <span>Licensed NZ Rural Insurance Advisers</span>
               </div>
               <h1 className="text-4xl font-extrabold text-white mb-4">{ct.name}</h1>
-              <p className="text-gray-300 text-lg leading-relaxed mb-4">{ct.shortDesc}</p>
+              <p className="text-white text-lg leading-relaxed mb-4">{ct.shortDesc}</p>
               <div className="flex flex-wrap gap-3">
                 <span className="bg-white/10 text-white text-sm px-3 py-1.5 rounded-full border border-white/20">
                   💲 {ct.fromPrice}

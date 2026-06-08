@@ -17,13 +17,13 @@ export default function LivestockPage() {
         <div className="absolute inset-0 bg-cover bg-center opacity-100" style={{ backgroundImage: `url(https://images.pexels.com/photos/671931/pexels-photo-671931.jpeg?auto=compress&cs=tinysrgb&w=1400&h=500&fit=crop)` }} />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl">
-            <nav className="text-sm text-gray-400 mb-4">
-              <Link href="/" className="hover:text-gray-200">Home</Link>
+            <nav className="text-sm text-white/75 mb-4">
+              <Link href="/" className="hover:text-white">Home</Link>
               <span className="mx-2">/</span>
-              <span className="text-gray-200">Livestock Insurance</span>
+              <span className="text-white">Livestock Insurance</span>
             </nav>
             <h1 className="text-4xl font-extrabold text-white mb-4">Livestock Insurance</h1>
-            <p className="text-gray-300 text-lg">
+            <p className="text-white text-lg">
               Specialist cover for every type of livestock. Compare providers and get expert quotes from licensed rural advisers.
             </p>
           </div>

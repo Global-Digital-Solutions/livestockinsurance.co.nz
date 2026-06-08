@@ -29,13 +29,13 @@ export default function ComparePage() {
       <section className="relative bg-gray-900 overflow-hidden py-14">
         <div className="absolute inset-0 bg-cover bg-center opacity-100" style={{ backgroundImage: `url(https://images.unsplash.com/photo-1484557985045-edf25e08da73?w=1400&h=500&fit=crop&auto=format&q=80)` }} />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <nav className="text-sm text-gray-400 mb-5">
-            <Link href="/" className="hover:text-gray-200">Home</Link>
+          <nav className="text-sm text-white/75 mb-5">
+            <Link href="/" className="hover:text-white">Home</Link>
             <span className="mx-2">/</span>
-            <span className="text-gray-200">Compare Providers</span>
+            <span className="text-white">Compare Providers</span>
           </nav>
           <h1 className="text-4xl font-extrabold text-white mb-4">Compare Livestock Insurance Providers</h1>
-          <p className="text-gray-300 text-lg max-w-2xl">
+          <p className="text-white text-lg max-w-2xl">
             Side-by-side comparison of FMG, Aon, Gallagher, and NZI — so you can find the right provider for your livestock and farm.
           </p>
         </div>
