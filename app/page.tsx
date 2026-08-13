@@ -64,28 +64,26 @@ export default function HomePage() {
       {/* Hero */}
       <section className="relative bg-gray-900 overflow-hidden">
         <div
-          className="absolute inset-0 bg-cover bg-center opacity-100"
+          className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url(https://images.unsplash.com/photo-1484557985045-edf25e08da73?w=1400&h=700&fit=crop&auto=format&q=80)` }}
         />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/55 to-black/80" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <div className="inline-block px-3 py-1 rounded-full text-xs font-semibold text-white mb-4" style={{ backgroundColor: '#0d7377' }}>
                 Independent Livestock Insurance Comparison
               </div>
-              <h1 className="text-4xl lg:text-5xl font-extrabold text-white leading-tight mb-7">
-                Livestock Insurance — Compare &amp; Get Covered
+              <h1 className="text-4xl lg:text-5xl font-extrabold text-white leading-tight mb-7" style={{ fontSize: 'clamp(1.9rem, 8vw, 3rem)' }}>
+                Livestock Insurance NZ
               </h1>
               <p className="text-white text-lg mb-10 leading-relaxed">
-                Independent comparison of livestock insurance from leading rural brokers and specialists. Expert advice for farmers — cattle, sheep, deer, goat, pig, alpaca and poultry insurance.
+                Independent information on livestock insurance from leading rural brokers and specialists. Expert guidance for farmers covering cattle, sheep, deer, goat, pig, alpaca and poultry.
               </p>
-              <div className="flex gap-2 mb-6">
-                {['No obligation', 'Licensed advisers', 'All livestock types', 'NZ owned & operated'].map((t) => (
-                  <span key={t} className="inline-flex items-center space-x-1.5 bg-black/40 border border-white/40 text-white text-xs font-medium px-2.5 py-1 rounded-full whitespace-nowrap">
-                    <svg className="w-3.5 h-3.5 text-green-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                    </svg>
-                    <span>{t}</span>
+              <div className="flex flex-wrap gap-2 mb-6">
+                {['NZ owned & operated', 'Independent, not owned by an insurer'].map((t) => (
+                  <span key={t} className="bg-black/40 border border-white/40 text-white text-xs font-medium px-2.5 py-1 rounded-full">
+                    {t}
                   </span>
                 ))}
               </div>
@@ -187,8 +185,8 @@ export default function HomePage() {
               },
               {
                 step: '2',
-                title: 'We connect you with a specialist',
-                desc: 'A licensed rural insurance adviser with access to the specialist livestock market will review your situation and contact you within 24 hours.',
+                title: 'Find a specialist adviser',
+                desc: 'Use the IBANZ broker search to find a licensed rural insurance adviser with access to the specialist livestock market. You can also go direct to insurers.',
               },
               {
                 step: '3',
@@ -211,7 +209,7 @@ export default function HomePage() {
               className="inline-block text-white font-semibold px-6 py-3 rounded-lg transition-colors"
               style={{ backgroundColor: '#0d7377' }}
             >
-              Get Started
+              Find a Specialist
             </Link>
           </div>
         </div>
@@ -296,7 +294,7 @@ export default function HomePage() {
             className="inline-block bg-white font-bold text-lg px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-shadow"
             style={{ color: '#0d7377' }}
           >
-            Get Quotes Now
+            Find an Adviser
           </Link>
         </div>
       </section>

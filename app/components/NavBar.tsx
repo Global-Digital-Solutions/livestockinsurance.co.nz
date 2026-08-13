@@ -66,7 +66,7 @@ export default function NavBar() {
               className="text-white text-sm font-semibold px-4 py-2 rounded-lg transition-colors"
               style={{ backgroundColor: '#0d7377' }}
             >
-              Get Quotes
+              Contact
             </Link>
           </div>
 
@@ -118,7 +118,7 @@ export default function NavBar() {
             style={{ backgroundColor: '#0d7377' }}
             onClick={() => setMobileOpen(false)}
           >
-            Get Quotes
+            Contact
           </Link>
         </div>
       )}

@@ -147,10 +147,10 @@ export default function LivestockTypePage({ params }: { params: { slug: string }
                   {lt.icon} {lt.fromPrice}
                 </span>
                 <span className="bg-black/40 text-white text-sm px-3 py-1.5 rounded-full border border-white/40">
-                  ⚖️ Licensed Advisers
+                  NZ owned &amp; operated
                 </span>
                 <span className="bg-black/40 text-white text-sm px-3 py-1.5 rounded-full border border-white/40">
-                  ⏰ 24hr Response
+                  Independent, not owned by an insurer
                 </span>
               </div>
             </div>
@@ -252,7 +252,7 @@ export default function LivestockTypePage({ params }: { params: { slug: string }
                         className="inline-flex items-center space-x-2 text-white font-semibold px-5 py-2.5 rounded-lg text-sm"
                         style={{ backgroundColor: '#0d7377' }}
                       >
-                        <span>Get a Quote for Your {animalLabel}</span>
+                        <span>Find a Specialist</span>
                         <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                         </svg>
@@ -306,7 +306,7 @@ export default function LivestockTypePage({ params }: { params: { slug: string }
                       className="inline-flex items-center space-x-2 text-white font-bold px-6 py-3 rounded-xl text-sm"
                       style={{ backgroundColor: '#0d7377' }}
                     >
-                      <span>Start Your Quote Request</span>
+                      <span>Find a Specialist</span>
                       <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                       </svg>
@@ -408,11 +408,10 @@ export default function LivestockTypePage({ params }: { params: { slug: string }
                   <h3 className="font-semibold text-gray-900 text-sm mb-3">Why LivestockInsurance.co.nz?</h3>
                   <ul className="space-y-2">
                     {[
-                      'Licensed rural advisers',
+                      'NZ owned and operated',
+                      'Independent, not owned by an insurer',
+                      'Specialist rural information',
                       'Access to multiple rural specialists',
-                      'Specialist rural knowledge',
-                      'Independent — not owned by an insurer',
-                      'No obligation',
                     ].map((item) => (
                       <li key={item} className="flex items-center space-x-2 text-xs text-gray-600">
                         <svg className="w-3.5 h-3.5 flex-shrink-0 text-green-500" fill="currentColor" viewBox="0 0 20 20">
@@ -426,7 +425,7 @@ export default function LivestockTypePage({ params }: { params: { slug: string }
 
                 {/* Providers */}
                 <div className="bg-gray-900 rounded-xl p-4">
-                  <h3 className="font-bold text-white text-sm mb-3">Providers We Compare</h3>
+                  <h3 className="font-bold text-white text-sm mb-3">Key Market Players</h3>
                   <div className="space-y-2">
                     {[
                       { name: 'Aon', tag: 'Global Reach' },
@@ -486,16 +485,16 @@ export default function LivestockTypePage({ params }: { params: { slug: string }
       {/* CTA */}
       <section className="py-12" style={{ backgroundColor: '#0d7377' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-2xl font-bold text-white mb-3">Get {lt.name} Quotes Today</h2>
+          <h2 className="text-2xl font-bold text-white mb-3">Find a {animalLabel} Insurance Specialist</h2>
           <p className="text-teal-100 mb-6 max-w-xl mx-auto">
-            Licensed rural insurance advisers will find the right cover for your {animalLabel.toLowerCase()}. No obligation.
+            Use the IBANZ broker search or contact an insurer directly to arrange cover for your {animalLabel.toLowerCase()}.
           </p>
           <Link
             href="/contact/"
             className="inline-block bg-white font-bold px-8 py-3.5 rounded-xl text-base"
             style={{ color: '#0d7377' }}
           >
-            Request My Quotes →
+            Find a Specialist →
           </Link>
         </div>
       </section>
