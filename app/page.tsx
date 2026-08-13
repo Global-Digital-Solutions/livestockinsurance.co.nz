@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import HoldingPanel from './components/HoldingPanel';
+import OfficialProviders from './components/OfficialProviders';
 import { LIVESTOCK_TYPES } from '@/data/livestock-types';
 import { COVERAGE_TYPES } from '@/data/coverage-types';
 import { BLOG_POSTS } from '@/data/blog-posts';
@@ -290,6 +291,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <OfficialProviders />
 
       {/* CTA */}
       <section className="py-16" style={{ backgroundColor: '#0d7377' }}>
