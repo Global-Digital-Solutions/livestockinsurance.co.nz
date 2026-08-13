@@ -284,17 +284,17 @@ export default function HomePage() {
       <section className="py-16" style={{ backgroundColor: '#0d7377' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
-            Ready to Protect Your Livestock?
+            Looking for livestock cover?
           </h2>
           <p className="text-teal-100 text-lg mb-8">
-            Get quotes from licensed rural insurance advisers. No obligation.
+            Find a specialist adviser, or contact an insurer directly.
           </p>
           <Link
             href="/contact/"
             className="inline-block bg-white font-bold text-lg px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-shadow"
             style={{ color: '#0d7377' }}
           >
-            Find an Adviser
+            Find a Specialist →
           </Link>
         </div>
       </section>
