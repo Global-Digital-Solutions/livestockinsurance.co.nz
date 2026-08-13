@@ -4,7 +4,7 @@ import { SITE } from '@/data/site';
 
 export const metadata: Metadata = {
   title: 'Terms of Use | LivestockInsurance.co.nz',
-  description: 'Terms of use for LivestockInsurance.co.nz — conditions governing your use of this insurance referral service.',
+  description: 'Terms of use for LivestockInsurance.co.nz — conditions governing your use of this independent livestock insurance information site.',
   alternates: { canonical: `${SITE.domain}/terms/` },
 };
 
@@ -35,8 +35,8 @@ export default function TermsPage() {
 
             <div>
               <h2 className="text-xl font-bold text-gray-900 mb-2">1. Nature of This Service</h2>
-              <p className="text-sm">LivestockInsurance.co.nz is an insurance referral service. We connect farmers and livestock owners with licensed rural insurance advisers and brokers. We are not an insurer, underwriter, or Financial Advice Provider (FAP). We do not provide regulated financial advice and we are not regulated by the Financial Markets Authority (FMA) in relation to financial advice.</p>
-              <p className="text-sm mt-3">The advisers and brokers we refer you to are independently licensed FAPs under the Financial Markets Conduct Act 2013 and are responsible for any advice they provide.</p>
+              <p className="text-sm">LivestockInsurance.co.nz is an independent information site operated by Cover4You Group. We publish general information about livestock insurance in New Zealand. We are not an insurer, underwriter, or Financial Advice Provider (FAP). We do not provide regulated financial advice and we are not regulated by the Financial Markets Authority (FMA) in relation to financial advice.</p>
+              <p className="text-sm mt-3">Anyone providing you with insurance advice should be independently licensed as a FAP under the Financial Markets Conduct Act 2013. You can verify any adviser on the Financial Service Providers Register at fsp-register.companiesoffice.govt.nz.</p>
             </div>
 
             <div>
@@ -46,9 +46,9 @@ export default function TermsPage() {
             </div>
 
             <div>
-              <h2 className="text-xl font-bold text-gray-900 mb-2">3. Referral Relationship</h2>
-              <p className="text-sm">When you submit an enquiry through this Website, your details are passed to one or more licensed rural insurance advisers in our referral network. We may receive a referral fee from these advisers. This fee is paid by the adviser and does not increase any premium you pay.</p>
-              <p className="text-sm mt-3">We do not guarantee that an adviser will be able to arrange insurance cover for your specific requirements. Cover is subject to the insurer&apos;s underwriting criteria and acceptance.</p>
+              <h2 className="text-xl font-bold text-gray-900 mb-2">3. Commercial Relationships</h2>
+              <p className="text-sm">This Website contains links to third-party insurers, brokers, and industry directories. We may in future receive a referral fee if we introduce you to a broker partner. Any such arrangement will not increase any premium you pay. We do not currently operate an active referral network.</p>
+              <p className="text-sm mt-3">Links to third parties are provided for information only and do not constitute an endorsement or recommendation of any particular provider. Cover is subject to the insurer&apos;s underwriting criteria and acceptance.</p>
             </div>
 
             <div>
@@ -134,11 +134,11 @@ export default function TermsPage() {
             </div>
 
             <div className="border border-gray-200 rounded-xl p-5 bg-white">
-              <h3 className="font-bold text-gray-900 text-sm mb-2">About Our Service</h3>
-              <p className="text-gray-500 text-xs leading-relaxed mb-3">We connect NZ farmers with licensed rural insurance advisers. All referred advisers hold current FAP licences under the Financial Markets Conduct Act 2013.</p>
-              <Link href="/contact/" className="inline-block text-white text-xs font-semibold px-4 py-2 rounded-lg" style={{ backgroundColor: '#0d7377' }}>
-                Request Quotes
-              </Link>
+              <h3 className="font-bold text-gray-900 text-sm mb-2">About This Site</h3>
+              <p className="text-gray-500 text-xs leading-relaxed mb-3">LivestockInsurance.co.nz publishes independent information about livestock insurance in New Zealand. We are not an insurer, broker, or licensed adviser.</p>
+              <a href="https://www.ibanz.co.nz/" target="_blank" rel="noopener noreferrer" className="inline-block text-white text-xs font-semibold px-4 py-2 rounded-lg" style={{ backgroundColor: '#0d7377' }}>
+                Find a Broker (IBANZ)
+              </a>
             </div>
 
             <div className="border border-gray-200 rounded-xl p-5 bg-white">

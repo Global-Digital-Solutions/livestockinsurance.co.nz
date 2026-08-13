@@ -31,7 +31,7 @@ export default function PrivacyPage() {
           {/* Main text */}
           <div className="lg:col-span-2 space-y-7 text-gray-700 leading-relaxed">
 
-            <p className="text-sm">LivestockInsurance.co.nz (&ldquo;we&rdquo;, &ldquo;us&rdquo;, &ldquo;our&rdquo;) is operated by Cover4You Group as an insurance referral service. This Privacy Policy explains how we collect, use, store and protect your personal information in accordance with the <strong>Privacy Act 2020 (NZ)</strong>.</p>
+            <p className="text-sm">LivestockInsurance.co.nz (&ldquo;we&rdquo;, &ldquo;us&rdquo;, &ldquo;our&rdquo;) is operated by Cover4You Group as an independent livestock insurance information site. This Privacy Policy explains how we collect, use, store and protect your personal information in accordance with the <strong>Privacy Act 2020 (NZ)</strong>.</p>
 
             <div>
               <h2 className="text-xl font-bold text-gray-900 mb-2">Information We Collect</h2>
@@ -61,9 +61,9 @@ export default function PrivacyPage() {
               <p className="text-sm mb-2">We use the personal information you provide for the following purposes:</p>
               <ul className="space-y-1.5 text-sm">
                 {[
-                  'To forward your enquiry to a licensed NZ rural insurance adviser who can assist with your livestock insurance requirements',
-                  'To follow up on your enquiry and confirm it has been received by an adviser',
-                  'To improve the quality of our referral service',
+                  'To respond to contact form messages and general enquiries',
+                  'To follow up on enquiries submitted through our contact form',
+                  'To improve the quality of this website',
                 ].map((item) => (
                   <li key={item} className="flex items-start space-x-2">
                     <svg className="w-4 h-4 flex-shrink-0 mt-0.5" style={{ color: '#0d7377' }} fill="currentColor" viewBox="0 0 20 20">
@@ -78,7 +78,7 @@ export default function PrivacyPage() {
 
             <div>
               <h2 className="text-xl font-bold text-gray-900 mb-2">Who We Share Your Information With</h2>
-              <p className="text-sm">When you submit an enquiry, your contact details and insurance requirements are shared with one or more licensed NZ rural insurance advisers who are part of our referral network. These advisers are independently licensed Financial Advice Providers (FAPs) under the Financial Markets Conduct Act 2013 and are obligated to handle your information in accordance with applicable privacy laws.</p>
+              <p className="text-sm">We do not sell your personal information to third parties. Contact form submissions are used solely to respond to your enquiry. We do not forward your details to advisers or brokers on your behalf.</p>
               <p className="text-sm mt-3">We do not share your personal information with any other third party without your consent, except where required by law.</p>
             </div>
 
@@ -94,7 +94,7 @@ export default function PrivacyPage() {
 
             <div>
               <h2 className="text-xl font-bold text-gray-900 mb-2">Data Retention</h2>
-              <p className="text-sm">We retain enquiry data for the period necessary to manage the referral relationship and for any applicable legal or compliance obligations. You may request deletion of your personal information at any time by contacting us at <a href={`mailto:${SITE.email}`} className="font-medium hover:underline" style={{ color: '#0d7377' }}>{SITE.email}</a>. We will action deletion requests within a reasonable timeframe.</p>
+              <p className="text-sm">We retain enquiry data for the period necessary to respond to your request and for any applicable legal or compliance obligations. You may request deletion of your personal information at any time by contacting us at <a href={`mailto:${SITE.email}`} className="font-medium hover:underline" style={{ color: '#0d7377' }}>{SITE.email}</a>. We will action deletion requests within a reasonable timeframe.</p>
             </div>
 
             <div>

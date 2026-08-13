@@ -470,7 +470,7 @@ export default function LivestockTypePage({ params }: { params: { slug: string }
                     </div>
                     <div>
                       <p className="font-semibold text-gray-900 text-xs">LivestockInsurance.co.nz</p>
-                      <p className="text-gray-500 text-xs leading-relaxed mt-0.5">Written by our team of rural insurance specialists. Updated May 2026. We connect NZ farmers with licensed rural insurance advisers.</p>
+                      <p className="text-gray-500 text-xs leading-relaxed mt-0.5">Published by LivestockInsurance.co.nz. Last updated August 2026.</p>
                     </div>
                   </div>
                 </div>

@@ -4,7 +4,7 @@ import { SITE } from '@/data/site';
 
 export const metadata: Metadata = {
   title: 'Disclaimer | LivestockInsurance.co.nz',
-  description: 'Important disclaimer about the nature of LivestockInsurance.co.nz — an insurance referral service connecting NZ farmers with licensed rural insurance advisers.',
+  description: 'Important disclaimer about LivestockInsurance.co.nz — an independent livestock insurance information site operated by Cover4You.',
   alternates: { canonical: `${SITE.domain}/disclaimer/` },
 };
 
@@ -33,17 +33,17 @@ export default function DisclaimerPage() {
 
             {/* Amber callout */}
             <div className="bg-amber-50 border-l-4 border-amber-500 p-5 rounded-r-xl">
-              <p className="font-semibold text-amber-800 text-sm">Important: LivestockInsurance.co.nz is an insurance referral service — not an insurer, underwriter, or financial adviser.</p>
+              <p className="font-semibold text-amber-800 text-sm">Important: LivestockInsurance.co.nz publishes general information only. We are not an insurer, a broker, or a licensed financial adviser.</p>
             </div>
 
             <div>
-              <h2 className="text-xl font-bold text-gray-900 mb-2">Referral Service Only</h2>
-              <p className="text-sm">LivestockInsurance.co.nz is operated as an insurance referral service by Cover4You Group. We connect New Zealand farmers and livestock owners with licensed rural insurance advisers and brokers. We are not an insurer, underwriter, or Financial Advice Provider (FAP), and we do not provide regulated financial advice.</p>
+              <h2 className="text-xl font-bold text-gray-900 mb-2">Information Only</h2>
+              <p className="text-sm">LivestockInsurance.co.nz is operated by Cover4You Group as an independent livestock insurance information site. We publish general information about livestock insurance in New Zealand. We are not an insurer, underwriter, or Financial Advice Provider (FAP). We do not arrange cover or provide regulated financial advice.</p>
             </div>
 
             <div>
               <h2 className="text-xl font-bold text-gray-900 mb-2">Licensed Advisers</h2>
-              <p className="text-sm">The rural insurance advisers and brokers we refer you to are independently licensed Financial Advice Providers (FAPs) under the Financial Markets Conduct Act 2013. They are regulated by the Financial Markets Authority (FMA). Before providing insurance advice, they are required by law to give you a disclosure statement outlining their licence, any conflicts of interest, and the basis on which they provide advice.</p>
+              <p className="text-sm">Anyone giving you insurance advice should hold a Financial Advice Provider (FAP) licence under the Financial Markets Conduct Act 2013 and be regulated by the Financial Markets Authority (FMA). Before receiving advice, a licensed adviser must give you a disclosure statement outlining their licence, any conflicts of interest, and the basis on which they provide advice. You can verify an adviser's licence on the Financial Service Providers Register at fsp-register.companiesoffice.govt.nz.</p>
             </div>
 
             <div>
@@ -64,7 +64,7 @@ export default function DisclaimerPage() {
 
             <div>
               <h2 className="text-xl font-bold text-gray-900 mb-2">No Guarantee of Cover</h2>
-              <p className="text-sm">Connecting with an adviser through our service does not guarantee that insurance cover will be offered or arranged. Cover is subject to the insurers&apos; underwriting criteria, acceptance of the risk, and completion of any application requirements. Certain livestock, breeds, or risk profiles may not be insurable under standard policies.</p>
+              <p className="text-sm">Cover is subject to the insurers' underwriting criteria, acceptance of the risk, and completion of any application requirements. Certain livestock, breeds, or risk profiles may not be insurable under standard policies. Contact a licensed adviser or insurer directly to confirm whether your livestock is insurable.</p>
             </div>
 
             <div>
@@ -103,11 +103,11 @@ export default function DisclaimerPage() {
             </div>
 
             <div className="border border-gray-200 rounded-xl p-5 bg-white">
-              <h3 className="font-bold text-gray-900 text-sm mb-2">About Our Service</h3>
-              <p className="text-gray-500 text-xs leading-relaxed mb-3">We connect farmers with licensed rural insurance advisers who access the specialist rural insurance market on your behalf. All advisers hold current FAP licences under the Financial Markets Conduct Act 2013.</p>
-              <Link href="/contact/" className="inline-block text-white text-xs font-semibold px-4 py-2 rounded-lg" style={{ backgroundColor: '#0d7377' }}>
-                Request Quotes
-              </Link>
+              <h3 className="font-bold text-gray-900 text-sm mb-2">About This Site</h3>
+              <p className="text-gray-500 text-xs leading-relaxed mb-3">LivestockInsurance.co.nz publishes independent information about livestock insurance in New Zealand. We are not an insurer, broker, or licensed adviser. Verify any adviser on the FSP Register before proceeding.</p>
+              <a href="https://www.ibanz.co.nz/" target="_blank" rel="noopener noreferrer" className="inline-block text-white text-xs font-semibold px-4 py-2 rounded-lg" style={{ backgroundColor: '#0d7377' }}>
+                Find a Broker (IBANZ)
+              </a>
             </div>
 
             <div className="border border-gray-200 rounded-xl p-5 bg-white">

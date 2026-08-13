@@ -4,7 +4,7 @@ import { SITE } from '@/data/site';
 
 export const metadata: Metadata = {
   title: 'About LivestockInsurance.co.nz | NZ Livestock Insurance Comparison',
-  description: 'About LivestockInsurance.co.nz — part of the Cover4You Group. Independent referral service connecting farmers with licensed rural insurance advisers.',
+  description: 'About LivestockInsurance.co.nz — part of the Cover4You Group. Independent livestock insurance information for NZ farmers.',
   alternates: { canonical: `${SITE.domain}/about/` },
 };
 
@@ -20,7 +20,7 @@ const aboutSchema = {
     url: SITE.domain,
     email: SITE.email,
     areaServed: 'New Zealand',
-    description: 'Part of the Cover4You Group. Independent referral service connecting farmers with licensed rural insurance advisers.',
+    description: 'Independent livestock insurance information for NZ farmers, operated by Cover4You.',
   },
 };
 
@@ -49,28 +49,28 @@ export default function AboutPage() {
           <div className="prose max-w-none space-y-6 text-gray-700">
             <h2 className="text-2xl font-bold text-gray-900">Who We Are</h2>
             <p className="leading-relaxed">
-              LivestockInsurance.co.nz is an independent livestock insurance comparison and referral service operated by the Cover4You Group. We exist to help farmers find the right insurance cover for their livestock — without the pressure of dealing directly with a single insurer.
+              LivestockInsurance.co.nz is an independent livestock insurance information site operated by the Cover4You Group. We publish general information about livestock and farm insurance in New Zealand to help farmers understand what cover is available and how to find it.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900">What We Do</h2>
             <p className="leading-relaxed">
-              We connect farmers and livestock owners with licensed rural insurance advisers who specialise in livestock and farm insurance. Our advisers access the specialist rural insurance market — including domestic insurers, global brokers, and specialist underwriters — to find the right cover for your situation.
+              We publish independent information about livestock insurance in New Zealand — what cover exists, what it typically includes and excludes, and how to find a qualified professional who can arrange it.
             </p>
             <p className="leading-relaxed">
-              We are not a direct insurer and we do not sell insurance policies. We are an independent referral service. The advisers we connect you with hold current Financial Advice Provider (FAP) licences under the Financial Markets Conduct Act 2013.
+              We are not an insurer, a broker, or a licensed financial adviser. We do not sell policies, arrange cover, or provide advice. Some insurers deal directly with farmers; others write only through brokers. Where you need advice, use someone who holds a Financial Advice Provider (FAP) licence under the Financial Markets Conduct Act 2013 — you can verify this on the Financial Service Providers Register.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900">Why We Exist</h2>
             <p className="leading-relaxed">
-              Many farmers are significantly underinsured — either because they go with whoever is easiest to reach, or because comparing providers is time-consuming. Events like Cyclone Gabrielle and the Mycoplasma bovis programme showed what happens when farmers discover their cover is inadequate.
+              Many farmers are significantly underinsured — either because they go with whoever is easiest to reach, or because understanding the options takes time they don't have. Events like Cyclone Gabrielle and the Mycoplasma bovis programme showed what happens when cover is inadequate.
             </p>
             <p className="leading-relaxed">
-              Our goal is simple: make it easier for farmers to get the right livestock insurance, from the right provider, at the right price.
+              Good information is the starting point. This site aims to give farmers a clear picture of what livestock insurance exists, so conversations with a broker or insurer start from an informed position.
             </p>
 
-            <h2 className="text-2xl font-bold text-gray-900">No Cost to You</h2>
+            <h2 className="text-2xl font-bold text-gray-900">Broker Fees</h2>
             <p className="leading-relaxed">
-              Our referral service costs you nothing. Licensed advisers earn a referral fee from the insurer when you take out a policy — you pay nothing extra for using our service.
+              If you use a broker to arrange insurance, brokers are typically remunerated by the insurer through brokerage — there is usually no direct fee to you. Ask your broker to confirm their remuneration arrangements before proceeding.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900">Part of the Cover4You Group</h2>
