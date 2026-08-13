@@ -1,11 +1,11 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SITE } from '@/data/site';
-import ContactForm from '../components/ContactForm';
+import HoldingPanel from '../components/HoldingPanel';
 
 export const metadata: Metadata = {
   title: 'Get Livestock Insurance Quotes NZ | Expert Comparison | LivestockInsurance.co.nz',
-  description: 'Get livestock insurance quotes from licensed rural insurance advisers. Compare FMG, Aon, Gallagher and NZI. No obligation.',
+  description: 'Get livestock insurance quotes from licensed rural insurance advisers. Compare leading rural brokers and specialists. No obligation.',
   alternates: { canonical: `${SITE.domain}/contact/` },
 };
 
@@ -45,7 +45,7 @@ const trustItems = [
   {
     icon: '🔍',
     title: 'Independent Comparison',
-    desc: 'We compare FMG, Aon, Gallagher, NZI, and specialist brokers — not tied to any single insurer.',
+    desc: 'We compare Aon, Gallagher, NZI, and specialist rural brokers — not tied to any single insurer.',
   },
   {
     icon: '🌾',
@@ -75,7 +75,7 @@ export default function ContactPage() {
           </nav>
           <h1 className="text-4xl font-extrabold text-white mb-3">Get Livestock Insurance Quotes</h1>
           <p className="text-gray-300 text-lg max-w-2xl mb-5">
-            Licensed rural insurance advisers will compare FMG, Aon, Gallagher and NZI — and find the right cover for your livestock.
+            Licensed rural insurance advisers will compare leading rural brokers and specialists — and find the right cover for your livestock.
           </p>
           {/* Trust pills in hero */}
           <div className="flex flex-wrap gap-2">
@@ -125,7 +125,7 @@ export default function ContactPage() {
                   <h2 className="text-2xl font-bold text-gray-900 mb-1">Request Quotes</h2>
                   <p className="text-gray-500 text-sm">Licensed advisers will get back to you within 24 hours.</p>
                 </div>
-                <ContactForm />
+                <HoldingPanel />
               </div>
             </div>
 
@@ -151,10 +151,10 @@ export default function ContactPage() {
                 <h3 className="font-bold text-white mb-3 text-sm">Providers We Compare</h3>
                 <div className="space-y-2">
                   {[
-                    { name: 'FMG', tag: 'Market Leader' },
                     { name: 'Aon', tag: 'Global Reach' },
                     { name: 'Gallagher', tag: 'Specialist Cover' },
                     { name: 'NZI', tag: 'Farm Packs' },
+                    { name: 'Others', tag: 'Rural Brokers' },
                   ].map((p) => (
                     <div key={p.name} className="flex items-center justify-between">
                       <div className="flex items-center space-x-2">

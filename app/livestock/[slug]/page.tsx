@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import QuoteForm from '../../components/QuoteForm';
+import HoldingPanel from '../../components/HoldingPanel';
 import { LIVESTOCK_TYPES } from '@/data/livestock-types';
 import { COVERAGE_TYPES } from '@/data/coverage-types';
 import { BLOG_POSTS } from '@/data/blog-posts';
@@ -155,7 +155,7 @@ export default function LivestockTypePage({ params }: { params: { slug: string }
               </div>
             </div>
             <div className="flex justify-end">
-              <QuoteForm />
+              <HoldingPanel />
             </div>
           </div>
         </div>
@@ -401,17 +401,17 @@ export default function LivestockTypePage({ params }: { params: { slug: string }
             {/* Sidebar */}
             <div className="lg:col-span-1">
               <div className="sticky top-20 space-y-5">
-                <QuoteForm />
+                <HoldingPanel />
 
                 {/* Why Us */}
                 <div className="bg-gray-50 rounded-xl p-4 border border-gray-100">
                   <h3 className="font-semibold text-gray-900 text-sm mb-3">Why LivestockInsurance.co.nz?</h3>
                   <ul className="space-y-2">
                     {[
-                      'Licensed FMCA advisers',
-                      'Compare FMG, Aon, Gallagher & NZI',
+                      'Licensed rural advisers',
+                      'Access to multiple rural specialists',
                       'Specialist rural knowledge',
-                      'Response within 24 hours',
+                      'Independent — not owned by an insurer',
                       'No obligation',
                     ].map((item) => (
                       <li key={item} className="flex items-center space-x-2 text-xs text-gray-600">
@@ -429,10 +429,10 @@ export default function LivestockTypePage({ params }: { params: { slug: string }
                   <h3 className="font-bold text-white text-sm mb-3">Providers We Compare</h3>
                   <div className="space-y-2">
                     {[
-                      { name: 'FMG', tag: 'Market Leader' },
                       { name: 'Aon', tag: 'Global Reach' },
                       { name: 'Gallagher', tag: 'Specialist' },
                       { name: 'NZI', tag: 'Farm Packs' },
+                      { name: 'Others', tag: 'Rural Brokers' },
                     ].map((p) => (
                       <div key={p.name} className="flex items-center justify-between">
                         <div className="flex items-center space-x-2">
@@ -488,7 +488,7 @@ export default function LivestockTypePage({ params }: { params: { slug: string }
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-2xl font-bold text-white mb-3">Get {lt.name} Quotes Today</h2>
           <p className="text-teal-100 mb-6 max-w-xl mx-auto">
-            Licensed rural insurance advisers will compare FMG, Aon, Gallagher and NZI and find the right cover for your {animalLabel.toLowerCase()}. No obligation.
+            Licensed rural insurance advisers will find the right cover for your {animalLabel.toLowerCase()}. No obligation.
           </p>
           <Link
             href="/contact/"

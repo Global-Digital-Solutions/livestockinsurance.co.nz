@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import QuoteForm from './components/QuoteForm';
+import HoldingPanel from './components/HoldingPanel';
 import { LIVESTOCK_TYPES } from '@/data/livestock-types';
 import { COVERAGE_TYPES } from '@/data/coverage-types';
 import { BLOG_POSTS } from '@/data/blog-posts';
@@ -8,7 +8,7 @@ import { FAQS } from '@/data/faqs';
 import { SITE } from '@/data/site';
 
 export const metadata: Metadata = {
-  title: `NZ Livestock Insurance — Compare FMG, Aon, Gallagher & More | LivestockInsurance.co.nz`,
+  title: `Livestock Insurance — Compare Leading Rural Brokers & Specialists | LivestockInsurance.co.nz`,
   description: SITE.description,
   alternates: { canonical: `${SITE.domain}/` },
 };
@@ -76,10 +76,10 @@ export default function HomePage() {
                 Livestock Insurance — Compare &amp; Get Covered
               </h1>
               <p className="text-white text-lg mb-10 leading-relaxed">
-                Independent comparison of FMG, Aon, Gallagher, NZI and specialist brokers. Expert advice for farmers — cattle, sheep, deer, goat, pig, alpaca and poultry insurance.
+                Independent comparison of livestock insurance from leading rural brokers and specialists. Expert advice for farmers — cattle, sheep, deer, goat, pig, alpaca and poultry insurance.
               </p>
               <div className="flex gap-2 mb-6">
-                {['No obligation', 'Licensed advisers', '24hr response', 'All livestock types'].map((t) => (
+                {['No obligation', 'Licensed advisers', 'All livestock types', 'NZ owned & operated'].map((t) => (
                   <span key={t} className="inline-flex items-center space-x-1.5 bg-black/40 border border-white/40 text-white text-xs font-medium px-2.5 py-1 rounded-full whitespace-nowrap">
                     <svg className="w-3.5 h-3.5 text-green-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
@@ -90,7 +90,7 @@ export default function HomePage() {
               </div>
             </div>
             <div className="flex justify-end">
-              <QuoteForm />
+              <HoldingPanel />
             </div>
           </div>
         </div>
@@ -174,18 +174,11 @@ export default function HomePage() {
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-white mb-3">Livestock Insurance Providers</h2>
             <p className="text-gray-400 max-w-2xl mx-auto">
-              We compare quotes from the leading rural insurance specialists.
+              We connect you with licensed advisers who compare quotes from leading rural insurance specialists.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
             {[
-              {
-                name: 'FMG',
-                full: 'Farmers Mutual Group',
-                desc: "largest rural insurer with 65-70% market share. Specialist livestock policies for local conditions including post-shearing exposure and velvet stag cover.",
-                badge: 'Market Leader',
-                badgeColor: '#0d7377',
-              },
               {
                 name: 'Aon',
                 full: 'Aon New Zealand',
@@ -199,6 +192,13 @@ export default function HomePage() {
                 desc: 'Specialist in exotic and rare livestock — alpacas, llamas, rare breeds, and high agreed-value stud animals. Best for non-standard livestock coverage.',
                 badge: 'Specialist Cover',
                 badgeColor: '#92400e',
+              },
+              {
+                name: 'NZI',
+                full: 'New Zealand Insurance',
+                desc: 'Competitive farm pack pricing with livestock cover bundled into comprehensive farm policies. Good for standard farm operations needing bundled cover.',
+                badge: 'Farm Packs',
+                badgeColor: '#374151',
               },
             ].map((p) => (
               <div key={p.name} className="bg-gray-800 rounded-xl p-6 border border-gray-700">
@@ -222,7 +222,7 @@ export default function HomePage() {
               className="inline-block text-white font-semibold px-6 py-3 rounded-lg transition-colors"
               style={{ backgroundColor: '#0d7377' }}
             >
-              Compare All Providers
+              Compare Providers
             </Link>
           </div>
         </div>

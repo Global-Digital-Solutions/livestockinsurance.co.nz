@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import QuoteForm from '../../components/QuoteForm';
+import HoldingPanel from '../../components/HoldingPanel';
 import { BLOG_POSTS } from '@/data/blog-posts';
 import { SITE } from '@/data/site';
 
@@ -163,7 +163,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
             {/* Sidebar */}
             <aside className="lg:col-span-1">
               <div className="sticky top-20 space-y-4">
-                <QuoteForm />
+                <HoldingPanel />
                 <div className="bg-gray-50 rounded-xl p-4 border border-gray-100">
                   <h3 className="font-bold text-gray-900 text-sm mb-3">More Guides</h3>
                   <ul className="space-y-2">

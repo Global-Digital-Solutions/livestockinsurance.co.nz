@@ -87,8 +87,11 @@ export default function Footer() {
             <p className="mb-2">
               Insurance advice is provided by licensed financial advisers regulated under the Financial Markets Conduct Act 2013. Our referred advisers are licensed and regulated — Cover4You itself is not the licensed provider of financial advice.
             </p>
-            <p>
+            <p className="mb-2">
               All information on this site is general in nature. Always read the policy wording (PDS) before purchasing and consider whether the cover is appropriate for your specific situation.
+            </p>
+            <p>
+              LivestockInsurance.co.nz may receive a referral fee from brokers when a user proceeds with a policy. This fee is paid by the broker — you pay no additional cost.
             </p>
           </div>
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">

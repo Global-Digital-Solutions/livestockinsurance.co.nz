@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import QuoteForm from '../../components/QuoteForm';
+import HoldingPanel from '../../components/HoldingPanel';
 import { COVERAGE_TYPES } from '@/data/coverage-types';
 import { LIVESTOCK_TYPES } from '@/data/livestock-types';
 import { BLOG_POSTS } from '@/data/blog-posts';
@@ -29,37 +29,31 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 
 const providerInfo: Record<string, { name: string; note: string }[]> = {
   'mortality-cover': [
-    { name: 'FMG', note: 'Market leader for NZ rural livestock mortality. Optional infertility cover available. Best for cattle, sheep and deer farmers.' },
     { name: 'Aon', note: 'Good for high-value individual animals requiring agreed value cover. Lloyd\'s markets available.' },
     { name: 'Gallagher', note: 'Best for exotic livestock and high agreed-value stud animals. Specialist underwriter access.' },
     { name: 'NZI', note: 'Competitive farm pack pricing with mortality bundled. Good for standard herd or flock cover.' },
   ],
   'disease-illness': [
-    { name: 'FMG', note: 'Specific Mycoplasma bovis and notifiable disease endorsements available. Market-leading rural expertise.' },
     { name: 'Aon', note: 'Access to specialist underwriters for complex disease scenarios, including poultry and pig operations.' },
     { name: 'Gallagher', note: 'Good for poultry and pig intensive farming disease risk. Specialist broker with global connections.' },
     { name: 'NZI', note: 'Farm pack includes basic disease cover as standard. Good value for standard operations.' },
   ],
   'transit-insurance': [
-    { name: 'FMG', note: 'Comprehensive transit cover included in farm pack or as add-on. Covers saleyards and processing.' },
     { name: 'Aon', note: 'Good for specialist or high-value transit scenarios. Access to specialist markets.' },
     { name: 'Gallagher', note: 'Best for show animals travelling on the circuit. Specialist show cover available.' },
     { name: 'NZI', note: 'Transit cover available as standalone or farm pack add-on. Competitive pricing.' },
   ],
   'natural-disaster': [
-    { name: 'FMG', note: 'NZ-specific natural disaster cover including post-shearing exposure for sheep. Best rural specialist.' },
     { name: 'Aon', note: 'Lloyd\'s markets available for large-scale natural disaster coverage. High-limit options.' },
     { name: 'Gallagher', note: 'Specialist cover for farms in high-risk regions — East Coast, Hawke\'s Bay, and high country.' },
     { name: 'NZI', note: 'Natural disaster extension available on farm policies. Good for standard cover requirements.' },
   ],
   'public-liability': [
-    { name: 'FMG', note: 'Public liability included in most FMG farm pack policies. $1M–$10M limits available.' },
     { name: 'Aon', note: 'Higher limits available for large commercial operations and deer farms.' },
     { name: 'Gallagher', note: 'Specialist cover for deer farmers and high-escape-risk livestock. Good for complex operations.' },
     { name: 'NZI', note: 'Competitive liability pricing in farm pack policies. Good for standard farm operations.' },
   ],
   'theft-cover': [
-    { name: 'FMG', note: 'Theft cover available as part of comprehensive farm pack. Good for standard herd/flock cover.' },
     { name: 'Aon', note: 'Good for high-value stud animals requiring agreed-value theft cover.' },
     { name: 'Gallagher', note: 'Specialist theft cover for rare breeds and show animals. Agreed-value options.' },
     { name: 'NZI', note: 'Theft cover available on most livestock policies. Competitive pricing in farm packs.' },
@@ -188,7 +182,7 @@ export default function CoverageTypePage({ params }: { params: { slug: string } 
               </div>
             </div>
             <div>
-              <QuoteForm />
+              <HoldingPanel />
             </div>
           </div>
         </div>
@@ -460,7 +454,7 @@ export default function CoverageTypePage({ params }: { params: { slug: string } 
             {/* Sidebar */}
             <div className="lg:col-span-1">
               <div className="sticky top-20 space-y-5">
-                <QuoteForm />
+                <HoldingPanel />
 
                 {/* Pricing */}
                 <div className="rounded-xl p-4 text-white" style={{ backgroundColor: '#0d7377' }}>
@@ -474,10 +468,10 @@ export default function CoverageTypePage({ params }: { params: { slug: string } 
                   <h3 className="font-semibold text-gray-900 text-sm mb-3">Why LivestockInsurance.co.nz?</h3>
                   <ul className="space-y-2">
                     {[
-                      'Licensed FMCA advisers',
-                      'Compare FMG, Aon, Gallagher & NZI',
+                      'Licensed rural advisers',
+                      'Access to multiple rural specialists',
                       'Specialist rural knowledge',
-                      'Response within 24 hours',
+                      'Independent — not owned by an insurer',
                       'No obligation',
                     ].map((item) => (
                       <li key={item} className="flex items-center space-x-2 text-xs text-gray-600">
@@ -531,7 +525,7 @@ export default function CoverageTypePage({ params }: { params: { slug: string } 
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-2xl font-bold text-white mb-3">Get {ct.name} Quotes Today</h2>
           <p className="text-teal-100 mb-6 max-w-xl mx-auto">
-            Licensed rural insurance advisers will compare FMG, Aon, Gallagher and NZI and find the right cover for your farm. No obligation.
+            Licensed rural insurance advisers will find the right cover for your farm. No obligation.
           </p>
           <Link href="/contact/" className="inline-block bg-white font-bold px-8 py-3.5 rounded-xl text-base" style={{ color: '#0d7377' }}>
             Request My Quotes →

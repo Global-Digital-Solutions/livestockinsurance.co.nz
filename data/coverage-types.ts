@@ -34,13 +34,13 @@ export const COVERAGE_TYPES: CoverageType[] = [
     whoNeeds: ['Dairy farmers with high-value milking cows', 'Beef farmers with quality breeding bulls', 'Sheep farmers with valuable stud rams', 'Deer farmers with elite velvet stags', 'Any farmer with individual animals worth $2,000+'],
     fromPrice: 'From $80/year',
     metaTitle: 'Livestock Mortality Cover | Compare Policies | LivestockInsurance.co.nz',
-    metaDesc: 'Livestock mortality cover NZ — protect your animals against accidental death, electrocution, drowning, fire and weather events. Compare FMG, Aon, Gallagher and NZI. Licensed advisers.',
+    metaDesc: 'Livestock mortality cover NZ — protect your animals against accidental death, electrocution, drowning, fire and weather events. Compare policies from leading rural brokers and specialists. Licensed advisers.',
     longForm: {
       intro: [
         'Livestock mortality cover is the foundation of any comprehensive farm insurance strategy. It pays out the agreed or market value of your animals when they die from a covered cause — giving you the financial resources to replace stock, maintain cashflow, and continue farming without a single catastrophic loss wiping out years of breeding or investment.',
         'In New Zealand, livestock mortality cover typically falls into two categories: blanket (mob) policies that cover entire herds or flocks at a set rate per head, and specified (agreed value) policies that insure individual animals — usually high-value stud bulls, pedigree rams, elite dairy cows, or prize deer stags — for a pre-agreed sum. Understanding which structure suits your operation is the starting point for any conversation with a licensed rural adviser.',
         'The key distinction farmers often miss is between mortality cover and disease & illness cover. Standard mortality policies typically cover sudden, unexpected deaths — accidents, electrocution, drowning, fire — but may exclude death caused by disease or illness, which is covered under a separate policy. Some policies do combine both under a comprehensive livestock cover product, which is worth discussing with an adviser if disease risk is a concern for your operation.',
-        'FMG, which holds the largest share of the NZ rural insurance market, offers specialist livestock mortality products that include features unavailable from mainstream insurers — including optional infertility cover for bulls and cows, and post-shearing mortality cover for sheep during the 14-day exposure window after shearing. Aon and Gallagher have access to Lloyd\'s of London underwriters for high-value individual animal specifications.',
+        'Specialist rural insurers offer livestock mortality products that include features unavailable from mainstream insurers — including optional infertility cover for bulls and cows, and post-shearing mortality cover for sheep during the 14-day exposure window after shearing. Brokers such as Aon and Gallagher have access to Lloyd\'s of London underwriters for high-value individual animal specifications.',
         'This guide covers everything you need to know about livestock mortality cover in New Zealand — what is covered, what is excluded, how premiums are calculated, and how to get the right policy for your herd or flock through a licensed NZ rural insurance adviser.',
       ],
       whatsCovered: [
@@ -65,7 +65,7 @@ export const COVERAGE_TYPES: CoverageType[] = [
       howToGetCovered: [
         'Submit an enquiry through LivestockInsurance.co.nz with details of your livestock — species, number of animals, approximate value, and any high-value individuals you want specified.',
         'A licensed rural insurance adviser will contact you within 24 hours to discuss your operation, identify the right type of policy (blanket vs specified), and gather information for quoting.',
-        'Your adviser will obtain quotes from FMG, Aon, Gallagher, NZI, and specialist underwriters and present options with a plain-English comparison of what is and isn\'t covered.',
+        'Your adviser will obtain quotes from leading rural brokers, Aon, Gallagher, NZI, and specialist underwriters and present options with a plain-English comparison of what is and isn\'t covered.',
         'You select the policy that suits your needs, complete the application, and your cover begins — usually within a few days. Your adviser remains available to assist with future claims.',
       ],
       faqs: [
@@ -77,7 +77,6 @@ export const COVERAGE_TYPES: CoverageType[] = [
       ],
       relatedBlogs: ['complete-guide-livestock-insurance-nz', 'nz-livestock-insurance-buyers-guide-2026', 'livestock-insurance-costs-nz-2026', 'mortality-vs-disease-cover-livestock-nz', 'stud-animal-agreed-value-insurance-nz'],
       externalLinks: [
-        { title: 'FMG Rural Insurance — Livestock Cover Options', url: 'https://www.fmg.co.nz/what-we-cover/fmg-policy-wordings/animals/livestock' },
         { title: 'ICNZ — Understanding Farm Insurance (NZ Insurance Council)', url: 'https://www.icnz.org.nz/consumers/insurance-types/farm-insurance/' },
         { title: 'MPI — Notifiable Disease Obligations for NZ Farmers', url: 'https://www.mpi.govt.nz/biosecurity/pests-and-diseases/reporting-a-biosecurity-risk/' },
         { title: 'DairyNZ — Managing Financial Risk on Dairy Farms', url: 'https://www.dairynz.co.nz/farm-management/business-and-finance/' },
@@ -95,14 +94,14 @@ export const COVERAGE_TYPES: CoverageType[] = [
     whoNeeds: ['Dairy farmers (Mycoplasma bovis risk)', 'Poultry farmers (avian influenza risk)', 'Pig farmers (disease outbreak risk)', 'Any farmer whose livelihood depends on flock/herd health'],
     fromPrice: 'From $100/year',
     metaTitle: 'Disease & Illness Cover | Livestock Insurance | LivestockInsurance.co.nz',
-    metaDesc: 'Disease & illness cover for NZ livestock — protect against Mycoplasma bovis, avian influenza, forced culling and government-ordered destocking. Compare FMG, Aon, Gallagher and NZI.',
+    metaDesc: 'Disease & illness cover for NZ livestock — protect against Mycoplasma bovis, avian influenza, forced culling and government-ordered destocking. Compare policies from leading rural brokers and specialists.',
     longForm: {
       intro: [
         'Disease and illness cover is arguably the most complex — and for many farmers, most critical — component of a comprehensive livestock insurance programme. While mortality cover addresses sudden, accidental deaths, disease cover addresses the slow-moving but often devastating financial impact of illness outbreaks, notifiable disease events, and government-ordered culling.',
         'The Mycoplasma bovis outbreak that began in 2017 put livestock disease insurance in the spotlight for New Zealand dairy farmers. Over 170,000 cattle were culled, with government compensation exceeding $200 million. However, many farmers discovered their standard livestock policies provided little or no assistance with the economic losses they faced — lost production, herd rebuilding costs, and operational disruption. The lesson was clear: disease cover must be specifically included, not assumed.',
         'For poultry farmers, avian influenza (bird flu) represents a similar existential risk — a single outbreak can result in the forced culling of an entire flock, often within days of detection. For pig farmers, diseases such as Porcine Epidemic Diarrhoea (PED) or African Swine Fever — while not yet established in NZ — represent biosecurity threats that make disease cover essential. Even sheep and beef cattle operations face risks from footrot, facial eczema, and respiratory disease outbreaks.',
         'Disease & illness cover in New Zealand can include: mortality from disease, veterinary treatment costs, forced culling and disposal, loss of production (on comprehensive policies), and compensation for government-ordered destocking. The scope varies significantly between insurers and policy types — making specialist advice and careful policy comparison essential.',
-        'A licensed rural insurance adviser can help you navigate the distinctions between what is covered under a combined livestock policy versus separate disease cover, identify the gaps in your current programme, and find the policy from FMG, Aon, Gallagher, NZI, or specialist underwriters that best fits your operation and risk profile.',
+        'A licensed rural insurance adviser can help you navigate the distinctions between what is covered under a combined livestock policy versus separate disease cover, identify the gaps in your current programme, and find the policy from leading rural brokers or specialist underwriters that best fits your operation and risk profile.',
       ],
       whatsCovered: [
         { title: 'Notifiable Disease Mortality', desc: 'Death of animals resulting from a notifiable disease — including Mycoplasma bovis, Bovine Tuberculosis (TB), and other government-listed diseases.' },
@@ -125,7 +124,7 @@ export const COVERAGE_TYPES: CoverageType[] = [
       howToGetCovered: [
         'Contact LivestockInsurance.co.nz and describe your livestock operation — species, herd or flock size, location, and any specific disease concerns you have.',
         'A licensed rural adviser will discuss your biosecurity practices, existing insurance, and the disease risks most relevant to your region and species.',
-        'Your adviser will compare disease cover options from FMG and specialist underwriters — explaining what each policy does and does not cover in plain English.',
+        'Your adviser will compare disease cover options from leading rural brokers and specialist underwriters — explaining what each policy does and does not cover in plain English.',
         'Once you select a policy, your adviser will handle the paperwork and ensure your cover is active. They remain available to assist if you ever need to make a claim.',
       ],
       faqs: [
@@ -155,7 +154,7 @@ export const COVERAGE_TYPES: CoverageType[] = [
     whoNeeds: ['Farmers who regularly send stock to sales', 'Stud breeders who show animals', 'Deer farmers who transport velvet stags', 'Anyone moving high-value animals by road or rail'],
     fromPrice: 'From $50/year',
     metaTitle: 'Livestock Transit Insurance | Cover for Animals in Transport | LivestockInsurance.co.nz',
-    metaDesc: 'Livestock transit insurance NZ — cover for animals during transport to saleyards, processing, events and between properties. Compare FMG, Aon, Gallagher and NZI. Licensed advisers.',
+    metaDesc: 'Livestock transit insurance NZ — cover for animals during transport to saleyards, processing, events and between properties. Compare policies from leading rural brokers and specialists. Licensed advisers.',
     longForm: {
       intro: [
         'Every time livestock leave your property — whether for a routine trip to the saleyards, transport to another farm, or the journey to a processing plant — they face risks that your standard farm policy may not cover. Livestock transit insurance is the specific cover that protects your animals during these periods of movement, when they are most vulnerable.',
@@ -184,7 +183,7 @@ export const COVERAGE_TYPES: CoverageType[] = [
       howToGetCovered: [
         'Describe your transport needs to a licensed rural adviser — how often you move stock, what species and numbers, the typical distances involved, and any high-value individuals that need specified cover.',
         'Your adviser will identify whether your existing farm pack includes transit cover and whether the limits are adequate, or whether a standalone transit policy is more appropriate.',
-        'Get quotes from FMG, Aon, Gallagher, NZI, and specialist underwriters — your adviser will compare these and explain the differences in plain language.',
+        'Get quotes from Aon, Gallagher, NZI, and specialist underwriters — your adviser will compare these and explain the differences in plain language.',
         'Set up your transit cover before your next stock movement. For stud animals, contact your adviser before any significant transport to ensure they are covered for the full journey and any show or sale attendance.',
       ],
       faqs: [
@@ -197,7 +196,6 @@ export const COVERAGE_TYPES: CoverageType[] = [
       relatedBlogs: ['transit-insurance-livestock-nz', 'stud-animal-agreed-value-insurance-nz', 'complete-guide-livestock-insurance-nz', 'nz-livestock-insurance-buyers-guide-2026'],
       externalLinks: [
         { title: 'MPI — Animal Welfare During Transport Requirements', url: 'https://www.mpi.govt.nz/animals/animal-welfare/farm-animals/in-transport/' },
-        { title: 'FMG — Livestock Transit Insurance', url: 'https://www.fmg.co.nz/what-we-cover/fmg-policy-wordings/animals/livestock' },
         { title: 'Beef + Lamb NZ — Stock Transport Guide', url: 'https://beeflambnz.com/knowledge-hub/guide/stock-transport' },
         { title: 'NZTA — Heavy Vehicle Transport Rules', url: 'https://www.nzta.govt.nz/vehicles/vehicle-types/heavy-vehicles/' },
       ],
@@ -214,14 +212,14 @@ export const COVERAGE_TYPES: CoverageType[] = [
     whoNeeds: ['Farmers in flood-prone river valleys', "East Coast and Hawke's Bay sheep and cattle farmers", 'High country farmers exposed to snowstorms', 'Any NZ farmer — natural disasters affect all regions'],
     fromPrice: 'From $60/year',
     metaTitle: 'Natural Disaster Livestock Cover | Flood & Cyclone Protection | LivestockInsurance.co.nz',
-    metaDesc: 'Natural disaster livestock cover NZ — protection against floods, cyclones, snowstorms, earthquakes and landslides. Compare FMG, Aon, Gallagher and NZI. Licensed advisers.',
+    metaDesc: 'Natural disaster livestock cover NZ — protection against floods, cyclones, snowstorms, earthquakes and landslides. Compare policies from leading rural brokers and specialists. Licensed advisers.',
     longForm: {
       intro: [
         'New Zealand\'s geography makes natural disasters a fact of farming life. The country sits on the Pacific Ring of Fire, is exposed to frequent extreme weather events, and has some of the most flood-prone river valleys in the Southern Hemisphere. For livestock farmers, natural disaster cover is no longer optional — it is an essential part of any robust insurance programme.',
         'Cyclone Gabrielle, which struck the North Island in February 2023, was the single largest natural disaster to affect NZ livestock in living memory. Approximately 3,000 cattle and 20,000+ sheep died across the Hawke\'s Bay, East Coast, and Northland regions. Many farmers discovered too late that their standard livestock mortality policies did not cover weather-related deaths. The financial losses were staggering — and largely uninsured.',
         'Standard livestock mortality policies typically cover sudden, accidental deaths — but often specifically exclude deaths caused by weather events, floods, and natural disasters. Natural disaster cover is either a separate policy add-on or a specifically included peril that must be declared in the policy schedule. The distinction matters enormously at claim time.',
         'New Zealand\'s natural disaster risk profile varies by region, but no part of the country is immune. Floods affect river valley farms from Northland to Southland. Cyclones and severe storms regularly affect the North Island. Snowstorms can devastate high country sheep operations in Canterbury and Otago. Earthquakes create ongoing risks along the Alpine Fault and in Wellington. Even regions that have historically been lower risk are seeing changed patterns with climate variability.',
-        'FMG, as the specialist rural insurer, offers natural disaster add-ons that are specifically tailored to the NZ farming environment. A licensed rural adviser can help you understand the natural disaster profile of your specific property and region, and ensure your policy includes appropriate cover.',
+        'Specialist rural insurers offer natural disaster add-ons that are specifically tailored to the NZ farming environment. A licensed rural adviser can help you understand the natural disaster profile of your specific property and region, and ensure your policy includes appropriate cover.',
       ],
       whatsCovered: [
         { title: 'Flood & Inundation', desc: 'Livestock deaths caused by flooding, river inundation, and rising water — including deaths by drowning and deaths from exposure following flood events.' },
@@ -229,7 +227,7 @@ export const COVERAGE_TYPES: CoverageType[] = [
         { title: 'Snowstorm & Exposure', desc: 'Deaths from hypothermia, burial in snow, and exposure during severe snowstorms — particularly relevant for high country sheep and cattle operations.' },
         { title: 'Landslide & Mudslide', desc: 'Animals killed by landslides, mudslides, and ground movement triggered by heavy rain or earthquake events.' },
         { title: 'Earthquake-Related Losses', desc: 'Stock killed directly by earthquake events, including those that die from injuries sustained during seismic activity or its immediate aftermath.' },
-        { title: 'Post-Shearing Exposure (Sheep)', desc: 'FMG and some specialist insurers offer cover for sheep that die from exposure in the 14-day post-shearing vulnerability window — a specific NZ risk.' },
+        { title: 'Post-Shearing Exposure (Sheep)', desc: 'Some specialist rural insurers offer cover for sheep that die from exposure in the 14-day post-shearing vulnerability window — a specific NZ risk.' },
       ],
       whatsExcluded: [
         'Deaths from drought — drought losses are typically not insured as a standard peril and require specialist agri-product cover',
@@ -243,13 +241,13 @@ export const COVERAGE_TYPES: CoverageType[] = [
       howToGetCovered: [
         'Contact LivestockInsurance.co.nz and describe your property location, terrain, and the natural disaster risks most relevant to your farm — flood plains, high country, cyclone zone, etc.',
         'A licensed rural adviser will review your current livestock policy to identify whether natural disaster perils are included or specifically excluded, and recommend appropriate cover.',
-        'Your adviser will obtain quotes for natural disaster add-ons or standalone natural disaster livestock policies from FMG and other providers.',
+        'Your adviser will obtain quotes for natural disaster add-ons or standalone natural disaster livestock policies from leading rural brokers and specialist providers.',
         'Ensure the sum insured on your livestock policy is accurate and up-to-date — underinsurance is the most common issue after a natural disaster claim.',
       ],
       faqs: [
         { q: 'Are my livestock covered if they die in a flood?', a: 'Only if your policy specifically includes flood or natural disaster cover. Many standard livestock mortality policies exclude weather-related deaths. After Cyclone Gabrielle, many affected farmers found they had no claim. Check your current policy wording and speak to an adviser to confirm your cover.' },
         { q: 'Does EQC cover livestock losses from earthquakes?', a: 'No. The Earthquake Commission (EQC) covers residential land, buildings, and contents, but does not cover livestock. Livestock losses from earthquakes require a specific natural disaster livestock insurance policy. This is a commonly misunderstood gap in NZ farmer insurance coverage.' },
-        { q: 'Can I get cover specifically for post-shearing exposure losses in sheep?', a: 'Yes — FMG and some specialist insurers offer specific post-shearing exposure cover for sheep in the 14-day vulnerability window after shearing. This is a uniquely NZ product that reflects the real risk of cold snaps killing recently shorn sheep. Ask your adviser to include this in any sheep policy comparison.' },
+        { q: 'Can I get cover specifically for post-shearing exposure losses in sheep?', a: 'Yes — some specialist rural insurers offer specific post-shearing exposure cover for sheep in the 14-day vulnerability window after shearing. This is a uniquely NZ product that reflects the real risk of cold snaps killing recently shorn sheep. Ask your adviser to include this in any sheep policy comparison.' },
         { q: 'My property is in a high-risk flood zone. Can I still get cover?', a: 'Yes, though premiums will be higher for flood-prone locations. Insurers assess flood risk based on property elevation, proximity to rivers, and historical flood data. Some high-risk properties may have flood excluded as a specific peril or face excess levels. A rural adviser can help identify the best available cover for your location.' },
         { q: 'What should I do immediately after a natural disaster to support a claim?', a: 'Document everything as soon as it is safe to do so — photographs of dead animals, flood water levels, storm damage, and any relevant conditions. Contact your insurer or adviser as soon as possible to register the claim. Keep records of all animals lost, their approximate value, and any recovery costs. MPI and local rural support services may also have assistance available following major events.' },
       ],
@@ -259,7 +257,6 @@ export const COVERAGE_TYPES: CoverageType[] = [
         { title: 'NIWA — NZ Natural Hazards & Climate Risk', url: 'https://www.niwa.co.nz/natural-hazards' },
         { title: 'EQC — What EQC Covers (and What It Doesn\'t)', url: 'https://www.eqc.govt.nz/what-eqc-covers/' },
         { title: 'Beef + Lamb NZ — Cyclone Gabrielle Recovery Resources', url: 'https://beeflambnz.com/knowledge-hub/adverse-events/cyclone-gabrielle-information-farmers' },
-        { title: 'FMG — Natural Hazards Cover for Rural NZ', url: 'https://www.fmg.co.nz/about-fmg/news/get-to-know-your-natural-hazards-cover' },
       ],
     },
   },
@@ -274,14 +271,14 @@ export const COVERAGE_TYPES: CoverageType[] = [
     whoNeeds: ['Farmers near main roads or highways', 'Farms with regular visitor or contractor access', 'Deer farmers (deer are fast movers)', 'Any farmer with animals near unfenced boundaries'],
     fromPrice: 'From $120/year',
     metaTitle: 'Farm & Livestock Liability Insurance | Public Liability Cover | LivestockInsurance.co.nz',
-    metaDesc: 'Farm and livestock liability insurance NZ — protect against claims if animals escape, injure people, or cause road accidents. Compare FMG, Aon, Gallagher and NZI. Licensed advisers.',
+    metaDesc: 'Farm and livestock liability insurance NZ — protect against claims if animals escape, injure people, or cause road accidents. Compare policies from leading rural brokers and specialists. Licensed advisers.',
     longForm: {
       intro: [
         'Farm and livestock liability insurance is one of the most important — and most overlooked — components of a NZ farmer\'s insurance programme. It protects you when your animals cause harm or damage to third parties: whether a cow escapes through a fence and causes a motorway accident, a visitor is injured by a bull, or your deer break through a boundary and damage a neighbour\'s crops.',
         'The financial consequences of a liability event without insurance can be catastrophic. A single escaped animal causing a serious road accident can generate claims from multiple parties — injured motorists, vehicle owners, road authorities — that collectively run into hundreds of thousands of dollars. Legal defence costs alone can exceed $50,000 even in cases where the outcome is favourable.',
         'Most comprehensive farm pack policies include public liability cover, but the scope and limits vary significantly. A standard farm policy might include $1–2 million in public liability, while larger operations near busy roads or with frequent contractor and visitor traffic may need $5–10 million or more. It\'s not the premium that varies most — it\'s the limits and what specific liabilities are included.',
         'Deer farmers face unique liability risks. Deer are fast, unpredictable, and capable of clearing fences that would contain cattle or sheep. A deer on a road at night represents a serious accident risk, and New Zealand\'s venison deer farming community has experienced significant liability events over the years. Specialist deer liability cover is available and important.',
-        'A licensed rural insurance adviser can review the public liability component of your existing farm policy, identify any gaps, and help you get the right level of cover from FMG, Aon, Gallagher, or NZI — ensuring you are protected from the real financial consequences of a liability event.',
+        'A licensed rural insurance adviser can review the public liability component of your existing farm policy, identify any gaps, and help you get the right level of cover from leading rural brokers and specialists — ensuring you are protected from the real financial consequences of a liability event.',
       ],
       whatsCovered: [
         { title: 'Escaped Livestock Accidents', desc: 'Claims arising when your animals escape from your property and cause road accidents, injuries, or damage to third-party property.' },
@@ -303,7 +300,7 @@ export const COVERAGE_TYPES: CoverageType[] = [
       howToGetCovered: [
         'Review your existing farm pack policy to understand what public liability limit and scope you currently have — most policies include it but the limits may be inadequate.',
         'Contact a licensed rural adviser to discuss your farm\'s specific liability risks — proximity to roads, deer species, visitor and contractor traffic, neighbouring properties.',
-        'Your adviser will recommend an appropriate liability limit and compare policy options from multiple insurers, including FMG, Aon, Gallagher, and NZI.',
+        'Your adviser will recommend an appropriate liability limit and compare policy options from multiple insurers, including Aon, Gallagher, NZI, and specialist rural underwriters.',
         'Ensure liability cover is renewed annually and that limits are reviewed as your operation grows or changes — a farm that expands to deer or begins hosting agritourism visitors will have a different risk profile than a straightforward sheep and beef operation.',
       ],
       faqs: [
@@ -316,7 +313,6 @@ export const COVERAGE_TYPES: CoverageType[] = [
       relatedBlogs: ['complete-guide-livestock-insurance-nz', 'nz-livestock-insurance-buyers-guide-2026', 'deer-insurance-nz-velvet-stag-guide'],
       externalLinks: [
         { title: 'ACC — Cover for Visitors and Contractors on NZ Farms', url: 'https://www.acc.co.nz/im-injured/accident-types/farm-accidents/' },
-        { title: 'FMG — Farm Liability Insurance', url: 'https://www.fmg.co.nz/insurance/liability/' },
         { title: 'DINZ — Deer Farming Biosecurity & Risk Management', url: 'https://www.deernz.org/deer-hub/farm-and-environment/biosecurity/' },
         { title: 'NZTA — Livestock on Roads — Farmer Obligations', url: 'https://www.nzta.govt.nz/roads-and-rail/road-users/farmers-and-rural-road-users/' },
       ],
@@ -333,7 +329,7 @@ export const COVERAGE_TYPES: CoverageType[] = [
     whoNeeds: ['Farmers in remote or boundary-heavy properties', 'Stud breeders with high-value animals', 'Sheep and cattle farmers in known theft-risk areas', 'Anyone with animals that are difficult to monitor'],
     fromPrice: 'From $50/year',
     metaTitle: 'Livestock Theft Insurance | Stock Rustling Cover | LivestockInsurance.co.nz',
-    metaDesc: 'Livestock theft cover NZ — protect against stock rustling, organised theft rings, and missing high-value animals. Compare FMG, Aon, Gallagher and NZI. Licensed advisers.',
+    metaDesc: 'Livestock theft cover NZ — protect against stock rustling, organised theft rings, and missing high-value animals. Compare policies from leading rural brokers and specialists. Licensed advisers.',
     longForm: {
       intro: [
         'Livestock theft — stock rustling — is an increasing problem across New Zealand, with police and farming groups reporting a significant rise in organised theft operations targeting sheep, cattle, and deer in remote farming areas. What was once considered a rare occurrence is now a genuine risk that informed farmers are addressing through dedicated livestock theft cover.',
@@ -362,7 +358,7 @@ export const COVERAGE_TYPES: CoverageType[] = [
       howToGetCovered: [
         'Contact a licensed rural adviser and describe your farm\'s theft risk — remote location, species, high-value individuals, monitoring frequency, and any prior theft history in your area.',
         'Your adviser will review whether theft cover is included in your current policy and at what level — many farmers assume they are covered when they are not.',
-        'Get quotes for appropriate theft cover from FMG, Aon, Gallagher, and NZI — your adviser will compare limits, excess levels, and conditions.',
+        'Get quotes for appropriate theft cover from Aon, Gallagher, NZI, and specialist rural brokers — your adviser will compare limits, excess levels, and conditions.',
         'Ensure your NAIT obligations are current — NAIT compliance is both a regulatory requirement and a factor in theft insurance eligibility and claims management.',
       ],
       faqs: [

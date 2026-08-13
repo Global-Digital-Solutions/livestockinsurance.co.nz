@@ -59,7 +59,7 @@ export default function DisclaimerPage() {
 
             <div>
               <h2 className="text-xl font-bold text-gray-900 mb-2">Provider Information</h2>
-              <p className="text-sm">References to insurance providers including FMG, Aon, Gallagher, and NZI are provided for general information purposes only. We are not affiliated with, endorsed by, or acting as agent for any of these providers. Product details, availability, and pricing are subject to change without notice. Always confirm current offerings directly with the insurer or your licensed adviser.</p>
+              <p className="text-sm">References to insurance providers including Aon, Gallagher, and NZI are provided for general information purposes only. We are not affiliated with, endorsed by, or acting as agent for any of these providers. Product details, availability, and pricing are subject to change without notice. Always confirm current offerings directly with the insurer or your licensed adviser.</p>
             </div>
 
             <div>
@@ -104,7 +104,7 @@ export default function DisclaimerPage() {
 
             <div className="border border-gray-200 rounded-xl p-5 bg-white">
               <h3 className="font-bold text-gray-900 text-sm mb-2">About Our Service</h3>
-              <p className="text-gray-500 text-xs leading-relaxed mb-3">We connect NZ farmers with licensed rural insurance advisers who compare FMG, Aon, Gallagher and NZI. All advisers hold current FAP licences under the Financial Markets Conduct Act 2013.</p>
+              <p className="text-gray-500 text-xs leading-relaxed mb-3">We connect NZ farmers with licensed rural insurance advisers who compare Aon, Gallagher, NZI, and specialist rural brokers. All advisers hold current FAP licences under the Financial Markets Conduct Act 2013.</p>
               <Link href="/contact/" className="inline-block text-white text-xs font-semibold px-4 py-2 rounded-lg" style={{ backgroundColor: '#0d7377' }}>
                 Request Quotes
               </Link>

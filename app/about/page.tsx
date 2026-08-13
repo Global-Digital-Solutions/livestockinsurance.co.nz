@@ -54,7 +54,7 @@ export default function AboutPage() {
 
             <h2 className="text-2xl font-bold text-gray-900">What We Do</h2>
             <p className="leading-relaxed">
-              We connect farmers and livestock owners with licensed rural insurance advisers who specialise in livestock and farm insurance. Our advisers compare providers including FMG, Aon, Gallagher, NZI, and specialist brokers to find the right cover for your situation.
+              We connect farmers and livestock owners with licensed rural insurance advisers who specialise in livestock and farm insurance. Our advisers compare providers including Aon, Gallagher, NZI, and specialist rural brokers to find the right cover for your situation.
             </p>
             <p className="leading-relaxed">
               We are not a direct insurer and we do not sell insurance policies. We are an independent referral service. The advisers we connect you with hold current Financial Advice Provider (FAP) licences under the Financial Markets Conduct Act 2013.
@@ -62,7 +62,7 @@ export default function AboutPage() {
 
             <h2 className="text-2xl font-bold text-gray-900">Why We Exist</h2>
             <p className="leading-relaxed">
-              Many farmers are significantly underinsured — either because they assume FMG covers everything, or because comparing providers is time-consuming. Events like Cyclone Gabrielle and the Mycoplasma bovis programme showed what happens when farmers discover their cover is inadequate.
+              Many farmers are significantly underinsured — either because they go with whoever is easiest to reach, or because comparing providers is time-consuming. Events like Cyclone Gabrielle and the Mycoplasma bovis programme showed what happens when farmers discover their cover is inadequate.
             </p>
             <p className="leading-relaxed">
               Our goal is simple: make it easier for farmers to get the right livestock insurance, from the right provider, at the right price.

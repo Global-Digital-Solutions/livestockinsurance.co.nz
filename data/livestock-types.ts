@@ -40,13 +40,13 @@ export const LIVESTOCK_TYPES: LivestockType[] = [
     coverageTypes: ['mortality-cover', 'disease-illness', 'transit-insurance', 'theft-cover'],
     fromPrice: 'From $80/year',
     metaTitle: 'Cattle Insurance | Beef & Dairy Herd Cover | LivestockInsurance.co.nz',
-    metaDesc: 'Cattle insurance NZ — compare cover for beef cattle, dairy herds, and stud bulls. Mortality, disease, transit and theft cover from FMG, Aon, Gallagher and NZI. Licensed advisers.',
+    metaDesc: 'Cattle insurance NZ — compare cover for beef cattle, dairy herds, and stud bulls. Mortality, disease, transit and theft cover from leading rural brokers and specialists. Licensed advisers.',
     longForm: {
       intro: [
         'Cattle represent the single largest category of livestock value in New Zealand agriculture. The national herd of approximately 9.5 million animals — spanning dairy, beef, and breeding stock — underpins industries worth billions of dollars annually. Whether you run a commercial Waikato dairy operation, a South Island beef station, or a small breeding herd with high-value registered stud bulls, cattle insurance is the financial foundation that protects your capital investment.',
         'The risk landscape for cattle farmers has never been more complex. Mycoplasma bovis, first confirmed in New Zealand in 2017, led to the culling of over 170,000 cattle at a government compensation cost exceeding $200 million — and many farmers found their standard policies provided little or no assistance with the losses they faced. Cyclone Gabrielle in February 2023 killed an estimated 3,000 cattle on the East Coast and Hawke\'s Bay alone. Meanwhile, stud bull values have continued to climb, with elite sires regularly selling at $20,000–$100,000+ at bull sales.',
         'Cattle insurance in New Zealand operates on two levels: blanket (mob) cover for entire herds at a per-head rate, and specified (agreed value) cover for individual high-value animals such as stud bulls, registered pedigree cows, and elite dairy cows. Understanding which applies to your situation — and ensuring the sums insured accurately reflect current market values — is critical to avoiding underinsurance at claim time.',
-        'FMG holds approximately 65–70% of the NZ rural insurance market and offers specialist cattle policies that include optional infertility cover for bulls and cows — a unique benefit not available from most mainstream insurers. Aon and Gallagher can access specialist underwriters including Lloyd\'s of London for high-value individual animals. A licensed rural insurance adviser can assess your specific situation and structure cover that protects your entire operation.',
+        'Specialist rural insurers offer livestock policies that include optional infertility cover for bulls and cows — a benefit that is particularly important for stud breeders. Aon and Gallagher can access specialist underwriters including Lloyd\'s of London for high-value individual animals. A licensed rural insurance adviser can assess your specific situation and structure cover that protects your entire operation.',
         'This guide covers everything cattle farmers need to know about livestock insurance in New Zealand — what is covered, what is typically excluded, how premiums are calculated, how to make a claim, and how to compare providers to get the right policy for your herd.',
       ],
       whatsCovered: [
@@ -55,7 +55,7 @@ export const LIVESTOCK_TYPES: LivestockType[] = [
         { title: 'Natural Disaster Losses', desc: 'With the right add-on, cattle can be covered for deaths caused by floods, cyclones, snowstorms, landslides, and other natural events. Cyclone Gabrielle (2023) highlighted how standard policies often exclude these events — ensure your policy explicitly includes them.' },
         { title: 'Transit Deaths', desc: 'Livestock transit insurance covers cattle from the moment they leave your property to their destination. This includes road transport to saleyards, between properties, to processing plants, and to shows or bull sales. Loading and unloading injuries are also covered.' },
         { title: 'Theft', desc: 'Livestock theft is an increasing problem, particularly on remote properties. Cattle theft cover compensates you for the market or agreed value of stolen animals. NAIT registration is typically required and can assist in recovery of stolen cattle.' },
-        { title: 'Bull Infertility (Optional)', desc: 'FMG offers a specific infertility benefit for specified bulls, cows, rams, stags, stallions, and machos — covering permanent infertility or incapacity for reproduction caused by accident, illness, or disease. This is uniquely important for stud breeders whose animals value is tied to reproductive capacity.' },
+        { title: 'Bull Infertility (Optional)', desc: 'Some specialist rural insurers offer an infertility benefit for specified bulls, cows, rams, stags, stallions, and machos — covering permanent infertility or incapacity for reproduction caused by accident, illness, or disease. This is uniquely important for stud breeders whose animals value is tied to reproductive capacity.' },
       ],
       whatsExcluded: [
         'Pre-existing conditions known at the time of policy inception',
@@ -72,18 +72,17 @@ export const LIVESTOCK_TYPES: LivestockType[] = [
         'List all cattle you wish to cover, their values, breed, age, and purpose. For stud animals, gather registration papers, recent sale records, or independent valuations.',
         'Decide whether you need blanket mob cover, specified agreed value cover for individual animals, or a combination — a licensed adviser can help with this decision.',
         'Consider which add-ons matter to your operation: disease cover, natural disaster, transit, infertility cover for bulls, and theft protection all address distinct risks.',
-        'Submit your enquiry — a licensed NZ rural insurance adviser will compare FMG, Aon, Gallagher, and NZI policies and come back to you within 24 hours with tailored options.',
+        'Submit your enquiry — a licensed NZ rural insurance adviser will compare policies from leading rural brokers and specialists and come back to you with tailored options.',
       ],
       faqs: [
         { q: 'Does cattle insurance cover death from Mycoplasma bovis?', a: 'Standard mortality policies typically do not cover death from disease as a standalone event — you need a separate disease & illness policy or a comprehensive policy that explicitly includes disease mortality. The Mycoplasma bovis outbreak showed that many farmers had gaps here. A specialist adviser can ensure your policy includes the disease cover you actually need.' },
         { q: 'Do I need to register cattle on NAIT to be insured?', a: 'NAIT (National Animal Identification and Tracing) registration is a legal requirement for cattle and deer farmers in New Zealand. Most insurers require NAIT compliance as a policy condition. Cattle not registered with NAIT may be excluded from coverage, and NAIT records are critical evidence for theft claims.' },
         { q: 'Can I insure an individual stud bull at agreed value?', a: 'Yes. Specified agreed value cover allows you to insure an individual stud bull at a fixed sum agreed at policy inception — typically supported by registration papers, sale records, or a veterinary valuation. This is important because high-value bulls may be worth far more than their market replacement cost as commercial stock.' },
-        { q: 'What happens if my cattle are killed during a flood?', a: 'Natural disaster cover is required for this. Standard mortality policies typically cover accidental death but exclude weather events. FMG, Aon, and NZI all offer natural disaster add-ons covering flood and cyclone losses. If you are in a flood-prone area — Hawke\'s Bay, Gisborne, Manawatu, or Canterbury — this cover is essential.' },
+        { q: 'What happens if my cattle are killed during a flood?', a: 'Natural disaster cover is required for this. Standard mortality policies typically cover accidental death but exclude weather events. Specialist rural insurers offer natural disaster add-ons covering flood and cyclone losses. If you are in a flood-prone area — Hawke\'s Bay, Gisborne, Manawatu, or Canterbury — this cover is essential.' },
         { q: 'How do I make a cattle insurance claim?', a: 'Notify your insurer or adviser as soon as possible after the loss. For individual high-value animals, a veterinary report confirming cause of death is generally required. For natural disaster losses, photograph the scene immediately. NAIT records and farm management records help support the claim. Your adviser will guide you through the process.' },
       ],
       relatedBlogs: ['dairy-cattle-insurance-guide-nz', 'mycoplasma-bovis-livestock-insurance-nz', 'mortality-vs-disease-cover-livestock-nz', 'cyclone-natural-disaster-livestock-insurance-nz', 'stud-animal-agreed-value-insurance-nz', 'transit-insurance-livestock-nz'],
       externalLinks: [
-        { title: 'FMG Livestock Policy Wording', url: 'https://www.fmg.co.nz/what-we-cover/fmg-policy-wordings/animals/livestock' },
         { title: 'NAIT — National Animal Identification & Tracing', url: 'https://www.nait.co.nz' },
         { title: 'MPI — Mycoplasma Bovis Programme', url: 'https://www.mpi.govt.nz/biosecurity/exotic-pests-and-diseases-in-new-zealand/long-term-biosecurity-management-programmes/mycoplasma-bovis-national-pest-management-plan' },
         { title: 'DairyNZ — Industry Body & Resources', url: 'https://www.dairynz.co.nz' },
@@ -97,13 +96,13 @@ export const LIVESTOCK_TYPES: LivestockType[] = [
     icon: '🐑',
     heroImage: 'https://images.unsplash.com/photo-1484557985045-edf25e08da73?w=1400&h=600&fit=crop&auto=format&q=80',
     shortDesc: 'Cover for sheep flocks including stud rams, breeding ewes, and commercial mobs.',
-    description: "With approximately 5 million sheep, sheep farming is one of the country's most important agricultural industries. Sheep insurance covers mortality, disease, natural disaster, and theft for commercial flocks and high-value stud animals. FMG offers specific post-shearing exposure cover unique to local conditions.",
+    description: "With approximately 5 million sheep, sheep farming is one of the country's most important agricultural industries. Sheep insurance covers mortality, disease, natural disaster, and theft for commercial flocks and high-value stud animals. Specialist rural insurers offer post-shearing exposure cover unique to local conditions.",
     keyFacts: [
       'NZ sheep industry worth $3.5B+ annually',
       'Average commercial ewe value: $150–$400',
       'Stud rams: $500–$50,000+ per animal',
       'Post-shearing exposure is a uniquely local risk',
-      'FMG dominates sheep insurance with ~70% market share',
+      'Specialist rural brokers offer comprehensive flock cover',
     ],
     coverageTypes: ['mortality-cover', 'natural-disaster', 'transit-insurance', 'theft-cover'],
     fromPrice: 'From $60/year',
@@ -112,15 +111,15 @@ export const LIVESTOCK_TYPES: LivestockType[] = [
     longForm: {
       intro: [
         'Sheep farming remains one of New Zealand\'s defining agricultural industries. From high-country merino runs in Marlborough and Central Otago to intensive Waikato finishing operations, sheep represent significant capital and income for tens of thousands of farmers. The national flock numbers around 5 million animals, supporting a wool and red meat export industry worth over $3.5 billion annually.',
-        'Sheep insurance must address a unique local risk: post-shearing exposure. When freshly shorn sheep are exposed to sudden cold, rain, and wind in the days immediately after shearing, losses can be devastating — particularly for merino producers at high altitude. FMG specifically offers post-shearing exposure cover as an optional benefit, covering accidental death caused by weather exposure in the 14 days immediately after shearing.',
+        'Sheep insurance must address a unique local risk: post-shearing exposure. When freshly shorn sheep are exposed to sudden cold, rain, and wind in the days immediately after shearing, losses can be devastating — particularly for merino producers at high altitude. Some specialist rural insurers offer post-shearing exposure cover as an optional benefit, covering accidental death caused by weather exposure in the 14 days immediately after shearing.',
         'Commercial sheep flocks can be insured on a blanket basis at a per-head rate reflecting average flock value — typically $150–$400 per ewe for breeding stock. High-value stud rams — which can sell at $500 to $50,000 or more — require specified agreed value cover backed by registration papers and sale records.',
         'Cyclone Gabrielle killed an estimated 25,000 sheep across Hawke\'s Bay and the East Coast in 2023, with many farmers receiving little or no insurance recovery because their policies did not include natural disaster cover. This event fundamentally shifted how advisers approach sheep insurance recommendations.',
-        'This guide explains what sheep insurance covers in New Zealand, what is typically excluded, how premiums are calculated for commercial and stud stock, and how to compare FMG, Aon, Gallagher, and NZI to get the right policy.',
+        'This guide explains what sheep insurance covers in New Zealand, what is typically excluded, how premiums are calculated for commercial and stud stock, and how to compare leading rural brokers and specialists to get the right policy.',
       ],
       whatsCovered: [
         { title: 'Flock Mortality (Blanket Cover)', desc: 'Covers your entire mob or flock at an agreed per-head rate. If animals die from covered causes — accidental death, fire, electrocution, or specified weather events — you are compensated at the agreed rate. Blanket cover is the most cost-effective approach for large commercial flocks.' },
         { title: 'Stud Ram Specified Cover', desc: 'High-value rams from elite breeds — Merino, Texel, Poll Dorset, Romney — can be insured at an individually agreed value. This protects the breeding investment rather than just the replacement cost of a commercial ram. Registration papers and recent sale evidence support the agreed value.' },
-        { title: 'Post-Shearing Exposure (FMG)', desc: 'Unique to the NZ market, this optional FMG benefit covers accidental death of sheep as a direct result of weather exposure in the 14 days immediately after shearing. Cover applies to death from rain, low temperature, or smothering. Particularly important for merino and fine wool producers in variable-weather regions.' },
+        { title: 'Post-Shearing Exposure Cover', desc: 'Unique to the NZ market, this optional benefit covers accidental death of sheep as a direct result of weather exposure in the 14 days immediately after shearing. Cover applies to death from rain, low temperature, or smothering. Particularly important for merino and fine wool producers in variable-weather regions.' },
         { title: 'Natural Disaster Add-on', desc: 'Covers sheep deaths from floods, cyclones, snowstorms, and other natural events. Not included in standard policies — it must be specifically added. After Cyclone Gabrielle and the 2022 North Island flooding, this has become critical for all sheep farmers.' },
         { title: 'Transit Insurance', desc: 'Covers sheep during transport to saleyards, between farms, and to processing plants. Loading and unloading injuries, road accidents, and heat stress during transit are covered. Stud animals attending shows particularly benefit from transit cover.' },
         { title: 'Livestock Theft', desc: 'Sheep theft on remote or unfenced properties is a real and growing risk. Theft cover compensates at market value for confirmed stolen animals. Good records of ear tags and brands assist in recovery and claims.' },
@@ -139,10 +138,10 @@ export const LIVESTOCK_TYPES: LivestockType[] = [
         'Count and categorise your sheep: separate stud rams, breeding ewes, and commercial finishing stock — each may need different cover levels.',
         'Consider your specific risks: are you in a flood-prone area? Do you shear early when weather is unpredictable? Do you have high-value rams that need specified cover?',
         'Gather documentation for any stud animals: registration papers, recent sale records, NAIT registrations (cattle/deer; sheep records are also useful), and any independent valuations.',
-        'Submit your enquiry and a licensed rural insurance adviser will compare available policies from FMG, Aon, and other providers tailored to your flock and location.',
+        'Submit your enquiry and a licensed rural insurance adviser will compare available policies from leading rural brokers and specialists tailored to your flock and location.',
       ],
       faqs: [
-        { q: 'Is post-shearing exposure cover worth getting?', a: 'For merino, fine wool, or high-country sheep farmers, post-shearing exposure cover is one of the most important add-ons available. Losses of freshly shorn sheep to sudden cold snaps can run into the hundreds in a single event. FMG offers this cover specifically for the NZ market — it is not widely available elsewhere.' },
+        { q: 'Is post-shearing exposure cover worth getting?', a: 'For merino, fine wool, or high-country sheep farmers, post-shearing exposure cover is one of the most important add-ons available. Losses of freshly shorn sheep to sudden cold snaps can run into the hundreds in a single event. This is a specialist NZ product — ask your rural insurance adviser to include it in any sheep policy comparison.' },
         { q: 'My sheep are not registered breed stock. Can I still get insurance?', a: 'Yes. Commercial crossbred sheep can be insured under blanket flock policies at a per-head rate reflecting current market values. You do not need registration papers for commercial mob cover. Stud or high-value animals benefit from specified cover, but general mob insurance is straightforward for commercial flocks.' },
         { q: 'How did Cyclone Gabrielle affect sheep insurance in New Zealand?', a: 'Cyclone Gabrielle caused an estimated 25,000 sheep deaths in Hawke\'s Bay and the East Coast in 2023. Many farmers found that their standard livestock policies excluded deaths caused by natural weather events. Natural disaster add-ons are now considered a core component of any sheep insurance package for East Island farmers.' },
         { q: 'What is the NAIT requirement for sheep?', a: 'NAIT (National Animal Identification and Tracing) currently applies to cattle and deer but not to sheep. Sheep do not require individual NAIT tagging. However, good flock records, ear tags, and property identification are still important for insurance claims — especially for theft.' },
@@ -150,7 +149,6 @@ export const LIVESTOCK_TYPES: LivestockType[] = [
       ],
       relatedBlogs: ['sheep-post-shearing-exposure-insurance', 'sheep-insurance-new-zealand-guide', 'cyclone-natural-disaster-livestock-insurance-nz', 'livestock-insurance-cyclone-flood-risk-nz', 'mortality-vs-disease-cover-livestock-nz'],
       externalLinks: [
-        { title: 'FMG — Post-Shearing Sheep Mortality Cover', url: 'https://www.fmg.co.nz/what-we-cover/fmg-policy-wordings/animals/livestock' },
         { title: 'Beef + Lamb New Zealand', url: 'https://beeflambnz.com' },
         { title: 'New Zealand Merino Company', url: 'https://www.nzmerino.co.nz' },
         { title: 'MPI — Primary Industries Information', url: 'https://www.mpi.govt.nz' },
@@ -163,7 +161,7 @@ export const LIVESTOCK_TYPES: LivestockType[] = [
     icon: '🦌',
     heroImage: 'https://images.pexels.com/photos/14059065/pexels-photo-14059065.jpeg?auto=compress&cs=tinysrgb&w=1400&h=600&fit=crop',
     shortDesc: 'Specialist cover for deer farms — stags, hinds, velvet production animals, and breeding stock.',
-    description: 'Deer farming is a specialist industry producing velvet and venison for global markets. Stags used in velvet production can be extremely valuable — trophy and elite genetics stags are worth $5,000–$50,000+. Deer insurance covers mortality, antler removal risks, disease, transit, and theft. FMG offers specific cover for stag death as a result of antler or velvet removal procedures, a risk unique to this industry.',
+    description: 'Deer farming is a specialist industry producing velvet and venison for global markets. Stags used in velvet production can be extremely valuable — trophy and elite genetics stags are worth $5,000–$50,000+. Deer insurance covers mortality, antler removal risks, disease, transit, and theft. Specialist rural insurers offer cover for stag death as a result of antler or velvet removal procedures, a risk unique to this industry.',
     keyFacts: [
       'NZ deer industry worth $500M+ annually',
       'Elite velvet stags: $5,000–$50,000+ per animal',
@@ -179,13 +177,13 @@ export const LIVESTOCK_TYPES: LivestockType[] = [
       intro: [
         'New Zealand is the world\'s largest exporter of deer velvet, and farmed deer represent a significant agricultural sector worth over $500 million annually. With approximately 800,000 deer farmed nationwide — primarily in Canterbury, Otago, Southland, and the Waikato — deer farming presents a unique insurance challenge: the animals are intrinsically valuable, difficult to handle, and subject to risks that simply do not exist in any other livestock sector.',
         'Velvet production is the core economic driver of most NZ deer farms, and elite genetics stags — bred specifically for high velvet yields and superior antler conformation — can be worth $5,000 to $50,000 or more. A stag\'s value is not just its replacement cost as a commercial animal; it is the cumulative genetic investment and proven production record.',
-        'One of the most important and unusual aspects of deer insurance in New Zealand is the cover for death caused by velvet or antler removal procedures. This is a recognised occupational risk in the deer industry — when stags are restrained and procedures are performed, deaths can occasionally occur. FMG specifically covers the death of any specified stag if death is a direct result of removing their antlers or hard velvet, provided the procedure meets the recommended removal standards set by Deer Industry New Zealand.',
+        'One of the most important and unusual aspects of deer insurance in New Zealand is the cover for death caused by velvet or antler removal procedures. This is a recognised occupational risk in the deer industry — when stags are restrained and procedures are performed, deaths can occasionally occur. Some specialist rural insurers cover the death of specified stags if death is a direct result of removing their antlers or hard velvet, provided the procedure meets the recommended removal standards set by Deer Industry New Zealand.',
         'Transit is another critical risk for deer farmers. Deer are notoriously stress-sensitive during handling and transport, and transit losses — deaths from capture myopathy, stress-related trauma, or road accidents — are higher than in other species. Proper insurance during transport to stag sales, velvet contracting facilities, or between properties is an important part of deer risk management.',
         'This guide covers the full scope of deer insurance in New Zealand — from blanket hind mob policies to specified elite stag cover — including what is typically covered and excluded, how premiums are calculated, and how to compare providers.',
       ],
       whatsCovered: [
         { title: 'Stag Mortality — Specified Agreed Value', desc: 'Elite velvet stags can be insured at individually agreed values, supported by purchase records, pedigree documentation, or velvet production records. If a specified stag dies from a covered cause, you receive the full agreed value regardless of the stag\'s replacement cost as a commercial animal.' },
-        { title: 'Velvet/Antler Removal Cover (FMG)', desc: 'A unique NZ industry-specific benefit offered by FMG. If a specified stag dies as a direct result of the antler or velvet removal procedure, provided the procedure was performed to standards recommended by Deer Industry New Zealand (DINZ), the policy pays the agreed value. Not available from most mainstream insurers.' },
+        { title: 'Velvet/Antler Removal Cover', desc: 'A unique NZ industry-specific benefit offered by specialist rural insurers. If a specified stag dies as a direct result of the antler or velvet removal procedure, provided the procedure was performed to standards recommended by Deer Industry New Zealand (DINZ), the policy pays the agreed value. Not available from all mainstream insurers — confirm with your adviser.' },
         { title: 'Hind Mob Blanket Cover', desc: 'Commercial hinds can be covered on a blanket per-head basis for mortality from accidental causes. This provides straightforward, affordable protection for the core breeding herd without the need to individually specify each animal.' },
         { title: 'Transit Insurance', desc: 'Covers deer during transport — to stag sales, velvet contracting stations, between farms, and to processing plants. Given deer\'s sensitivity to stress during handling and transport, transit cover is particularly important. Deaths from capture myopathy and transport trauma are covered under comprehensive transit policies.' },
         { title: 'Natural Disaster Cover', desc: 'Covers losses from floods, cyclones, and other weather events. The Canterbury and Otago regions where much deer farming is concentrated are not immune to extreme weather — add-on natural disaster cover is recommended.' },
@@ -205,10 +203,10 @@ export const LIVESTOCK_TYPES: LivestockType[] = [
         'Document your stag values — gather purchase records, velvet production histories, pedigree papers, and any independent valuations for high-value stags you wish to specify.',
         'Register all deer on NAIT if not already done. NAIT compliance is a legal requirement and a policy condition for most insurers.',
         'Consider whether you need blanket hind cover, specified stag cover, velvet removal cover, transit cover, or a combination — your adviser can help structure this.',
-        'Submit your enquiry — a licensed rural insurance adviser will source and compare options from FMG (which offers the velvet removal benefit), Aon, and other specialist underwriters.',
+        'Submit your enquiry — a licensed rural insurance adviser will source and compare options from specialist rural insurers and underwriters, including brokers that offer velvet removal cover.',
       ],
       faqs: [
-        { q: 'Is velvet removal cover available from all deer insurers?', a: 'No. FMG is the primary provider of specific cover for stag death as a result of antler or velvet removal procedures. This is a specialist benefit tailored to the local deer industry. When comparing policies, this cover should be a key consideration for any deer farm that performs velvet harvesting.' },
+        { q: 'Is velvet removal cover available from all deer insurers?', a: 'No. Velvet removal cover is a specialist benefit not available from all insurers. When comparing policies, confirm whether stag death as a result of antler or velvet removal procedures is covered — it is a key consideration for any deer farm that performs velvet harvesting. Ask your adviser to confirm this cover is in place.' },
         { q: 'Does NAIT apply to deer?', a: 'Yes. NAIT applies to both cattle and deer in New Zealand. All farmed deer must be registered on NAIT, and NAIT management is a policy condition for most deer insurance policies. Keeping NAIT records current also assists with theft recovery and mortality claims.' },
         { q: 'How is a velvet stag valued for insurance purposes?', a: 'Elite velvet stags are valued based on purchase price, velvet production history (kg per season and grade), pedigree documentation, and sometimes independent valuations. The agreed value is set at policy inception and should be reviewed annually as stag values fluctuate.' },
         { q: 'Can I insure deer during transport to stag sales?', a: 'Yes. Transit insurance covers deer from loading at your property through transport and to the sale venue. Given that deer can suffer from capture myopathy during transit, this cover is particularly important for stag sale animals. Some policies cover transit automatically; others require a specific transit endorsement.' },
@@ -217,7 +215,6 @@ export const LIVESTOCK_TYPES: LivestockType[] = [
       relatedBlogs: ['deer-insurance-nz-velvet-stag-guide', 'deer-velvet-insurance-nz-guide', 'stud-animal-agreed-value-insurance-nz', 'transit-insurance-livestock-nz', 'mortality-vs-disease-cover-livestock-nz'],
       externalLinks: [
         { title: 'Deer Industry New Zealand (DINZ)', url: 'https://www.deernz.org' },
-        { title: 'FMG — Livestock Insurance Policy Wording', url: 'https://www.fmg.co.nz/what-we-cover/fmg-policy-wordings/animals/livestock' },
         { title: 'NAIT — National Animal Identification & Tracing', url: 'https://www.nait.co.nz' },
         { title: 'MPI — Deer Farming Information', url: 'https://www.mpi.govt.nz' },
       ],
@@ -270,10 +267,10 @@ export const LIVESTOCK_TYPES: LivestockType[] = [
         'Separate your herd into dairy does, meat goats, and Angora animals — each category has different value profiles and risk factors.',
         'For high-value dairy does or Angora breeders, gather production records, registration papers, and any independent valuations to support agreed value cover.',
         'Assess your disease risk: intensive dairy goat systems benefit most from disease & illness cover — discuss this specifically with your adviser.',
-        'Submit your enquiry and a licensed adviser will compare options from FMG, Gallagher (specialist in exotic livestock), Aon, and other providers.',
+        'Submit your enquiry and a licensed adviser will compare options from leading rural brokers and specialists, including those experienced with exotic livestock such as Gallagher and Aon.',
       ],
       faqs: [
-        { q: 'Does standard livestock insurance cover dairy goats?', a: 'FMG\'s livestock policy covers goats alongside cattle, sheep, deer, and other species. However, for high-value dairy does or specialist Angora goats, standard blanket policies may undervalue the animals. Specified agreed value cover is more appropriate for premium animals.' },
+        { q: 'Does standard livestock insurance cover dairy goats?', a: 'Standard rural livestock policies typically cover goats alongside cattle, sheep, deer, and other species. However, for high-value dairy does or specialist Angora goats, standard blanket policies may undervalue the animals. Specified agreed value cover is more appropriate for premium animals.' },
         { q: 'Are Angora goats difficult to insure?', a: 'Angora goats are considered specialist or non-standard livestock by most mainstream insurers. Gallagher Insurance and Aon, which can access specialist markets including Lloyd\'s of London, are better placed to arrange appropriate cover than standard rural insurers.' },
         { q: 'What diseases should I be most concerned about for dairy goats?', a: 'CAE (Caprine Arthritis Encephalitis) and Johne\'s disease are the major endemic health risks in NZ dairy goat herds. Respiratory illness and clostridial diseases are also common. Enterotoxaemia can cause rapid deaths in intensively managed kids. A disease & illness policy covering these risks is important for dairy goat operations.' },
         { q: 'Is meat goat insurance worth it?', a: 'Many meat goat producers skip insurance because per-head values are lower. However, a finishing mob of 300–500 Boer-cross goats can represent $60,000–$150,000 in farm income. A disease event or flood that wipes out an entire finishing lot without insurance can be genuinely damaging.' },
@@ -281,7 +278,6 @@ export const LIVESTOCK_TYPES: LivestockType[] = [
       ],
       relatedBlogs: ['complete-guide-livestock-insurance-nz', 'stud-animal-agreed-value-insurance-nz', 'mortality-vs-disease-cover-livestock-nz', 'transit-insurance-livestock-nz'],
       externalLinks: [
-        { title: 'FMG Livestock Policy', url: 'https://www.fmg.co.nz/what-we-cover/fmg-policy-wordings/animals/livestock' },
         { title: 'MPI — Goat Farming Resources', url: 'https://www.mpi.govt.nz' },
       ],
     },
@@ -333,7 +329,7 @@ export const LIVESTOCK_TYPES: LivestockType[] = [
         'Assess your operation: separate commercial finishing pigs, breeding sows, and elite boars — each has different insurance requirements and values.',
         'Prioritise disease & illness cover given the speed at which disease spreads in intensive pig systems. Discuss disease history and biosecurity protocols with your adviser.',
         'Consider public liability limits, particularly if your farm is near roads or residential areas.',
-        'Submit your enquiry — a licensed adviser will compare FMG, Aon, and specialist options and come back within 24 hours.',
+        'Submit your enquiry — a licensed adviser will compare options from leading rural brokers and specialist underwriters and come back with tailored recommendations.',
       ],
       faqs: [
         { q: 'Does pig insurance cover Foot and Mouth Disease?', a: 'If FMD were confirmed in New Zealand, the government response would include a compensation scheme, but the level and timing of compensation may not fully cover farm losses. A comprehensive disease & illness policy that bridges gaps in government compensation is important insurance for pig farmers against exotic disease incursion.' },
@@ -344,7 +340,6 @@ export const LIVESTOCK_TYPES: LivestockType[] = [
       ],
       relatedBlogs: ['complete-guide-livestock-insurance-nz', 'mortality-vs-disease-cover-livestock-nz', 'livestock-insurance-costs-nz-2026'],
       externalLinks: [
-        { title: 'FMG Livestock Policy', url: 'https://www.fmg.co.nz/what-we-cover/fmg-policy-wordings/animals/livestock' },
         { title: 'NZ Pork Industry Board', url: 'https://www.nzpork.co.nz' },
         { title: 'MPI — Biosecurity & Notifiable Diseases', url: 'https://www.mpi.govt.nz/biosecurity' },
       ],
@@ -399,7 +394,7 @@ export const LIVESTOCK_TYPES: LivestockType[] = [
         'Submit your enquiry — we will connect you with advisers experienced in specialist livestock insurance (including Gallagher and Aon) who can source appropriate cover within 24 hours.',
       ],
       faqs: [
-        { q: 'Is alpaca insurance available through standard NZ rural insurers?', a: 'FMG\'s livestock policy covers alpacas and llamas, but for high-value animals requiring agreed value cover, specialist brokers like Gallagher and Aon are generally better options. Gallagher specifically has expertise in exotic and non-standard livestock, and Aon can access specialist underwriters at Lloyd\'s of London.' },
+        { q: 'Is alpaca insurance available through standard NZ rural insurers?', a: 'Some rural livestock policies cover alpacas and llamas, but for high-value animals requiring agreed value cover, specialist brokers like Gallagher and Aon are generally better options. Gallagher specifically has expertise in exotic and non-standard livestock, and Aon can access specialist underwriters at Lloyd\'s of London.' },
         { q: 'What is the New Zealand Alpaca Association and why does registration matter?', a: 'The New Zealand Alpaca Association (NZAA) is the industry body that maintains the NZ alpaca herd registry. Registration provides a documented pedigree record that supports agreed value cover — insurers can verify the animal\'s breeding, registration, and history.' },
         { q: 'Are Suri alpacas more expensive to insure than Huacaya?', a: 'Suri alpacas generally command higher market values than Huacaya due to the rarity and premium nature of Suri fibre. Higher agreed values mean higher absolute premiums, but the percentage rate (1.5–3%) is typically similar. The key difference is in the agreed value at policy inception.' },
         { q: 'Does transit cover apply during a multi-day show?', a: 'Coverage during the show itself depends on the specific policy terms. Some transit policies cover the animal throughout the entire trip including time at the show venue; others cover only the transport component. Discuss the specifics with your broker if your animals attend multi-day events.' },
@@ -409,7 +404,6 @@ export const LIVESTOCK_TYPES: LivestockType[] = [
       externalLinks: [
         { title: 'New Zealand Alpaca Association (NZAA)', url: 'https://www.alpaca.org.nz' },
         { title: 'Gallagher Insurance — Specialist Livestock', url: 'https://www.ajg.co.nz/' },
-        { title: 'FMG Livestock Policy', url: 'https://www.fmg.co.nz/what-we-cover/fmg-policy-wordings/animals/livestock' },
       ],
     },
   },
@@ -435,13 +429,13 @@ export const LIVESTOCK_TYPES: LivestockType[] = [
       intro: [
         'New Zealand\'s poultry industry is concentrated, capital-intensive, and uniquely vulnerable to biosecurity failure. Producing approximately 120 million broilers and over 3 million layer hens annually, the sector is built around large shed-based operations with significant investment in genetics, feeding systems, and environmental controls. A single biosecurity breach — particularly avian influenza — can result in the destruction of an entire flock worth hundreds of thousands of dollars.',
         'Avian influenza is the defining disease risk for NZ poultry producers. New Zealand has maintained freedom from highly pathogenic avian influenza (HPAI), but the global spread of HPAI H5N1 keeps this risk at the forefront of poultry insurance planning. If HPAI were confirmed in a NZ commercial flock, the response would involve mandatory depopulation with government compensation, but gaps between government payments and full commercial value have historically affected farmers in overseas outbreaks.',
-        'Equipment failure is another important risk specific to intensive poultry operations. Broiler and layer houses rely on ventilation, heating, and lighting systems to maintain precise environmental conditions. Failure of these systems can result in mass mortality events in hours. FMG specifically offers poultry smothering cover for accidental death caused by abnormal temperatures from equipment failure or unexpected failure of the public electrical power supply.',
+        'Equipment failure is another important risk specific to intensive poultry operations. Broiler and layer houses rely on ventilation, heating, and lighting systems to maintain precise environmental conditions. Failure of these systems can result in mass mortality events in hours. Specialist rural insurers offer poultry smothering cover for accidental death caused by abnormal temperatures from equipment failure or unexpected failure of the public electrical power supply.',
         'Free-range and organic poultry operations face a different risk profile. Birds with outdoor access are more exposed to predation, disease from wild birds (a key avian influenza vector), and weather-related losses. Insurance for free-range operations needs to reflect these additional exposures.',
         'This guide covers what poultry insurance covers in New Zealand — from commercial broiler and layer operations to free-range and backyard producers — along with exclusions, premium guidance, and provider comparison.',
       ],
       whatsCovered: [
         { title: 'Disease Outbreak — Notifiable Diseases', desc: 'Covers flock losses from specified notifiable diseases, including government-ordered depopulation, disposal costs, and in some cases business interruption. Avian influenza, Newcastle disease, and other notifiable diseases can trigger this cover, bridging gaps in government compensation.' },
-        { title: 'Equipment Failure — Smothering & Temperature Events', desc: 'FMG\'s specific poultry smothering cover applies when abnormal temperatures from accidental breakdown of lighting, heating, or ventilation equipment cause mass flock mortality. This also covers unexpected failure of the public electrical power supply. Critical for broiler houses and layer sheds.' },
+        { title: 'Equipment Failure — Smothering & Temperature Events', desc: 'Specialist poultry smothering cover applies when abnormal temperatures from accidental breakdown of lighting, heating, or ventilation equipment cause mass flock mortality. This also covers unexpected failure of the public electrical power supply. Critical for broiler houses and layer sheds.' },
         { title: 'Accidental Mortality — Blanket Flock Cover', desc: 'Covers entire flocks for accidental death from fires, electrocution, and specified events. Blanket cover at a per-bird rate is the standard approach for commercial broiler and layer operations.' },
         { title: 'Natural Disaster', desc: 'Covers flock losses from weather events including cyclones, floods, and severe storms. Free-range operations are particularly exposed to weather events, and natural disaster cover is an important add-on.' },
         { title: 'Public Liability', desc: 'Poultry operations near roads, residential areas, or other farms face liability exposure from escaped birds, disease spread to neighbouring properties, and visitor/contractor injuries. Liability cover should be reviewed regularly as operations scale.' },
@@ -464,7 +458,7 @@ export const LIVESTOCK_TYPES: LivestockType[] = [
       ],
       faqs: [
         { q: 'Does poultry insurance cover avian influenza?', a: 'Government compensation for mandatory HPAI depopulation exists but has historically not covered full commercial losses in overseas cases. A comprehensive disease & illness policy specifically covering notifiable disease losses — including avian influenza — can bridge this gap. Check policy wording carefully: not all disease cover automatically includes government-notifiable diseases.' },
-        { q: 'What is poultry smothering cover?', a: 'FMG\'s poultry smothering cover compensates for flock deaths caused by abnormal temperatures resulting from accidental breakdown of lighting, heating, or ventilation equipment, or unexpected failure of public electricity supply. This addresses one of the most common and devastating mass mortality events in commercial poultry production.' },
+        { q: 'What is poultry smothering cover?', a: 'Poultry smothering cover compensates for flock deaths caused by abnormal temperatures resulting from accidental breakdown of lighting, heating, or ventilation equipment, or unexpected failure of public electricity supply. This addresses one of the most common and devastating mass mortality events in commercial poultry production. Ask your adviser to confirm this is included in any poultry policy.' },
         { q: 'Are free-range chickens harder to insure than shed-based flocks?', a: 'Free-range operations typically carry higher premiums because outdoor access increases exposure to wild bird contact, predation, and weather. However, appropriate insurance is available for free-range and organic operations.' },
         { q: 'My layer hens are at end of production cycle. Can I still make a claim if they die?', a: 'Claims are assessed against the current commercial value of the birds at the time of loss. A flock approaching end of productive cycle has lower commercial value. Policies should be reviewed as flocks progress through production cycles.' },
         { q: 'Do backyard flock owners need poultry insurance?', a: 'It depends on the value of your birds. Heritage breeds and show poultry can have significant per-bird values. If your birds are financially valuable to you, a modest specified cover policy can be arranged. Discuss your flock size and bird values with an adviser.' },
@@ -473,7 +467,6 @@ export const LIVESTOCK_TYPES: LivestockType[] = [
       externalLinks: [
         { title: 'Poultry Industry Association of New Zealand (PIANZ)', url: 'https://www.pianz.org.nz' },
         { title: 'MPI — Avian Influenza Surveillance', url: 'https://www.mpi.govt.nz/biosecurity/exotic-pests-and-diseases-in-nz/important-diseases-were-watching/avian-influenza/' },
-        { title: 'FMG Livestock Policy — Poultry', url: 'https://www.fmg.co.nz/what-we-cover/fmg-policy-wordings/animals/livestock' },
       ],
     },
   },

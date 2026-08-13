@@ -36,19 +36,19 @@ Yet the majority of livestock farmers carry inadequate insurance or none at all.
 
 ## The Major Providers
 
-**FMG (Farmers Mutual Group)** dominates the NZ rural insurance market with approximately 65-70% market share. They offer specialist livestock policies designed specifically for local farming conditions, including post-shearing exposure cover for sheep and velvet stag cover for deer farmers.
-
 **Aon** is a global broker with a strong NZ rural team. They can access multiple underwriters and are good for farmers with complex or unusual coverage needs.
 
 **Gallagher Insurance** specialises in unusual and exotic livestock, including alpacas, llamas, rare breeds, and high-value stud animals.
 
 **NZI (New Zealand Insurance)** offers competitive farm pack pricing with livestock cover bundled into comprehensive farm policies.
 
+**Specialist rural brokers** such as Gerrards Insurance have deep expertise in rural and livestock insurance and can access a range of underwriters.
+
 ## How to Get the Right Cover
 
 1. **Inventory your animals** — list all animals, their approximate values, and their purpose (commercial, stud, show, breeding)
 2. **Identify your key risks** — disease, weather, theft, and transit risks vary by region and species
-3. **Get quotes from multiple providers** — FMG is the default, but comparison is worthwhile
+3. **Get quotes from multiple providers** — comparison across the market is always worthwhile
 4. **Use an adviser** — a specialist rural insurance adviser can identify gaps in standard policies
 
 The advisers we connect you with are licensed NZ professionals who specialise in rural and livestock insurance.`,
@@ -67,7 +67,7 @@ The NZ livestock insurance market has evolved significantly following Cyclone Ga
 
 ## What's Changed in 2026
 
-Premium rates have increased across the board following two years of significant claims. FMG in particular has adjusted rates for flood-prone regions. However, competition from Aon and specialist brokers means comparison shopping is more valuable than ever.
+Premium rates have increased across the board following two years of significant claims. However, competition across the broker market means comparison shopping is more valuable than ever.
 
 ## The 5-Step Buying Process
 
@@ -77,7 +77,7 @@ Premium rates have increased across the board following two years of significant
 
 **Step 3: Choose your excess level.** Higher excess = lower premiums. For commercial herds, a $500–$1,000 excess per animal is common. For individual stud animals, a lower excess may be worth the premium.
 
-**Step 4: Compare at least two providers.** FMG is the default choice for most farmers, but Aon and Gallagher regularly beat FMG on price for certain livestock types and regions.
+**Step 4: Compare at least two providers.** Aon, Gallagher, NZI, and specialist rural brokers all offer competitive options for different livestock types and regions.
 
 **Step 5: Review annually.** Animal values change. Your coverage should too. An annual review with your adviser prevents underinsurance as stock values increase.
 
@@ -115,7 +115,7 @@ Livestock insurance premiums in New Zealand vary significantly based on species,
 
 **Stud ram (agreed value $5,000):** $150–$300/year.
 
-**Post-shearing exposure (FMG specific):** Typically $20–$40/year per 100 sheep.
+**Post-shearing exposure (specialist add-on):** Typically $20–$40/year per 100 sheep.
 
 ## Deer Insurance Costs
 
@@ -225,9 +225,9 @@ For sheep farmers, this should include post-shearing exposure — a uniquely NZ 
 
 In reality, no region of New Zealand is immune to extreme weather events, and all farmers should consider natural disaster cover.
 
-## How FMG Responded to Gabrielle
+## The Key Lessons from Gabrielle
 
-FMG, as the dominant NZ rural insurer, paid significant claims following Gabrielle. However, many farmers found their coverage insufficient because they had:
+Many farmers found their coverage insufficient because they had:
 - Blanket policies with values set years earlier (below current market value)
 - No natural disaster add-on on their base policy
 - Insufficient sum insured for their current herd size
@@ -270,15 +270,15 @@ If these are not in your schedule, they are likely excluded.
 
 **Talk to your adviser before renewal.** Insurance needs change year to year. A 15-minute conversation with your rural insurance adviser at renewal time can identify significant gaps.
 
-## FMG's Natural Disaster Cover
+## Natural Disaster Cover Options
 
-FMG offers natural disaster cover as an extension to their standard livestock mortality policies. Key features:
+Specialist rural insurers offer natural disaster cover as an extension to standard livestock mortality policies. Key features:
 - Covers flood, cyclone, storm, earthquake
-- Covers post-shearing exposure for sheep
+- Covers post-shearing exposure for sheep (with appropriate add-on)
 - Available for cattle, sheep, deer, and other livestock
 - Priced as a percentage of sum insured
 
-Other brokers (Aon, Gallagher) can also access natural disaster cover through Lloyd's and specialist underwriters.`,
+Brokers including Aon and Gallagher can also access natural disaster cover through Lloyd's and specialist underwriters.`,
   },
   {
     slug: 'dairy-cattle-insurance-guide-nz',
@@ -323,11 +323,9 @@ A dairy stud bull can be worth $5,000–$100,000+ depending on genetics. This re
 - Specific underwriting (often requiring a vet certificate)
 - Transit cover if the bull travels for AI services
 
-## Working With FMG vs Independent Advisers
+## Working With an Independent Adviser
 
-FMG offers farm pack policies that include livestock cover as part of a broader farm insurance package. This is convenient but may not always be the best value.
-
-Independent rural insurance advisers can access FMG, Aon, Gallagher, and NZI — and can compare all of these for your specific situation. For dairy farmers with significant herd values, independent comparison is worth the time.`,
+An independent rural insurance adviser can access multiple brokers and underwriters — Aon, Gallagher, NZI, and specialist providers — and compare options for your specific situation. For dairy farmers with significant herd values, independent comparison is worth the time.`,
   },
   {
     slug: 'sheep-insurance-new-zealand-guide',
@@ -359,7 +357,7 @@ Typical covered causes for sheep:
 
 Post-shearing exposure is a risk unique to NZ conditions. Freshly shorn sheep lose their protective wool coat and are extremely vulnerable to cold, wet, and windy weather in the days following shearing.
 
-A sudden weather change after shearing can kill dozens of sheep within hours. FMG's farm pack policies can include post-shearing exposure cover as an explicit add-on.
+A sudden weather change after shearing can kill dozens of sheep within hours. Some specialist rural insurers offer post-shearing exposure cover as an explicit add-on.
 
 Key facts about post-shearing exposure cover:
 - Typically covers the first 7-14 days after shearing
@@ -381,12 +379,8 @@ Sheep are particularly vulnerable to extreme weather — cyclones, floods, and l
 Natural disaster cover for sheep should include:
 - Flood and inundation
 - Cyclone and storm deaths
-- Post-shearing exposure (separate add-on with FMG)
-- Snowstorm deaths (high country especially)
-
-## Working with FMG for Sheep Insurance
-
-FMG dominates the NZ sheep insurance market. Their farm pack policies are specifically designed for local conditions, including post-shearing exposure and natural disaster cover. However, comparison with Aon and Gallagher is worthwhile, especially for farmers with high-value stud animals.`,
+- Post-shearing exposure (separate add-on with specialist insurers)
+- Snowstorm deaths (high country especially)`,
   },
   {
     slug: 'deer-insurance-nz-velvet-stag-guide',
@@ -411,7 +405,7 @@ Deer present unique insurance challenges:
 
 ## Velvet Stag Insurance
 
-The most important insurance priority for NZ deer farmers is adequate cover for velvet stags. FMG specifically offers cover for stag death as a result of antler or velvet removal procedures — a unique NZ-specific risk.
+The most important insurance priority for NZ deer farmers is adequate cover for velvet stags. Some specialist rural insurers offer cover for stag death as a result of antler or velvet removal procedures — a unique NZ-specific risk.
 
 For velvet stag cover:
 - Use agreed value cover, not market value
@@ -429,11 +423,11 @@ Deer can clear most standard fences and are fast movers. A deer on a road poses 
 
 ## Which Provider for Deer Insurance?
 
-**FMG** is the most experienced with NZ deer farming, offering specific velvet stag cover and understanding the unique risks.
+**Gallagher** is worth consulting for high-value elite genetics stags requiring high agreed values and specialist underwriting.
 
-**Gallagher** is worth consulting for high-value elite genetics stags that may exceed standard FMG agreed value limits.
+**Aon via Lloyd's** can access Lloyd's markets for specialist agreed value cover on very high-value deer.
 
-**Aon via Lloyd's** can access Lloyd's markets for specialist agreed value cover on very high-value deer.`,
+**Specialist rural brokers** with deep deer farming knowledge can source appropriate cover including velvet removal cover.`,
   },
   {
     slug: 'deer-velvet-insurance-nz-guide',
@@ -451,7 +445,7 @@ New Zealand produces approximately 500 tonnes of deer velvet annually, with most
 
 Standard livestock mortality cover was designed for cattle and sheep. Deer farming presents unique risks that require specialist understanding:
 
-**Velvet removal risk:** Cutting velvet antlers is a veterinary procedure performed under sedation. Sedation carries mortality risk. FMG explicitly covers stag death resulting from velvet removal — not all policies do.
+**Velvet removal risk:** Cutting velvet antlers is a veterinary procedure performed under sedation. Sedation carries mortality risk. Not all policies cover stag death resulting from velvet removal — confirm this is included when comparing deer insurance options.
 
 **High individual animal values:** Elite velvet genetics stags sell for $20,000–$80,000+ at specialist stud sales. These require agreed value cover with individual underwriting.
 
@@ -472,7 +466,7 @@ When reviewing deer insurance, specifically confirm the policy covers:
 - Death within 48 hours of the procedure
 - Related veterinary costs
 
-This is a FMG specialty — not all underwriters will write this cover.
+This is a specialist benefit — not all underwriters will write this cover. Confirm with your adviser before relying on it.
 
 ## Deer Farm Liability: The Escape Risk
 
@@ -499,7 +493,7 @@ A sudden southerly change after shearing can cause significant losses within hou
 
 Standard livestock mortality cover is designed for acute events like accidents, lightning, and drowning. Weather-related deaths from post-shearing exposure fall into a grey area that many policies exclude or apply conditions to.
 
-FMG's farm pack specifically includes post-shearing exposure cover as an add-on — this is a NZ-specific innovation that recognises a uniquely NZ farming risk.
+Some specialist rural insurers offer post-shearing exposure cover as an add-on — this is a NZ-specific product that recognises a uniquely NZ farming risk.
 
 ## What Post-Shearing Exposure Cover Provides
 
@@ -519,10 +513,10 @@ Post-shearing exposure risk is highest:
 
 ## How to Activate Cover
 
-If you have FMG farm pack with post-shearing exposure cover:
-1. Notify FMG when shearing is scheduled
+Confirm with your insurer what notification is required when shearing is scheduled:
+1. Notify your insurer or adviser before shearing
 2. Record shearing dates for each mob
-3. Contact FMG immediately if losses occur
+3. Contact your insurer immediately if losses occur
 4. Document losses with count and photos
 
 A licensed NZ rural insurance adviser can help you structure your sheep cover to include post-shearing exposure and ensure it's activated correctly.`,
@@ -567,7 +561,7 @@ Comprehensive disease & illness cover is designed for exactly these scenarios. I
 1. **Check your current policy for M. bovis or notifiable disease coverage** — specifically whether government-ordered culling is covered
 2. **Get disease & illness cover explicitly** — don't assume your farm pack covers it
 3. **Value your herd accurately** — if government compensation falls short, you need the difference covered
-4. **Discuss M. bovis risk with your adviser** — FMG and other rural insurers have specific M. bovis endorsements available
+4. **Discuss M. bovis risk with your adviser** — specialist rural insurers have specific M. bovis endorsements available
 
 The rural insurance advisers we work with are familiar with the NZ M. bovis insurance landscape and can help you ensure you're adequately covered.`,
   },
@@ -612,8 +606,6 @@ For agreed values above certain thresholds (typically $5,000–$10,000), insurer
 This process takes 2-5 business days. Don't wait until you've just purchased an expensive stud animal — arrange cover immediately.
 
 ## Which Insurers Offer High Agreed Value Cover?
-
-**FMG:** Available for most common livestock types up to approximately $50,000–$100,000 agreed value.
 
 **Gallagher:** Specialises in higher agreed values for exotic and specialist breeds.
 
@@ -667,7 +659,7 @@ For show animals, cover may apply for the entire duration of the event.
 Transit cover is available:
 - As a standalone policy
 - As an add-on to existing mortality cover
-- As part of a comprehensive farm pack (FMG)
+- As part of a comprehensive farm pack (available from specialist rural insurers)
 
 For farmers who regularly move livestock — to saleyards, between properties, to processors, or to shows — transit insurance is worth considering. The per-head cost of cover is typically $10–$50 per head depending on species and value.`,
   },
