@@ -27,44 +27,39 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   };
 }
 
-const providerInfo: Record<string, { name: string; note: string }[]> = {
-  'mortality-cover': [
-    { name: 'Aon', note: 'Good for high-value individual animals requiring agreed value cover. Lloyd\'s markets available.' },
-    { name: 'Gallagher', note: 'Best for exotic livestock and high agreed-value stud animals. Specialist underwriter access.' },
-    { name: 'NZI', note: 'Competitive farm pack pricing with mortality bundled. Good for standard herd or flock cover.' },
-  ],
-  'disease-illness': [
-    { name: 'Aon', note: 'Access to specialist underwriters for complex disease scenarios, including poultry and pig operations.' },
-    { name: 'Gallagher', note: 'Good for poultry and pig intensive farming disease risk. Specialist broker with global connections.' },
-    { name: 'NZI', note: 'Farm pack includes basic disease cover as standard. Good value for standard operations.' },
-  ],
-  'transit-insurance': [
-    { name: 'Aon', note: 'Good for specialist or high-value transit scenarios. Access to specialist markets.' },
-    { name: 'Gallagher', note: 'Best for show animals travelling on the circuit. Specialist show cover available.' },
-    { name: 'NZI', note: 'Transit cover available as standalone or farm pack add-on. Competitive pricing.' },
-  ],
-  'natural-disaster': [
-    { name: 'Aon', note: 'Lloyd\'s markets available for large-scale natural disaster coverage. High-limit options.' },
-    { name: 'Gallagher', note: 'Specialist cover for farms in high-risk regions — East Coast, Hawke\'s Bay, and high country.' },
-    { name: 'NZI', note: 'Natural disaster extension available on farm policies. Good for standard cover requirements.' },
-  ],
-  'public-liability': [
-    { name: 'Aon', note: 'Higher limits available for large commercial operations and deer farms.' },
-    { name: 'Gallagher', note: 'Specialist cover for deer farmers and high-escape-risk livestock. Good for complex operations.' },
-    { name: 'NZI', note: 'Competitive liability pricing in farm pack policies. Good for standard farm operations.' },
-  ],
-  'theft-cover': [
-    { name: 'Aon', note: 'Good for high-value stud animals requiring agreed-value theft cover.' },
-    { name: 'Gallagher', note: 'Specialist theft cover for rare breeds and show animals. Agreed-value options.' },
-    { name: 'NZI', note: 'Theft cover available on most livestock policies. Competitive pricing in farm packs.' },
-  ],
+// Coverage availability notes by type — used for expert-advice framing
+const coverageContext: Record<string, { availability: string; note: string }> = {
+  'mortality-cover': {
+    availability: 'Widely available from specialist rural brokers',
+    note: 'Cover scope, pricing, and eligibility depend on species, animal values, and farm history. A licensed rural adviser will assess your specific situation and identify the best-fit policy across the market.',
+  },
+  'disease-illness': {
+    availability: 'Available — scope varies significantly by insurer and policy type',
+    note: 'Disease & illness cover is highly policy-specific. What\'s covered (notifiable diseases, routine illness, forced culling, production loss) differs between products. A licensed adviser will review your biosecurity practices and farm profile to identify available cover on a case-by-case basis.',
+  },
+  'transit-insurance': {
+    availability: 'Available as standalone or farm pack add-on',
+    note: 'Transit cover scope depends on species, frequency of movement, and whether high-value animals need agreed-value specifications. A licensed adviser will check whether your existing policy already includes transit cover and at what limits.',
+  },
+  'natural-disaster': {
+    availability: 'Available — usually as a policy extension or named peril add-on',
+    note: 'Natural disaster cover availability and pricing depends heavily on your property\'s location, terrain, and historical risk profile. Flood-prone or cyclone-zone farms will face different options than lower-risk properties. A licensed adviser will assess your specific risk.',
+  },
+  'public-liability': {
+    availability: 'Typically included in farm pack policies — limits vary',
+    note: 'Most farm policies include public liability, but limits may be inadequate — especially for deer farms, properties near busy roads, or operations with significant visitor and contractor traffic. A licensed adviser will review your existing cover and recommend appropriate limits.',
+  },
+  'theft-cover': {
+    availability: 'Available as add-on or within farm packs',
+    note: 'Theft cover eligibility and conditions depend on NAIT compliance, farm location, and the nature of animals being insured. High-value stud animals may need agreed-value specified cover. A licensed adviser will identify what\'s available for your specific situation.',
+  },
 };
 
 export default function CoverageTypePage({ params }: { params: { slug: string } }) {
   const ct = COVERAGE_TYPES.find((c) => c.slug === params.slug);
   if (!ct) notFound();
 
-  const providers = providerInfo[ct.slug] || [];
+  const coverCtx = coverageContext[ct.slug] || null;
   const relatedLivestockTypes = LIVESTOCK_TYPES.filter((lt) => lt.coverageTypes.includes(ct.slug)).slice(0, 4);
   const relatedPosts = ct.longForm?.relatedBlogs
     ? BLOG_POSTS.filter((p) => ct.longForm!.relatedBlogs.includes(p.slug)).slice(0, 4)
@@ -174,7 +169,7 @@ export default function CoverageTypePage({ params }: { params: { slug: string } 
                   💲 {ct.fromPrice}
                 </span>
                 <span className="bg-white/10 text-white text-sm px-3 py-1.5 rounded-full border border-white/20">
-                  ⚖️ FMCA Licensed
+                  ⚖️ Licensed Advisers
                 </span>
                 <span className="bg-white/10 text-white text-sm px-3 py-1.5 rounded-full border border-white/20">
                   ⏰ 24hr Response
@@ -302,17 +297,23 @@ export default function CoverageTypePage({ params }: { params: { slug: string } 
                 </div>
               )}
 
-              {/* Providers */}
-              {providers.length > 0 && (
-                <div>
-                  <h2 className="text-xl font-bold text-gray-900 mb-4">Providers for {ct.name}</h2>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    {providers.map((p) => (
-                      <div key={p.name} className="border border-gray-200 rounded-xl p-4">
-                        <h3 className="font-bold text-gray-900 mb-1">{p.name}</h3>
-                        <p className="text-gray-500 text-sm leading-relaxed">{p.note}</p>
-                      </div>
-                    ))}
+              {/* Cover availability — case by case */}
+              {coverCtx && (
+                <div className="bg-teal-50 border border-teal-200 rounded-xl p-6">
+                  <div className="flex items-start space-x-3 mb-3">
+                    <svg className="w-5 h-5 flex-shrink-0 mt-0.5" style={{ color: '#0d7377' }} fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
+                    </svg>
+                    <div>
+                      <h2 className="text-lg font-bold text-gray-900 mb-1">Cover availability</h2>
+                      <p className="text-sm font-semibold text-teal-700 mb-2">{coverCtx.availability}</p>
+                      <p className="text-gray-700 text-sm leading-relaxed">{coverCtx.note}</p>
+                    </div>
+                  </div>
+                  <div className="mt-4 pt-4 border-t border-teal-200">
+                    <p className="text-xs text-gray-500 leading-relaxed">
+                      Cover availability, policy terms, and insurer eligibility criteria change regularly. What&apos;s available for your farm depends on your species, location, history, and biosecurity practices. A licensed rural adviser will assess your situation and identify current options across the specialist market.
+                    </p>
                   </div>
                 </div>
               )}

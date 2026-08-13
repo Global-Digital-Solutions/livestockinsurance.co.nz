@@ -40,7 +40,7 @@ export const COVERAGE_TYPES: CoverageType[] = [
         'Livestock mortality cover is the foundation of any comprehensive farm insurance strategy. It pays out the agreed or market value of your animals when they die from a covered cause — giving you the financial resources to replace stock, maintain cashflow, and continue farming without a single catastrophic loss wiping out years of breeding or investment.',
         'In New Zealand, livestock mortality cover typically falls into two categories: blanket (mob) policies that cover entire herds or flocks at a set rate per head, and specified (agreed value) policies that insure individual animals — usually high-value stud bulls, pedigree rams, elite dairy cows, or prize deer stags — for a pre-agreed sum. Understanding which structure suits your operation is the starting point for any conversation with a licensed rural adviser.',
         'The key distinction farmers often miss is between mortality cover and disease & illness cover. Standard mortality policies typically cover sudden, unexpected deaths — accidents, electrocution, drowning, fire — but may exclude death caused by disease or illness, which is covered under a separate policy. Some policies do combine both under a comprehensive livestock cover product, which is worth discussing with an adviser if disease risk is a concern for your operation.',
-        'Specialist rural insurers offer livestock mortality products that include features unavailable from mainstream insurers — including optional infertility cover for bulls and cows, and post-shearing mortality cover for sheep during the 14-day exposure window after shearing. Brokers such as Aon and Gallagher have access to Lloyd\'s of London underwriters for high-value individual animal specifications.',
+        'Specialist rural insurers offer livestock mortality products that include features unavailable from mainstream insurers — including optional infertility cover for bulls and cows, and post-shearing mortality cover for sheep during the 14-day exposure window after shearing. Specialist rural brokers with access to Lloyd\'s of London underwriters can arrange bespoke cover for high-value individual animal specifications.',
         'This guide covers everything you need to know about livestock mortality cover in New Zealand — what is covered, what is excluded, how premiums are calculated, and how to get the right policy for your herd or flock through a licensed NZ rural insurance adviser.',
       ],
       whatsCovered: [
@@ -65,7 +65,7 @@ export const COVERAGE_TYPES: CoverageType[] = [
       howToGetCovered: [
         'Submit an enquiry through LivestockInsurance.co.nz with details of your livestock — species, number of animals, approximate value, and any high-value individuals you want specified.',
         'A licensed rural insurance adviser will contact you within 24 hours to discuss your operation, identify the right type of policy (blanket vs specified), and gather information for quoting.',
-        'Your adviser will obtain quotes from leading rural brokers, Aon, Gallagher, NZI, and specialist underwriters and present options with a plain-English comparison of what is and isn\'t covered.',
+        'Your adviser will obtain quotes from leading specialist rural brokers and underwriters and present options with a plain-English comparison of what is and isn\'t covered.',
         'You select the policy that suits your needs, complete the application, and your cover begins — usually within a few days. Your adviser remains available to assist with future claims.',
       ],
       faqs: [
@@ -183,7 +183,7 @@ export const COVERAGE_TYPES: CoverageType[] = [
       howToGetCovered: [
         'Describe your transport needs to a licensed rural adviser — how often you move stock, what species and numbers, the typical distances involved, and any high-value individuals that need specified cover.',
         'Your adviser will identify whether your existing farm pack includes transit cover and whether the limits are adequate, or whether a standalone transit policy is more appropriate.',
-        'Get quotes from Aon, Gallagher, NZI, and specialist underwriters — your adviser will compare these and explain the differences in plain language.',
+        'Your adviser will obtain quotes from specialist rural brokers and underwriters and explain the differences between policies in plain language.',
         'Set up your transit cover before your next stock movement. For stud animals, contact your adviser before any significant transport to ensure they are covered for the full journey and any show or sale attendance.',
       ],
       faqs: [
@@ -300,7 +300,7 @@ export const COVERAGE_TYPES: CoverageType[] = [
       howToGetCovered: [
         'Review your existing farm pack policy to understand what public liability limit and scope you currently have — most policies include it but the limits may be inadequate.',
         'Contact a licensed rural adviser to discuss your farm\'s specific liability risks — proximity to roads, deer species, visitor and contractor traffic, neighbouring properties.',
-        'Your adviser will recommend an appropriate liability limit and compare policy options from multiple insurers, including Aon, Gallagher, NZI, and specialist rural underwriters.',
+        'Your adviser will recommend an appropriate liability limit and compare policy options from multiple specialist rural brokers and underwriters.',
         'Ensure liability cover is renewed annually and that limits are reviewed as your operation grows or changes — a farm that expands to deer or begins hosting agritourism visitors will have a different risk profile than a straightforward sheep and beef operation.',
       ],
       faqs: [
@@ -358,7 +358,7 @@ export const COVERAGE_TYPES: CoverageType[] = [
       howToGetCovered: [
         'Contact a licensed rural adviser and describe your farm\'s theft risk — remote location, species, high-value individuals, monitoring frequency, and any prior theft history in your area.',
         'Your adviser will review whether theft cover is included in your current policy and at what level — many farmers assume they are covered when they are not.',
-        'Get quotes for appropriate theft cover from Aon, Gallagher, NZI, and specialist rural brokers — your adviser will compare limits, excess levels, and conditions.',
+        'Your adviser will obtain quotes for appropriate theft cover from specialist rural brokers and underwriters and compare limits, excess levels, and policy conditions.',
         'Ensure your NAIT obligations are current — NAIT compliance is both a regulatory requirement and a factor in theft insurance eligibility and claims management.',
       ],
       faqs: [
