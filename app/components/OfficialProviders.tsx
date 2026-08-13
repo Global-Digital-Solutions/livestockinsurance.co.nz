@@ -62,7 +62,7 @@ export default function OfficialProviders() {
                 href={p.url}
                 target="_blank"
                 rel="noopener noreferrer external"
-                className="mt-auto inline-block text-center text-sm font-semibold text-white px-4 py-2 rounded-lg transition-colors"
+                className="mt-auto block text-center text-sm font-semibold text-white px-4 py-2 rounded-lg transition-colors"
                 style={{ backgroundColor: '#0d7377' }}
               >
                 Visit website ↗
