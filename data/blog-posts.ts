@@ -34,15 +34,17 @@ Yet the majority of livestock farmers carry inadequate insurance or none at all.
 
 **Natural Disaster Cover** is increasingly important in New Zealand. Cyclone Gabrielle in 2023 killed thousands of livestock and highlighted how standard policies often exclude weather events.
 
-## The Major Providers
+## The Rural Insurance Market
 
-**Aon** is a global broker with a strong NZ rural team. They can access multiple underwriters and are good for farmers with complex or unusual coverage needs.
+The livestock insurance market is served by several types of providers, each suited to different farming operations.
 
-**Gallagher Insurance** specialises in unusual and exotic livestock, including alpacas, llamas, rare breeds, and high-value stud animals.
+**Global insurance brokers** with NZ rural teams can access multiple underwriters, including Lloyd's of London markets. They are well-suited to complex or unusual coverage needs — high-value stud animals, exotic breeds, or operations requiring agreed-value policies beyond standard farm pack limits.
 
-**NZI (New Zealand Insurance)** offers competitive farm pack pricing with livestock cover bundled into comprehensive farm policies.
+**Specialist rural brokers** focus exclusively on agriculture and farming. They often have deeper knowledge of specific livestock species and the practical realities of rural claims. For non-standard livestock, their access to specialist underwriting markets can be essential.
 
-**Specialist rural brokers** such as Gerrards Insurance have deep expertise in rural and livestock insurance and can access a range of underwriters.
+**Farm pack insurers** offer comprehensive bundled cover combining livestock, property, machinery, and liability in a single policy. This can be cost-effective for standard farm operations where cover requirements are straightforward.
+
+The right provider depends on your species, animal values, coverage requirements, and risk profile. A licensed rural adviser can assess your situation and compare available options across the market.
 
 ## How to Get the Right Cover
 
