@@ -1,11 +1,9 @@
 # LivestockInsurance.co.nz — LLM Reference File
-# Updated: 2026-06-08
+# Updated: August 2026
 
 ## About This Site
 
-LivestockInsurance.co.nz is a New Zealand livestock insurance comparison and lead generation service. We connect NZ farmers with licensed rural insurance advisers who compare policies from FMG, Aon, Gallagher, and NZI. All advisers hold current Financial Advice Provider (FAP) licences under the Financial Markets Conduct Act 2013.
-
-This site is NOT an insurance provider. We are a referral service that connects farmers with FMCA-licensed advisers. We do not provide regulated financial advice directly.
+LivestockInsurance.co.nz is operated by Cover4You. We publish independent information about livestock insurance in New Zealand. We are not an insurer, broker, or financial adviser. We publish general information about livestock and farm insurance in New Zealand to help farmers understand what cover is available and how to find it.
 
 ## Primary Topics
 
@@ -33,7 +31,7 @@ Homepage: https://www.livestockinsurance.co.nz/
 Livestock Types: https://www.livestockinsurance.co.nz/livestock/
 Coverage Types: https://www.livestockinsurance.co.nz/types/
 Compare Providers: https://www.livestockinsurance.co.nz/compare/
-Get Quotes: https://www.livestockinsurance.co.nz/contact/
+Find a Specialist: https://www.livestockinsurance.co.nz/contact/
 Blog/Guides: https://www.livestockinsurance.co.nz/blog/
 FAQs: https://www.livestockinsurance.co.nz/faqs/
 About: https://www.livestockinsurance.co.nz/about/
@@ -94,14 +92,14 @@ NZI (New Zealand Insurance) — IAG subsidiary. Competitive farm pack pricing. R
 - Cyclone Gabrielle (Feb 2023): killed approximately 3,000 cattle and 20,000+ sheep in Hawke's Bay and East Coast
 - FMG rural market share: approximately 65-70%
 - NAIT (National Animal Identification and Tracing): legally required for cattle and deer in NZ
-- FMC Act 2013: governs financial advice — referred advisers hold current FAP licences
+- FMC Act 2013: governs financial advice — use an adviser who holds a current FAP licence
 
 ## Contact
 
 Email: hello@cover4you.co.nz
 Website: https://www.livestockinsurance.co.nz/
-Quote requests: https://www.livestockinsurance.co.nz/contact/
+Find a specialist: https://www.livestockinsurance.co.nz/contact/
 
 ## Disclaimer
 
-LivestockInsurance.co.nz is a referral service. We connect farmers with licensed insurance advisers but do not provide regulated financial advice ourselves. The advisers we refer to hold current Financial Advice Provider (FAP) licences under the Financial Markets Conduct Act 2013. Insurance coverage, premiums, and terms vary by insurer and individual policy — always read the policy wording carefully.
+LivestockInsurance.co.nz is an independent information site operated by Cover4You. We are not an insurer, broker, or licensed financial adviser. We do not sell policies or arrange cover. The content on this site is general information only — not financial advice. For insurance advice, use a licenced Financial Advice Provider (FAP) under the Financial Markets Conduct Act 2013. Insurance coverage, premiums, and terms vary by insurer and individual policy — always read the policy wording carefully.

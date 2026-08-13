@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { SITE } from '@/data/site';
 
 export const metadata: Metadata = {
-  title: 'About LivestockInsurance.co.nz | NZ Livestock Insurance Comparison',
+  title: 'About LivestockInsurance.co.nz | Independent Livestock Insurance Information',
   description: 'About LivestockInsurance.co.nz — part of the Cover4You Group. Independent livestock insurance information for NZ farmers.',
   alternates: { canonical: `${SITE.domain}/about/` },
 };
@@ -13,7 +13,7 @@ const aboutSchema = {
   '@type': 'AboutPage',
   name: 'About LivestockInsurance.co.nz',
   url: `${SITE.domain}/about/`,
-  description: 'Independent livestock insurance comparison service for farmers.',
+  description: 'Independent livestock insurance information site for farmers.',
   mainEntity: {
     '@type': 'Organization',
     name: SITE.name,
@@ -39,7 +39,7 @@ export default function AboutPage() {
           </nav>
           <h1 className="text-4xl font-extrabold text-white mb-3">About LivestockInsurance.co.nz</h1>
           <p className="text-white text-lg max-w-2xl">
-            {"independent livestock insurance comparison service — part of the Cover4You Group."}
+            {"Independent livestock insurance information site — part of the Cover4You Group."}
           </p>
         </div>
       </section>
@@ -75,7 +75,7 @@ export default function AboutPage() {
 
             <h2 className="text-2xl font-bold text-gray-900">Part of the Cover4You Group</h2>
             <p className="leading-relaxed">
-              LivestockInsurance.co.nz is one of several specialist insurance comparison sites operated by the Cover4You Group. Our portfolio includes sites covering public liability, tradie, health, yacht, equine, and other specialist insurance categories.
+              LivestockInsurance.co.nz is one of several specialist insurance information sites operated by the Cover4You Group. Our portfolio includes sites covering public liability, tradie, health, yacht, equine, and other specialist insurance categories.
             </p>
             <p className="leading-relaxed">
               Contact us: <a href="mailto:hello@cover4you.co.nz" className="hover:underline" style={{ color: '#0d7377' }}>hello@cover4you.co.nz</a>

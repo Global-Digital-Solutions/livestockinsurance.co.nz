@@ -53,7 +53,7 @@ The right provider depends on your species, animal values, coverage requirements
 3. **Get quotes from multiple providers** — comparison across the market is always worthwhile
 4. **Use an adviser** — a specialist rural insurance adviser can identify gaps in standard policies
 
-The advisers we connect you with are licensed NZ professionals who specialise in rural and livestock insurance.`,
+Look for an adviser with specific rural and livestock experience, and check their licence on the Financial Service Providers Register.`,
   },
   {
     slug: 'nz-livestock-insurance-buyers-guide-2026',

@@ -391,7 +391,7 @@ export const LIVESTOCK_TYPES: LivestockType[] = [
         'Gather documentation for high-value animals: NZAA registration papers, recent show results, independent fibre assessments, and purchase records — these support the agreed value at policy inception.',
         'Identify which animals need specified agreed value cover versus which can be covered under a blanket herd policy. Top breeders and show stock should be individually specified.',
         'Consider your transit needs — if you show regularly, ensure transit cover applies from your property to the show and back, including during loading, unloading, and time at the show.',
-        'Submit your enquiry — we will connect you with advisers experienced in specialist livestock insurance (including Gallagher and Aon) who can source appropriate cover within 24 hours.',
+        'Contact a specialist broker — Gallagher and Aon both have experience in exotic and non-standard livestock cover and can access specialist underwriters including Lloyd\'s markets.',
       ],
       faqs: [
         { q: 'Is alpaca insurance available through standard NZ rural insurers?', a: 'Some rural livestock policies cover alpacas and llamas, but for high-value animals requiring agreed value cover, specialist brokers like Gallagher and Aon are generally better options. Gallagher specifically has expertise in exotic and non-standard livestock, and Aon can access specialist underwriters at Lloyd\'s of London.' },
@@ -517,7 +517,7 @@ export const LIVESTOCK_TYPES: LivestockType[] = [
         'Document everything: gather registration papers from the relevant breed society, recent show results, purchase records or independent valuations, and pedigree records. This documentation is essential for establishing agreed values.',
         'Contact specialist brokers: Gallagher Insurance and Aon are best placed to arrange agreed value cover for rare breeds and non-standard livestock.',
         'Consider transit cover carefully if you show actively — ensure cover applies from loading at your property through the entire event and return, not just road transport.',
-        'Submit your enquiry and we will connect you with advisers experienced in specialist livestock insurance who can source options within 24 hours.',
+        'Contact a specialist broker with rare breed experience — Gallagher and Aon can access agreed value policies from specialist underwriters for non-standard livestock.',
       ],
       faqs: [
         { q: 'What breed society registrations support agreed value cover?', a: 'Registration with the relevant breed society — Highland Cattle Society of NZ, NZ Kunekune Pig Society, NZ Alpaca Association, or other bodies — provides documented pedigree records that support agreed value claims. Show records from breed society events are additional evidence of value.' },

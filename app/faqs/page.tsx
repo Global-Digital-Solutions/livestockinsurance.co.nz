@@ -59,7 +59,7 @@ export default function FAQsPage() {
 
           <div className="text-center mt-8 p-6 rounded-xl" style={{ backgroundColor: '#0d7377' }}>
             <h3 className="font-bold text-white text-lg mb-2">Have Another Question?</h3>
-            <p className="text-teal-100 text-sm mb-4">Our licensed rural insurance advisers are happy to help.</p>
+            <p className="text-teal-100 text-sm mb-4">Email us at hello@cover4you.co.nz — or speak to a licensed adviser about your specific situation.</p>
             <Link href="/contact/" className="inline-block bg-white font-bold px-5 py-2.5 rounded-lg text-sm" style={{ color: '#0d7377' }}>
               Contact Us
             </Link>

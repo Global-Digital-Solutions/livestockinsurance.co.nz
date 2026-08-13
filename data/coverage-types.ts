@@ -297,7 +297,7 @@ export const COVERAGE_TYPES: CoverageType[] = [
         'Contractual liability — obligations assumed under contract rather than arising from the farming operation',
         'Workers\' compensation — employee injuries are covered under the ACC scheme in NZ, not farm liability insurance',
       ],
-      costGuide: 'Farm and livestock liability premiums are typically included in a farm pack policy rather than priced separately. As a standalone policy, farm public liability with a $2 million limit might cost $400–$1,500 per year depending on farm size, species, proximity to roads, and visitor/contractor traffic. Increasing the limit to $5 million typically adds only a modest additional premium — often the best value upgrade available. Deer farmers typically pay a loading due to the higher inherent liability risk of the species.',
+      costGuide: 'Farm and livestock liability premiums are typically included in a farm pack policy rather than priced separately. As a standalone policy, farm public liability with a $2 million limit might cost $400–$1,500 per year depending on farm size, species, proximity to roads, and visitor/contractor traffic. Deer farmers typically pay a loading due to the higher inherent liability risk of the species.',
       howToGetCovered: [
         'Review your existing farm pack policy to understand what public liability limit and scope you currently have — most policies include it but the limits may be inadequate.',
         'Contact a licensed rural adviser to discuss your farm\'s specific liability risks — proximity to roads, deer species, visitor and contractor traffic, neighbouring properties.',
