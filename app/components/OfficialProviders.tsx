@@ -4,14 +4,12 @@ export default function OfficialProviders() {
       name: 'FMG',
       description: 'Specialist rural insurer covering dairy cows, cattle, bulls, stags, sheep, poultry, alpacas, deer, goats, llamas and pigs. Specified or blanket herd cover.',
       url: 'https://www.fmg.co.nz/what-we-cover/fmg-policy-wordings/animals/livestock',
-      phone: '0800 366 466',
       directOnly: true,
     },
     {
       name: 'NZI (via Ag Guard)',
       description: 'Rural stock deterioration and rural material damage cover. Division of IAG NZ, available through licensed brokers.',
       url: 'https://www.nzi.co.nz/business-cover/rural-insurance',
-      phone: null,
       directOnly: false,
       brokerNote: 'Via broker only',
     },
@@ -19,14 +17,12 @@ export default function OfficialProviders() {
       name: 'Gallagher',
       description: 'Agriculture specialist broker offering livestock and bloodstock cover, farm assets, and permanent loss cover. Backed by international markets.',
       url: 'https://www.ajg.co.nz/industries/agriculture/',
-      phone: '0800 276 624',
       directOnly: false,
     },
     {
       name: 'Aon NZ',
       description: 'Global insurance broker with agribusiness and rural expertise. Access to specialist markets including Lloyd\'s for high-value or unusual livestock.',
       url: 'https://www.aon.co.nz',
-      phone: '0800 266 276',
       directOnly: false,
     },
   ];
@@ -61,12 +57,6 @@ export default function OfficialProviders() {
               )}
 
               <p className="text-sm text-gray-600 leading-relaxed flex-1 mb-4">{p.description}</p>
-
-              {p.phone && (
-                <p className="text-xs text-gray-400 mb-4">
-                  <span className="font-medium text-gray-500">Phone:</span> {p.phone}
-                </p>
-              )}
 
               <a
                 href={p.url}
