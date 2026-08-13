@@ -169,61 +169,49 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Providers */}
+      {/* How It Works */}
       <section className="py-16 bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
-            <h2 className="text-3xl font-bold text-white mb-3">Livestock Insurance Providers</h2>
+            <h2 className="text-3xl font-bold text-white mb-3">How It Works</h2>
             <p className="text-gray-400 max-w-2xl mx-auto">
-              We connect you with licensed advisers who compare quotes from leading rural insurance specialists.
+              Getting the right livestock insurance is straightforward when you have a specialist rural adviser in your corner.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
             {[
               {
-                name: 'Aon',
-                full: 'Aon New Zealand',
-                desc: 'Global insurance broker with strong rural expertise. Ideal for complex or unusual coverage needs, including access to Lloyd\'s markets for high-value stud animals.',
-                badge: 'Global Reach',
-                badgeColor: '#1e40af',
+                step: '1',
+                title: 'Tell us about your farm',
+                desc: 'Share your livestock types, herd or flock size, location, and what cover you need. Takes 2–3 minutes.',
               },
               {
-                name: 'Gallagher',
-                full: 'Gallagher Insurance',
-                desc: 'Specialist in exotic and rare livestock — alpacas, llamas, rare breeds, and high agreed-value stud animals. Best for non-standard livestock coverage.',
-                badge: 'Specialist Cover',
-                badgeColor: '#92400e',
+                step: '2',
+                title: 'We connect you with a specialist',
+                desc: 'A licensed rural insurance adviser with access to the specialist livestock market will review your situation and contact you within 24 hours.',
               },
               {
-                name: 'NZI',
-                full: 'New Zealand Insurance',
-                desc: 'Competitive farm pack pricing with livestock cover bundled into comprehensive farm policies. Good for standard farm operations needing bundled cover.',
-                badge: 'Farm Packs',
-                badgeColor: '#374151',
+                step: '3',
+                title: 'Get tailored advice and quotes',
+                desc: 'Your adviser compares options across the rural insurance market and recommends cover that fits your farm, livestock, and budget.',
               },
-            ].map((p) => (
-              <div key={p.name} className="bg-gray-800 rounded-xl p-6 border border-gray-700">
-                <div className="flex items-center justify-between mb-3">
-                  <h3 className="text-xl font-bold text-white">{p.name}</h3>
-                  <span
-                    className="text-xs font-semibold text-white px-2 py-1 rounded-full"
-                    style={{ backgroundColor: p.badgeColor }}
-                  >
-                    {p.badge}
-                  </span>
+            ].map((item) => (
+              <div key={item.step} className="bg-gray-800 rounded-xl p-6 border border-gray-700">
+                <div className="w-10 h-10 rounded-full flex items-center justify-center text-white font-bold text-lg mb-4" style={{ backgroundColor: '#0d7377' }}>
+                  {item.step}
                 </div>
-                <p className="text-gray-400 text-sm mb-1">{p.full}</p>
-                <p className="text-gray-300 text-sm leading-relaxed">{p.desc}</p>
+                <h3 className="text-lg font-bold text-white mb-2">{item.title}</h3>
+                <p className="text-gray-300 text-sm leading-relaxed">{item.desc}</p>
               </div>
             ))}
           </div>
           <div className="text-center mt-8">
             <Link
-              href="/compare/"
+              href="/contact/"
               className="inline-block text-white font-semibold px-6 py-3 rounded-lg transition-colors"
               style={{ backgroundColor: '#0d7377' }}
             >
-              Compare Providers
+              Get Started
             </Link>
           </div>
         </div>

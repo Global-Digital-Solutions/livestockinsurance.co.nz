@@ -92,7 +92,7 @@ export const COVERAGE_TYPES: CoverageType[] = [
     description: 'Disease and illness cover compensates farmers for losses when livestock contract notifiable diseases or serious illnesses. This includes the cost of emergency treatment, forced culling, disposal, and loss of production. Mycoplasma bovis has highlighted the importance of disease cover for NZ dairy farmers. Cover may also include compensation for government-ordered culls.',
     whatCovers: ['Notifiable disease losses', 'Emergency veterinary treatment', 'Forced culling costs', 'Government-ordered destocking', 'Production losses (comprehensive policies)', 'Disposal and cleanup costs'],
     whoNeeds: ['Dairy farmers (Mycoplasma bovis risk)', 'Poultry farmers (avian influenza risk)', 'Pig farmers (disease outbreak risk)', 'Any farmer whose livelihood depends on flock/herd health'],
-    fromPrice: 'From $100/year',
+    fromPrice: 'Specialist pricing',
     metaTitle: 'Disease & Illness Cover | Livestock Insurance | LivestockInsurance.co.nz',
     metaDesc: 'Disease & illness cover for NZ livestock — protect against Mycoplasma bovis, avian influenza, forced culling and government-ordered destocking. Compare policies from leading rural brokers and specialists.',
     longForm: {

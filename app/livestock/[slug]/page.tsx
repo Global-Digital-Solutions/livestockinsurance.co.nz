@@ -147,7 +147,7 @@ export default function LivestockTypePage({ params }: { params: { slug: string }
                   {lt.icon} {lt.fromPrice}
                 </span>
                 <span className="bg-black/40 text-white text-sm px-3 py-1.5 rounded-full border border-white/40">
-                  ⚖️ FMCA Licensed Advisers
+                  ⚖️ Licensed Advisers
                 </span>
                 <span className="bg-black/40 text-white text-sm px-3 py-1.5 rounded-full border border-white/40">
                   ⏰ 24hr Response

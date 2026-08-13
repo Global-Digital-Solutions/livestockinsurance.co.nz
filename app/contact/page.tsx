@@ -45,7 +45,7 @@ const trustItems = [
   {
     icon: '🔍',
     title: 'Independent Comparison',
-    desc: 'We compare Aon, Gallagher, NZI, and specialist rural brokers — not tied to any single insurer.',
+    desc: 'We access the specialist rural insurance market — domestic insurers, global brokers, and specialist underwriters — not tied to any single provider.',
   },
   {
     icon: '🌾',
@@ -148,13 +148,13 @@ export default function ContactPage() {
 
               {/* Providers block */}
               <div className="bg-gray-900 rounded-xl p-5">
-                <h3 className="font-bold text-white mb-3 text-sm">Providers We Compare</h3>
+                <h3 className="font-bold text-white mb-3 text-sm">The Rural Insurance Market</h3>
                 <div className="space-y-2">
                   {[
-                    { name: 'Aon', tag: 'Global Reach' },
-                    { name: 'Gallagher', tag: 'Specialist Cover' },
-                    { name: 'NZI', tag: 'Farm Packs' },
-                    { name: 'Others', tag: 'Rural Brokers' },
+                    { name: 'Specialist rural brokers', tag: 'Local expertise' },
+                    { name: 'Global insurance brokers', tag: 'Lloyd\'s access' },
+                    { name: 'Farm pack insurers', tag: 'Bundled cover' },
+                    { name: 'Specialty underwriters', tag: 'Non-standard risks' },
                   ].map((p) => (
                     <div key={p.name} className="flex items-center justify-between">
                       <div className="flex items-center space-x-2">

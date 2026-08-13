@@ -54,7 +54,7 @@ export default function AboutPage() {
 
             <h2 className="text-2xl font-bold text-gray-900">What We Do</h2>
             <p className="leading-relaxed">
-              We connect farmers and livestock owners with licensed rural insurance advisers who specialise in livestock and farm insurance. Our advisers compare providers including Aon, Gallagher, NZI, and specialist rural brokers to find the right cover for your situation.
+              We connect farmers and livestock owners with licensed rural insurance advisers who specialise in livestock and farm insurance. Our advisers access the specialist rural insurance market — including domestic insurers, global brokers, and specialist underwriters — to find the right cover for your situation.
             </p>
             <p className="leading-relaxed">
               We are not a direct insurer and we do not sell insurance policies. We are an independent referral service. The advisers we connect you with hold current Financial Advice Provider (FAP) licences under the Financial Markets Conduct Act 2013.
