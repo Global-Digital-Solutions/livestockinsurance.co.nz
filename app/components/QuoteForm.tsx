@@ -89,7 +89,7 @@ export default function QuoteForm() {
               Phone Number
             </label>
             <input
-              type="tel"
+              type="tel" pattern="[+]?[0-9\s\-().]{6,}" title="Please enter a valid phone number" minLength={6}
               id="phone"
               name="phone"
               className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-teal-600"
