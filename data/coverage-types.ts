@@ -77,7 +77,7 @@ export const COVERAGE_TYPES: CoverageType[] = [
       ],
       relatedBlogs: ['complete-guide-livestock-insurance-nz', 'nz-livestock-insurance-buyers-guide-2026', 'livestock-insurance-costs-nz-2026', 'mortality-vs-disease-cover-livestock-nz', 'stud-animal-agreed-value-insurance-nz'],
       externalLinks: [
-        { title: 'ICNZ — Understanding Farm Insurance (NZ Insurance Council)', url: 'https://www.icnz.org.nz/consumers/insurance-types/farm-insurance/' },
+        { title: 'FSPR — Financial Service Providers Register', url: 'https://www.companiesoffice.govt.nz/all-registers/financial-service-providers/' },
         { title: 'MPI — Notifiable Disease Obligations for NZ Farmers', url: 'https://www.mpi.govt.nz/biosecurity/pests-and-diseases/reporting-a-biosecurity-risk/' },
         { title: 'DairyNZ — Managing Financial Risk on Dairy Farms', url: 'https://www.dairynz.co.nz/farm-management/business-and-finance/' },
       ],
