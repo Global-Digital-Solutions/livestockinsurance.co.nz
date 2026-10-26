@@ -71,7 +71,7 @@ export default function ContactPage() {
                     <span className="text-2xl flex-shrink-0 mt-0.5">🔍</span>
                     <div>
                       <h3 className="font-semibold text-gray-900 text-sm mb-0.5">Independent</h3>
-                      <p className="text-gray-500 text-sm leading-relaxed">We are not owned by any insurer or broker. We may receive a referral fee from the broker if you take out a policy, at no extra cost to you.</p>
+                      <p className="text-gray-500 text-sm leading-relaxed">We are not owned by any insurer or broker.</p>
                     </div>
                   </div>
                   <div className="flex space-x-3">
