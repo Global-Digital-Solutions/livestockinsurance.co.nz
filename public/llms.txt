@@ -22,7 +22,6 @@ LivestockInsurance.co.nz is operated by Cover4You. We publish independent inform
 - Livestock transit insurance NZ
 - Farm and livestock public liability NZ
 - Livestock theft insurance NZ
-- FMG rural insurance NZ
 - Rural insurance advisers NZ
 
 ## Key Pages
@@ -73,15 +72,13 @@ Mycoplasma Bovis & Livestock Insurance: https://www.livestockinsurance.co.nz/blo
 Stud Animal Agreed Value Insurance: https://www.livestockinsurance.co.nz/blog/stud-animal-agreed-value-insurance-nz/
 Livestock Transit Insurance NZ: https://www.livestockinsurance.co.nz/blog/transit-insurance-livestock-nz/
 
-## Insurance Providers Compared
+## Insurance Providers (from their own websites, checked 26 October 2026)
 
-FMG (Farmers Mutual Group) — NZ's largest rural insurer, ~65-70% rural market share. Specialist livestock mortality, disease, natural disaster, transit and liability cover. Unique products: post-shearing sheep mortality cover (14-day window), velvet/antler cover for deer, livestock infertility cover for bulls and cows. https://www.fmg.co.nz/
+Aon NZ (broker): describes its livestock capability as bulls, sheep and beef, and equine; offers AonAgri livestock insurance online with 3, 6 or 12 month terms (death, theft, escape, infertility or maternity) and a 30 days plus transit option. https://aon.co.nz/Agri-Business/Livestock-Insurance
 
-Aon NZ — Global broker with NZ rural specialisation. Access to Lloyd's of London underwriters for high-value individual animal agreed-value policies. Good for commercial operations requiring higher limits. https://www.aon.com/en-nz/
+Gallagher NZ (broker): arranges insurance for farm animals including cattle, deer and alpacas, plus young animals, rare breeds and show animals; cover described includes mortality, business interruption and worldwide transit, arranged through its brokers. https://www.ajg.co.nz/business/bird-and-animal-insurance/
 
-Gallagher NZ — Specialist insurance broker with rural division. Strong for exotic livestock, rare breeds, and complex agreed-value stud animal cover. https://www.ajg.com/nz/
-
-NZI (New Zealand Insurance) — IAG subsidiary. Competitive farm pack pricing. Rural policies available through their adviser network. https://www.nzi.co.nz/
+We do not rate or rank providers. Providers can report errors to hello@cover4you.co.nz.
 
 ## Key NZ Livestock Insurance Facts
 
@@ -90,7 +87,6 @@ NZI (New Zealand Insurance) — IAG subsidiary. Competitive farm pack pricing. R
 - NZ deer herd: approximately 900,000 animals
 - Mycoplasma bovis: confirmed NZ 2017, 170,000+ cattle culled, $200M+ government compensation
 - Cyclone Gabrielle (Feb 2023): killed approximately 3,000 cattle and 20,000+ sheep in Hawke's Bay and East Coast
-- FMG rural market share: approximately 65-70%
 - NAIT (National Animal Identification and Tracing): legally required for cattle and deer in NZ
 - FMC Act 2013: governs financial advice — use an adviser who holds a current FAP licence
 
