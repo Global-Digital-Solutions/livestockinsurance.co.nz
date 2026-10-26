@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SITE } from '@/data/site';
-import HoldingPanel from '../components/HoldingPanel';
+import ContactForm from '../components/ContactForm';
 
 export const metadata: Metadata = {
   title: 'Contact | LivestockInsurance.co.nz',
@@ -38,9 +38,9 @@ export default function ContactPage() {
             <span className="mx-2">/</span>
             <span className="text-gray-200">Contact</span>
           </nav>
-          <h1 className="text-4xl font-extrabold text-white mb-3">Find a Livestock Insurance Specialist</h1>
+          <h1 className="text-4xl font-extrabold text-white mb-3">Talk to a Livestock Insurance Specialist</h1>
           <p className="text-gray-300 text-lg max-w-2xl">
-            Livestock cover is a specialist area. Use the options below to find the right adviser or insurer for your situation.
+            Livestock cover is a specialist area. Tell us what you farm and a registered rural insurance broker will be in touch.
           </p>
         </div>
       </section>
@@ -50,9 +50,9 @@ export default function ContactPage() {
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-10">
 
-            {/* HoldingPanel - wider column */}
+            {/* Enquiry form - wider column */}
             <div className="lg:col-span-3">
-              <HoldingPanel />
+              <ContactForm />
             </div>
 
             {/* Info sidebar */}
@@ -64,14 +64,14 @@ export default function ContactPage() {
                     <span className="text-2xl flex-shrink-0 mt-0.5">🌾</span>
                     <div>
                       <h3 className="font-semibold text-gray-900 text-sm mb-0.5">Rural insurance information</h3>
-                      <p className="text-gray-500 text-sm leading-relaxed">LivestockInsurance.co.nz provides independent information on livestock insurance options in New Zealand. We are not an insurer and do not arrange cover directly.</p>
+                      <p className="text-gray-500 text-sm leading-relaxed">LivestockInsurance.co.nz is an information and broker referral site. We are not an insurer. Enquiries are passed to a partner rural insurance broker, who is a Registered Financial Service Provider.</p>
                     </div>
                   </div>
                   <div className="flex space-x-3">
                     <span className="text-2xl flex-shrink-0 mt-0.5">🔍</span>
                     <div>
                       <h3 className="font-semibold text-gray-900 text-sm mb-0.5">Independent</h3>
-                      <p className="text-gray-500 text-sm leading-relaxed">We are not owned by or affiliated with any insurer or broker. The information on this site is provided as a starting point for your research.</p>
+                      <p className="text-gray-500 text-sm leading-relaxed">We are not owned by any insurer or broker. We may receive a referral fee from the broker if you take out a policy, at no extra cost to you.</p>
                     </div>
                   </div>
                   <div className="flex space-x-3">

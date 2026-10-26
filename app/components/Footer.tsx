@@ -82,7 +82,7 @@ export default function Footer() {
           <div className="bg-gray-800 rounded-xl p-5 mb-6 text-xs text-gray-500 leading-relaxed">
             <p className="font-semibold text-gray-300 mb-2">Important Information</p>
             <p className="mb-2">
-              LivestockInsurance.co.nz is operated by Cover4You. We publish independent information about livestock insurance in New Zealand. We are not an insurer, a broker, or a licensed financial adviser, and we do not arrange cover or provide advice.
+              LivestockInsurance.co.nz is operated by Cover4You. We are not an insurer or a financial adviser. When you send an enquiry, we pass your details to a partner rural insurance broker who is a Registered Financial Service Provider. Our registered brokers will compare the best options to suit your requirements; any advice and any cover is provided by that broker.
             </p>
             <p className="mb-2">
               Anyone giving you insurance advice should hold a licence under the Financial Markets Conduct Act 2013. You can verify this on the Financial Service Providers Register at fsp-register.companiesoffice.govt.nz.

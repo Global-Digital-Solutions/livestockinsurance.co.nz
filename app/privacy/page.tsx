@@ -31,7 +31,7 @@ export default function PrivacyPage() {
           {/* Main text */}
           <div className="lg:col-span-2 space-y-7 text-gray-700 leading-relaxed">
 
-            <p className="text-sm">LivestockInsurance.co.nz (&ldquo;we&rdquo;, &ldquo;us&rdquo;, &ldquo;our&rdquo;) is operated by Cover4You Group as an independent livestock insurance information site. This Privacy Policy explains how we collect, use, store and protect your personal information in accordance with the <strong>Privacy Act 2020 (NZ)</strong>.</p>
+            <p className="text-sm">LivestockInsurance.co.nz (&ldquo;we&rdquo;, &ldquo;us&rdquo;, &ldquo;our&rdquo;) is operated by Cover4You Group as a livestock insurance information and broker referral site. This Privacy Policy explains how we collect, use, store and protect your personal information in accordance with the <strong>Privacy Act 2020 (NZ)</strong>.</p>
 
             <div>
               <h2 className="text-xl font-bold text-gray-900 mb-2">Information We Collect</h2>
@@ -78,8 +78,8 @@ export default function PrivacyPage() {
 
             <div>
               <h2 className="text-xl font-bold text-gray-900 mb-2">Who We Share Your Information With</h2>
-              <p className="text-sm">We do not sell your personal information to third parties. Contact form submissions are used solely to respond to your enquiry. We do not forward your details to advisers or brokers on your behalf.</p>
-              <p className="text-sm mt-3">We do not share your personal information with any other third party without your consent, except where required by law.</p>
+              <p className="text-sm">We do not sell your personal information to third parties. When you submit a quote request or contact form, we pass the details you provide to a partner rural insurance broker, who is a Registered Financial Service Provider, so they can contact you about your enquiry. That broker handles your information under their own privacy policy.</p>
+              <p className="text-sm mt-3">We do not share your personal information with any other third party without your consent, except as described above or where required by law.</p>
             </div>
 
             <div>

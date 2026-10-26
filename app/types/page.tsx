@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import HoldingPanel from '../components/HoldingPanel';
+import QuoteForm from '../components/QuoteForm';
 import { COVERAGE_TYPES } from '@/data/coverage-types';
 import { SITE } from '@/data/site';
 
@@ -79,7 +79,7 @@ export default function CoverageTypesPage() {
             </div>
             <div className="lg:col-span-1">
               <div className="sticky top-20">
-                <HoldingPanel />
+                <QuoteForm />
               </div>
             </div>
           </div>

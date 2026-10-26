@@ -122,7 +122,7 @@ export default function ContactForm() {
       </div>
 
       <p className="text-xs text-gray-400 mt-4 text-center">
-        Licensed NZ rural advisers · No obligation · Details kept private
+        Registered NZ rural insurance broker · No obligation · Details kept private
       </p>
     </form>
   );

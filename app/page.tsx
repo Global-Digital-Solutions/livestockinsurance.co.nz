@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import HoldingPanel from './components/HoldingPanel';
+import QuoteForm from './components/QuoteForm';
 import OfficialProviders from './components/OfficialProviders';
 import { LIVESTOCK_TYPES } from '@/data/livestock-types';
 import { COVERAGE_TYPES } from '@/data/coverage-types';
@@ -78,7 +78,7 @@ export default function HomePage() {
                 Livestock Insurance NZ
               </h1>
               <p className="text-white text-lg mb-10 leading-relaxed">
-                Independent information on livestock insurance from leading rural brokers and specialists. Expert guidance for farmers covering cattle, sheep, deer, goat, pig, alpaca and poultry.
+                Livestock insurance information, and a registered rural broker to compare your options. Expert guidance for farmers covering cattle, sheep, deer, goat, pig, alpaca and poultry.
               </p>
               <div className="flex flex-wrap gap-2 mb-6">
                 {['NZ owned & operated', 'Independent, not owned by an insurer'].map((t) => (
@@ -89,7 +89,7 @@ export default function HomePage() {
               </div>
             </div>
             <div className="flex justify-end">
-              <HoldingPanel />
+              <QuoteForm />
             </div>
           </div>
         </div>
@@ -185,8 +185,8 @@ export default function HomePage() {
               },
               {
                 step: '2',
-                title: 'Find a specialist adviser',
-                desc: 'Use the IBANZ broker search to find a licensed rural insurance adviser with access to the specialist livestock market. You can also go direct to insurers.',
+                title: 'We pass it to a rural broker',
+                desc: 'Your enquiry goes to a partner rural insurance broker, a Registered Financial Service Provider with access to the specialist livestock market.',
               },
               {
                 step: '3',
@@ -209,7 +209,7 @@ export default function HomePage() {
               className="inline-block text-white font-semibold px-6 py-3 rounded-lg transition-colors"
               style={{ backgroundColor: '#0d7377' }}
             >
-              Find a Specialist
+              Get a Quote
             </Link>
           </div>
         </div>
@@ -287,14 +287,14 @@ export default function HomePage() {
             Looking for livestock cover?
           </h2>
           <p className="text-teal-100 text-lg mb-8">
-            Find a specialist adviser, or contact an insurer directly.
+            Tell us about your farm and a registered rural broker will compare your options. No obligation.
           </p>
           <Link
             href="/contact/"
             className="inline-block bg-white font-bold text-lg px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-shadow"
             style={{ color: '#0d7377' }}
           >
-            Find a Specialist →
+            Get a Quote →
           </Link>
         </div>
       </section>

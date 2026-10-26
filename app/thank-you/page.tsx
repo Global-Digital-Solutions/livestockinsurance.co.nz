@@ -4,7 +4,7 @@ import { SITE } from '@/data/site';
 
 export const metadata: Metadata = {
   title: 'Thank You | LivestockInsurance.co.nz',
-  description: 'Thank you for your livestock insurance enquiry. A licensed NZ rural adviser will be in touch within 24 hours.',
+  description: 'Thank you for your livestock insurance enquiry. A registered NZ rural insurance broker will be in touch soon.',
   robots: { index: false },
   alternates: { canonical: `${SITE.domain}/thank-you/` },
 };
@@ -16,7 +16,7 @@ export default function ThankYouPage() {
         <div className="text-6xl mb-6">✅</div>
         <h1 className="text-4xl font-extrabold text-white mb-4">Thank You!</h1>
         <p className="text-gray-300 text-lg leading-relaxed mb-6">
-          Your livestock insurance enquiry has been received. A licensed NZ rural insurance adviser will be in touch within 24 hours.
+          Your livestock insurance enquiry has been received. A registered NZ rural insurance broker will be in touch soon.
         </p>
         <div className="bg-gray-800 rounded-xl p-5 mb-8">
           <p className="text-gray-400 text-sm">

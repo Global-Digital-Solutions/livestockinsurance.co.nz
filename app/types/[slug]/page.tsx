@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import HoldingPanel from '../../components/HoldingPanel';
+import QuoteForm from '../../components/QuoteForm';
 import { COVERAGE_TYPES } from '@/data/coverage-types';
 import { LIVESTOCK_TYPES } from '@/data/livestock-types';
 import { BLOG_POSTS } from '@/data/blog-posts';
@@ -177,7 +177,7 @@ export default function CoverageTypePage({ params }: { params: { slug: string } 
               </div>
             </div>
             <div>
-              <HoldingPanel />
+              <QuoteForm />
             </div>
           </div>
         </div>
@@ -287,7 +287,7 @@ export default function CoverageTypePage({ params }: { params: { slug: string } 
                         className="inline-flex items-center space-x-2 text-white font-semibold px-5 py-2.5 rounded-lg text-sm"
                         style={{ backgroundColor: '#0d7377' }}
                       >
-                        <span>Find a Specialist</span>
+                        <span>Get a Quote</span>
                         <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                         </svg>
@@ -341,7 +341,7 @@ export default function CoverageTypePage({ params }: { params: { slug: string } 
                       className="inline-flex items-center space-x-2 text-white font-bold px-6 py-3 rounded-xl text-sm"
                       style={{ backgroundColor: '#0d7377' }}
                     >
-                      <span>Find a Specialist</span>
+                      <span>Get a Quote</span>
                       <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                       </svg>
@@ -455,7 +455,7 @@ export default function CoverageTypePage({ params }: { params: { slug: string } 
             {/* Sidebar */}
             <div className="lg:col-span-1">
               <div className="sticky top-20 space-y-5">
-                <HoldingPanel />
+                <QuoteForm />
 
                 {/* Pricing */}
                 <div className="rounded-xl p-4 text-white" style={{ backgroundColor: '#0d7377' }}>
@@ -525,10 +525,10 @@ export default function CoverageTypePage({ params }: { params: { slug: string } 
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-2xl font-bold text-white mb-3">Find a {ct.name} Specialist</h2>
           <p className="text-teal-100 mb-6 max-w-xl mx-auto">
-            Use the IBANZ broker search or contact an insurer directly to arrange cover for your farm.
+            Send us a few details and a registered rural insurance broker will compare the options for your farm.
           </p>
           <Link href="/contact/" className="inline-block bg-white font-bold px-8 py-3.5 rounded-xl text-base" style={{ color: '#0d7377' }}>
-            Find a Specialist →
+            Get a Quote →
           </Link>
         </div>
       </section>

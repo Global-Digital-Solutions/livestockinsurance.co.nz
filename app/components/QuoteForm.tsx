@@ -50,7 +50,7 @@ export default function QuoteForm() {
     <div className="bg-white rounded-xl shadow-lg border border-gray-200 p-6 w-full max-w-sm">
       <h3 className="text-xl font-bold text-gray-900 mb-1">Get Your Quotes</h3>
       <p className="text-sm text-gray-500 mb-4">
-        Licensed rural insurance advisers — no obligation.
+        Our registered brokers will compare the best options to suit your requirements. No obligation.
       </p>
       <form onSubmit={handleSubmit}>
         <input type="text" name="_honey" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" />
@@ -158,7 +158,7 @@ export default function QuoteForm() {
         </div>
 
         <p className="text-xs text-gray-400 mt-3 text-center">
-          Licensed NZ rural advisers · No obligation
+          Registered NZ rural insurance broker · No obligation
         </p>
       </form>
     </div>

@@ -13,7 +13,7 @@ const aboutSchema = {
   '@type': 'AboutPage',
   name: 'About LivestockInsurance.co.nz',
   url: `${SITE.domain}/about/`,
-  description: 'Independent livestock insurance information site for farmers.',
+  description: 'Livestock insurance information and broker referral for NZ farmers.',
   mainEntity: {
     '@type': 'Organization',
     name: SITE.name,
@@ -39,7 +39,7 @@ export default function AboutPage() {
           </nav>
           <h1 className="text-4xl font-extrabold text-white mb-3">About LivestockInsurance.co.nz</h1>
           <p className="text-white text-lg max-w-2xl">
-            {"Independent livestock insurance information site — part of the Cover4You Group."}
+            {"Livestock insurance information and broker referral, part of the Cover4You Group."}
           </p>
         </div>
       </section>
@@ -49,7 +49,7 @@ export default function AboutPage() {
           <div className="prose max-w-none space-y-6 text-gray-700">
             <h2 className="text-2xl font-bold text-gray-900">Who We Are</h2>
             <p className="leading-relaxed">
-              LivestockInsurance.co.nz is an independent livestock insurance information site operated by the Cover4You Group. We publish general information about livestock and farm insurance in New Zealand to help farmers understand what cover is available and how to find it.
+              LivestockInsurance.co.nz is a livestock insurance information and broker referral site operated by the Cover4You Group. We publish general information about livestock and farm insurance in New Zealand to help farmers understand what cover is available and how to find it.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900">What We Do</h2>
@@ -57,7 +57,7 @@ export default function AboutPage() {
               We publish independent information about livestock insurance in New Zealand — what cover exists, what it typically includes and excludes, and how to find a qualified professional who can arrange it.
             </p>
             <p className="leading-relaxed">
-              We are not an insurer, a broker, or a licensed financial adviser. We do not sell policies, arrange cover, or provide advice. Some insurers deal directly with farmers; others write only through brokers. Where you need advice, use someone who holds a Financial Advice Provider (FAP) licence under the Financial Markets Conduct Act 2013 — you can verify this on the Financial Service Providers Register.
+              We are not an insurer or a financial adviser, and we do not sell policies or provide advice ourselves. If you send us an enquiry, we pass it to a partner rural insurance broker who is a Registered Financial Service Provider, and any advice or cover comes from them. Some insurers deal directly with farmers; others write only through brokers. Where you need advice, use someone who holds a Financial Advice Provider (FAP) licence under the Financial Markets Conduct Act 2013 — you can verify this on the Financial Service Providers Register.
             </p>
 
             <h2 className="text-2xl font-bold text-gray-900">Why We Exist</h2>

@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import HoldingPanel from '../components/HoldingPanel';
+import QuoteForm from '../components/QuoteForm';
 import { SITE } from '@/data/site';
 
 export const metadata: Metadata = {
@@ -95,7 +95,7 @@ export default function ComparePage() {
             </div>
             <div className="lg:col-span-1">
               <div className="sticky top-20">
-                <HoldingPanel />
+                <QuoteForm />
               </div>
             </div>
           </div>
